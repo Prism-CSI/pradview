@@ -41,6 +41,9 @@
 <body>
 
 <div id="map"></div>
+<!-- Hidden file input for local GeoJSON upload -->
+<input type="file" id="file-picker" accept=".geojson,application/json" style="display: none;">
+
 <script>
     var map = new maplibregl.Map({
         container: 'map',
@@ -92,12 +95,65 @@
             'properties': {}
         };
     };
+    
+    // --- LOCAL FILE UPLOAD LOGIC ---
+    let uKeyTimer = null;
+    const filePicker = document.getElementById('file-picker');
+
+    window.addEventListener('keydown', function(e) {
+        // Start a timer when 'U' is pressed and a timer is not already running
+        if (e.key.toUpperCase() === 'U' && !uKeyTimer) {
+            uKeyTimer = setTimeout(() => {
+                filePicker.click(); // Open file picker after 1 second
+            }, 1000); 
+        }
+    });
+
+    window.addEventListener('keyup', function(e) {
+        // If 'U' is released, clear the timer
+        if (e.key.toUpperCase() === 'U') {
+            clearTimeout(uKeyTimer);
+            uKeyTimer = null;
+        }
+    });
+
+    filePicker.addEventListener('change', function(e) {
+        const file = e.target.files[0];
+        if (!file) {
+            return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = function(event) {
+            try {
+                const geojsonData = JSON.parse(event.target.result);
+                // Update the map source with the new data
+                map.getSource('radars').setData(geojsonData);
+                // Update the features array used for distance calculations
+                radarFeatures = geojsonData.features;
+                alert('GeoJSON file loaded successfully!');
+            } catch (error) {
+                console.error("Error parsing GeoJSON file:", error);
+                alert("Failed to load GeoJSON file. Please check the file format.");
+            }
+        };
+        reader.readAsText(file);
+        
+        // Reset the file input value to allow uploading the same file again
+        filePicker.value = '';
+    });
+
 
     map.on('load', function () {
         const geojsonUrl = 'https://raw.githubusercontent.com/Prism-CSI/pradview/refs/heads/main/Prism_Radars.geojson';
 
         // --- SOURCES AND LAYERS ---
-        map.addSource('radars', { 'type': 'geojson', 'data': geojsonUrl });
+        // Initialize the radar source with empty data. It will be populated by fetch or file upload.
+        map.addSource('radars', { 
+            'type': 'geojson', 
+            'data': { 'type': 'FeatureCollection', 'features': [] } 
+        });
+
         map.addLayer({
             'id': 'radars-layer', 'type': 'circle', 'source': 'radars',
             'paint': { 'circle-radius': 4, 'circle-color': '#87CEEB' }
@@ -130,7 +186,15 @@
         });
         
         // --- DATA FETCH AND INITIAL SETUP ---
-        fetch(geojsonUrl).then(response => response.json()).then(data => { radarFeatures = data.features; });
+        // Fetch initial data from the URL
+        fetch(geojsonUrl)
+            .then(response => response.json())
+            .then(data => { 
+                radarFeatures = data.features; 
+                map.getSource('radars').setData(data);
+            }).catch(error => {
+                console.error("Error fetching initial GeoJSON:", error);
+            });
             
         const compassButton = document.querySelector('.maplibregl-ctrl-compass');
         if (compassButton) {
