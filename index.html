@@ -145,7 +145,7 @@
 
 
     map.on('load', function () {
-        const geojsonUrl = 'https://raw.githubusercontent.com/Prism-CSI/pradview/refs/heads/main/Prism_Radars.geojson';
+        const geojsonUrl = 'https://raw.githubusercontent.com/Prism-CSI/pradview/refs/heads/main/sites.json';
 
         // --- SOURCES AND LAYERS ---
         // Initialize the radar source with empty data. It will be populated by fetch or file upload.
@@ -207,7 +207,7 @@
         map.on('click', 'radars-layer', function (e) {
             if (currentPopup) currentPopup.remove();
             const coordinates = e.features[0].geometry.coordinates.slice();
-            const siteName = e.features[0].properties['Site Name'];
+            const siteName = e.features[0].properties['site_name'];
             while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
                 coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
             }
@@ -271,7 +271,7 @@
         // --- RIGHT-CLICK EVENT for toggling circle radius ---
         map.on('contextmenu', 'radars-layer', function (e) {
             e.preventDefault();
-            const siteName = e.features[0].properties['Site Name'];
+            const siteName = e.features[0].properties['site_name'];
             const coordinates = e.features[0].geometry.coordinates.slice();
             const currentState = circleStates.get(siteName);
             let nextRadius = currentState ? (currentState.radius === 300 ? 150 : (currentState.radius === 150 ? 75 : 0)) : 300;
