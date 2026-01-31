@@ -1879,7 +1879,7 @@
         ],
         "type": "Point"
       },
-      "id": 143,
+      "id": 142,
       "properties": {
         "site_name": "Columbia"
       }
@@ -10131,6 +10131,19 @@
       },
       "properties": {
         "site_name": "Imperatriz"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -78.9412,
+          33.6745
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Myrtle Beach"
       }
     }
   ]
