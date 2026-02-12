@@ -4,19 +4,13 @@
     <meta charset="utf-8" />
     <title>PRADView_Beta</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable-no" />
-    
-    <!-- Updated MapLibre GL JS resources -->
     <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.css' />
     <script src='https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.js'></script>
-    
-    <!-- Terra-Draw resources -->
     <script src="https://cdn.jsdelivr.net/npm/@watergis/maplibre-gl-terradraw@1.0.1/dist/maplibre-gl-terradraw.umd.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@watergis/maplibre-gl-terradraw@1.0.1/dist/maplibre-gl-terradraw.css" />
-
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
-        /* Style the popups */
         .maplibregl-popup-content {
             background-color: #333;
             color: #fff;
@@ -38,21 +32,23 @@
         }
     </style>
 </head>
-<body>
+<body oncontextmenu="return false;">
 
 <div id="map"></div>
-<!-- Hidden file input for local GeoJSON upload -->
 <input type="file" id="file-picker" accept=".geojson,application/json" style="display: none;">
 
 <script>
+    const keysPressed = {};
+    window.addEventListener('keydown', (e) => keysPressed[e.key.toLowerCase()] = true);
+    window.addEventListener('keyup', (e) => keysPressed[e.key.toLowerCase()] = false);
+
     var map = new maplibregl.Map({
         container: 'map',
         style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
-        center: [-98.5795, 39.8283], // Centered on the USA
+        center: [-98.5795, 39.8283],
         zoom: 3
     });
 
-    // --- TERRA-DRAW IMPLEMENTATION ---
     const draw = new MaplibreTerradrawControl.MaplibreTerradrawControl({
         modes: [
             'render', 'point', 'linestring', 'polygon', 'rectangle', 'circle', 
@@ -62,55 +58,52 @@
         open: false,
     });
     map.addControl(draw, 'top-left');
-
-    // --- NAVIGATION CONTROL ---
     map.addControl(new maplibregl.NavigationControl(), 'bottom-left');
 
-
-    // --- SCRIPT VARIABLES ---
     let radarFeatures = [];
     let currentPopup = null;
     const circleStates = new Map();
+    const refreshStates = new Map();
 
-    // --- HELPER FUNCTION to create a circle polygon ---
+    const REFRESH_MODES = {
+        long: { dist: 300, rot: 45000, pause: 60000 },
+        med: { dist: 150, rot: 25000, pause: 40000 },
+        short: { dist: 75, rot: 5000, pause: 20000 }
+    };
+
+    function getDestination(lon, lat, distanceMiles, bearingDegrees) {
+        const radius = 3958.8; 
+        const dist = distanceMiles / radius;
+        const brng = (bearingDegrees * Math.PI) / 180;
+        const lat1 = (lat * Math.PI) / 180;
+        const lon1 = (lon * Math.PI) / 180;
+        const lat2 = Math.asin(Math.sin(lat1) * Math.cos(dist) + Math.cos(lat1) * Math.sin(dist) * Math.cos(brng));
+        const lon2 = lon1 + Math.atan2(Math.sin(brng) * Math.sin(dist) * Math.cos(lat1), Math.cos(dist) - Math.sin(lat1) * Math.sin(lat2));
+        return [(lon2 * 180) / Math.PI, (lat2 * 180) / Math.PI];
+    }
+
     function createCircle(center, radiusInMiles, points = 64) {
-        const radiusInKm = radiusInMiles * 1.60934;
-        const coords = { latitude: center[1], longitude: center[0] };
-        const km = radiusInKm;
-        const ret = [];
-        const distanceX = km / (111.320 * Math.cos(coords.latitude * Math.PI / 180));
-        const distanceY = km / 110.574;
-
-        for (let i = 0; i < points; i++) {
-            let theta = (i / points) * (2 * Math.PI);
-            let x = distanceX * Math.cos(theta);
-            let y = distanceY * Math.sin(theta);
-            ret.push([coords.longitude + x, coords.latitude + y]);
+        const coords = [];
+        for (let i = 0; i <= points; i++) {
+            coords.push(getDestination(center[0], center[1], radiusInMiles, (i * 360) / points));
         }
-        ret.push(ret[0]);
-
         return {
             'type': 'Feature',
-            'geometry': { 'type': 'Polygon', 'coordinates': [ret] },
+            'geometry': { 'type': 'Polygon', 'coordinates': [coords] },
             'properties': {}
         };
-    };
-    
-    // --- LOCAL FILE UPLOAD LOGIC ---
+    }
+
     let uKeyTimer = null;
     const filePicker = document.getElementById('file-picker');
 
     window.addEventListener('keydown', function(e) {
-        // Start a timer when 'U' is pressed and a timer is not already running
         if (e.key.toUpperCase() === 'U' && !uKeyTimer) {
-            uKeyTimer = setTimeout(() => {
-                filePicker.click(); // Open file picker after 1 second
-            }, 1000); 
+            uKeyTimer = setTimeout(() => { filePicker.click(); }, 1000); 
         }
     });
 
     window.addEventListener('keyup', function(e) {
-        // If 'U' is released, clear the timer
         if (e.key.toUpperCase() === 'U') {
             clearTimeout(uKeyTimer);
             uKeyTimer = null;
@@ -119,44 +112,25 @@
 
     filePicker.addEventListener('change', function(e) {
         const file = e.target.files[0];
-        if (!file) {
-            return;
-        }
-
+        if (!file) return;
         const reader = new FileReader();
         reader.onload = function(event) {
             try {
                 const geojsonData = JSON.parse(event.target.result);
-                // Update the map source with the new data
+                geojsonData.features.forEach(f => { if(!f.properties.color) f.properties.color = '#87CEEB'; });
                 map.getSource('radars').setData(geojsonData);
-                // Update the features array used for distance calculations
                 radarFeatures = geojsonData.features;
-                alert('GeoJSON file loaded successfully!');
-            } catch (error) {
-                console.error("Error parsing GeoJSON file:", error);
-                alert("Failed to load GeoJSON file. Please check the file format.");
-            }
+            } catch (error) { console.error(error); }
         };
         reader.readAsText(file);
-        
-        // Reset the file input value to allow uploading the same file again
         filePicker.value = '';
     });
 
-
     map.on('load', function () {
-        const geojsonUrl = 'https://raw.githubusercontent.com/Prism-CSI/pradview/refs/heads/main/sites.json';
-
-        // --- SOURCES AND LAYERS ---
-        // Initialize the radar source with empty data. It will be populated by fetch or file upload.
-        map.addSource('radars', { 
-            'type': 'geojson', 
-            'data': { 'type': 'FeatureCollection', 'features': [] } 
-        });
-
+        map.addSource('radars', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
         map.addLayer({
             'id': 'radars-layer', 'type': 'circle', 'source': 'radars',
-            'paint': { 'circle-radius': 4, 'circle-color': '#87CEEB' }
+            'paint': { 'circle-radius': 4, 'circle-color': ['get', 'color'] }
         });
 
         map.addSource('circles-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
@@ -165,125 +139,136 @@
             'paint': { 'fill-color': '#87CEEB', 'fill-opacity': 0.3, 'fill-outline-color': '#87CEEB' }
         });
         
+        map.addSource('refresh-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
+        map.addLayer({
+            'id': 'refresh-layer', 'type': 'line', 'source': 'refresh-source',
+            'paint': { 'line-color': '#FFFFFF', 'line-width': 2 }
+        });
+
         map.addSource('temp-circle-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
         map.addLayer({
             'id': 'temp-circle-layer', 'type': 'line', 'source': 'temp-circle-source',
             'paint': { 'line-color': '#FFFFFF', 'line-width': 2 }
         });
 
-        // Source and layer for the distance text
         map.addSource('distance-text-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
         map.addLayer({
             'id': 'distance-text-layer', 'type': 'symbol', 'source': 'distance-text-source',
-            'layout': {
-                'text-field': ['get', 'distanceText'],
-                'text-font': ['Open Sans Regular', 'Arial Unicode MS Regular'],
-                'text-size': 12,
-                'text-offset': [0, 1.5],
-                'text-anchor': 'top'
-            },
+            'layout': { 'text-field': ['get', 'distanceText'], 'text-size': 12, 'text-offset': [0, 1.5], 'text-anchor': 'top' },
             'paint': { 'text-color': '#FFFFFF', 'text-halo-color': '#000000', 'text-halo-width': 1 }
         });
         
-        // --- DATA FETCH AND INITIAL SETUP ---
-        // Fetch initial data from the URL
-        fetch(geojsonUrl)
-            .then(response => response.json())
+        fetch('https://raw.githubusercontent.com/Prism-CSI/pradview/refs/heads/main/sites.json')
+            .then(r => r.json())
             .then(data => { 
+                data.features.forEach(f => f.properties.color = '#87CEEB');
                 radarFeatures = data.features; 
                 map.getSource('radars').setData(data);
-            }).catch(error => {
-                console.error("Error fetching initial GeoJSON:", error);
             });
-            
-        const compassButton = document.querySelector('.maplibregl-ctrl-compass');
-        if (compassButton) {
-            const newCompassButton = compassButton.cloneNode(true);
-            compassButton.parentNode.replaceChild(newCompassButton, compassButton);
-            newCompassButton.addEventListener('click', () => map.resetNorthPitch());
-        }
 
-        // --- EVENT LISTENERS ---
-        map.on('click', 'radars-layer', function (e) {
-            if (currentPopup) currentPopup.remove();
-            const coordinates = e.features[0].geometry.coordinates.slice();
-            const siteName = e.features[0].properties['site_name'];
-            while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-                coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-            }
-            currentPopup = new maplibregl.Popup().setLngLat(coordinates).setHTML(siteName).addTo(map);
-        });
-        
-        map.on('mouseenter', 'radars-layer', () => map.getCanvas().style.cursor = 'pointer');
-        map.on('mouseleave', 'radars-layer', () => map.getCanvas().style.cursor = '');
-
-        // --- MIDDLE CLICK HOLD LOGIC ---
-        const onMouseMoveWhileDown = (e) => {
-            const cursorPoint = e.lngLat;
-            let nearestFeature = null;
-            let minDistance = Infinity;
-
-            radarFeatures.forEach(feature => {
-                const distance = cursorPoint.distanceTo(maplibregl.LngLat.convert(feature.geometry.coordinates));
-                if (distance < minDistance) {
-                    minDistance = distance;
-                    nearestFeature = feature;
+        function animateRefresh() {
+            const now = Date.now();
+            const features = [];
+            refreshStates.forEach((state) => {
+                const config = REFRESH_MODES[state.mode];
+                const cycleTotal = config.rot + config.pause;
+                const elapsed = (now - state.startTime) % cycleTotal;
+                if (elapsed < config.rot) {
+                    const bearing = (elapsed / config.rot) * 360;
+                    const end = getDestination(state.coords[0], state.coords[1], config.dist, bearing);
+                    features.push({
+                        'type': 'Feature',
+                        'geometry': { 'type': 'LineString', 'coordinates': [state.coords, end] }
+                    });
                 }
             });
+            map.getSource('refresh-source').setData({ 'type': 'FeatureCollection', 'features': features });
+            requestAnimationFrame(animateRefresh);
+        }
+        animateRefresh();
 
-            if (nearestFeature) {
-                const distanceInMiles = minDistance / 1609.34;
-                // Cap both the circle radius and the displayed distance at 300
-                const displayDistance = Math.min(distanceInMiles, 300);
+        map.on('contextmenu', 'radars-layer', function (e) {
+            e.preventDefault();
+            const siteName = e.features[0].properties['site_name'];
+            const coords = e.features[0].geometry.coordinates.slice();
 
-                const dynamicCircle = createCircle(nearestFeature.geometry.coordinates, displayDistance);
-                map.getSource('temp-circle-source').setData({ 'type': 'FeatureCollection', 'features': [dynamicCircle] });
-                
-                const textFeature = {
-                    'type': 'Feature',
-                    'geometry': { 'type': 'Point', 'coordinates': e.lngLat.toArray() },
-                    'properties': { 'distanceText': `${displayDistance.toFixed(2)} mi` }
-                };
-                map.getSource('distance-text-source').setData({ 'type': 'FeatureCollection', 'features': [textFeature] });
+            if (keysPressed['r']) {
+                const cur = circleStates.get(siteName);
+                let next = cur ? (cur.radius === 300 ? 150 : (cur.radius === 150 ? 75 : 0)) : 300;
+                if (next > 0) circleStates.set(siteName, { radius: next, coordinates: coords });
+                else circleStates.delete(siteName);
+                const feats = Array.from(circleStates.values()).map(s => createCircle(s.coordinates, s.radius));
+                map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': feats });
+            } 
+            else if (keysPressed['o']) {
+                radarFeatures.forEach(f => {
+                    if (f.properties['site_name'] === siteName) {
+                        f.properties.color = f.properties.color === '#FF0000' ? '#87CEEB' : '#FF0000';
+                    }
+                });
+                map.getSource('radars').setData({ 'type': 'FeatureCollection', 'features': radarFeatures });
+            }
+            else if (keysPressed['l']) {
+                const cur = refreshStates.get(siteName);
+                let nextMode = null;
+                if (!cur) nextMode = 'long';
+                else if (cur.mode === 'long') nextMode = 'med';
+                else if (cur.mode === 'med') nextMode = 'short';
+                if (nextMode) refreshStates.set(siteName, { mode: nextMode, startTime: Date.now(), coords: coords });
+                else refreshStates.delete(siteName);
+            }
+            else {
+                circleStates.delete(siteName);
+                refreshStates.delete(siteName);
+                radarFeatures.forEach(f => {
+                    if (f.properties['site_name'] === siteName) f.properties.color = '#87CEEB';
+                });
+                map.getSource('radars').setData({ 'type': 'FeatureCollection', 'features': radarFeatures });
+                const feats = Array.from(circleStates.values()).map(s => createCircle(s.coordinates, s.radius));
+                map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': feats });
+            }
+        });
+
+        const onMouseMoveWhileDown = (e) => {
+            const cursorPoint = e.lngLat;
+            let nearest = null; let minD = Infinity;
+            radarFeatures.forEach(f => {
+                const d = cursorPoint.distanceTo(maplibregl.LngLat.convert(f.geometry.coordinates));
+                if (d < minD) { minD = d; nearest = f; }
+            });
+            if (nearest) {
+                const distMi = Math.min(minD / 1609.34, 300);
+                map.getSource('temp-circle-source').setData({ 'type': 'FeatureCollection', 'features': [createCircle(nearest.geometry.coordinates, distMi)] });
+                map.getSource('distance-text-source').setData({ 'type': 'FeatureCollection', 'features': [{
+                    'type': 'Feature', 'geometry': { 'type': 'Point', 'coordinates': e.lngLat.toArray() },
+                    'properties': { 'distanceText': `${distMi.toFixed(2)} mi` }
+                }]});
             }
         };
 
         const onMouseUp = (e) => {
             if (e.originalEvent.button !== 1) return;
-            // Clear the temporary circle and text
             map.getSource('temp-circle-source').setData({ 'type': 'FeatureCollection', 'features': [] });
             map.getSource('distance-text-source').setData({ 'type': 'FeatureCollection', 'features': [] });
-            // Stop listening for mouse movements
             map.off('mousemove', onMouseMoveWhileDown);
             map.off('mouseup', onMouseUp);
         };
 
         map.on('mousedown', function(e) {
             if (e.originalEvent.button !== 1 || radarFeatures.length === 0) return;
-            e.preventDefault();
-            // Start listening for mouse movements and release
             map.on('mousemove', onMouseMoveWhileDown);
             map.on('mouseup', onMouseUp);
-            // Trigger the initial drawing
             onMouseMoveWhileDown(e);
         });
 
-        // --- RIGHT-CLICK EVENT for toggling circle radius ---
-        map.on('contextmenu', 'radars-layer', function (e) {
-            e.preventDefault();
-            const siteName = e.features[0].properties['site_name'];
-            const coordinates = e.features[0].geometry.coordinates.slice();
-            const currentState = circleStates.get(siteName);
-            let nextRadius = currentState ? (currentState.radius === 300 ? 150 : (currentState.radius === 150 ? 75 : 0)) : 300;
-
-            if (nextRadius > 0) circleStates.set(siteName, { radius: nextRadius, coordinates: coordinates });
-            else circleStates.delete(siteName);
-            
-            const features = Array.from(circleStates.values()).map(state => createCircle(state.coordinates, state.radius));
-            map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': features });
+        map.on('click', 'radars-layer', (e) => {
+            if (currentPopup) currentPopup.remove();
+            const coords = e.features[0].geometry.coordinates.slice();
+            currentPopup = new maplibregl.Popup().setLngLat(coords).setHTML(e.features[0].properties['site_name']).addTo(map);
         });
+        map.on('mouseenter', 'radars-layer', () => map.getCanvas().style.cursor = 'pointer');
+        map.on('mouseleave', 'radars-layer', () => map.getCanvas().style.cursor = '');
     });
 </script>
-
 </body>
 </html>
