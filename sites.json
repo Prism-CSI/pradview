@@ -1955,19 +1955,6 @@
       "type": "Feature",
       "geometry": {
         "coordinates": [
-          -93.798,
-          30.0686
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Beaumont/Lake Charles"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
           -95.4116,
           32.3542
         ],
@@ -2449,19 +2436,6 @@
       "type": "Feature",
       "geometry": {
         "coordinates": [
-          -91.4162,
-          40.458
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Keokuk"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
           -76.8512,
           40.2216
         ],
@@ -2787,19 +2761,6 @@
       "type": "Feature",
       "geometry": {
         "coordinates": [
-          -94.4008,
-          34.0451
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "De Queen"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
           -81.4469,
           39.3378
         ],
@@ -3091,6 +3052,7 @@
         ],
         "type": "Point"
       },
+      "id": 236,
       "properties": {
         "site_name": "Montreal/Laval"
       }
@@ -3338,6 +3300,7 @@
         ],
         "type": "Point"
       },
+      "id": 255,
       "properties": {
         "site_name": "Chilliwack"
       }
@@ -3819,6 +3782,7 @@
         ],
         "type": "Point"
       },
+      "id": 292,
       "properties": {
         "site_name": "Fairbanks"
       }
@@ -3988,6 +3952,7 @@
         ],
         "type": "Point"
       },
+      "id": 305,
       "properties": {
         "site_name": "Delta Junction/Fort Greely"
       }
@@ -4016,45 +3981,6 @@
       },
       "properties": {
         "site_name": "Kenai/Homer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          -149.0947,
-          61.5964
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Anchorage/Palmer"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          -147.0795,
-          64.6679
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "North Pole/Eielson"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          -156.9049,
-          64.7379
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Galena"
       }
     },
     {
@@ -4794,6 +4720,7 @@
         ],
         "type": "Point"
       },
+      "id": 367,
       "properties": {
         "site_name": "Montreal/Saint-Jerome"
       }
@@ -5249,6 +5176,7 @@
         ],
         "type": "Point"
       },
+      "id": 402,
       "properties": {
         "site_name": "Salmon"
       }
@@ -5314,6 +5242,7 @@
         ],
         "type": "Point"
       },
+      "id": 407,
       "properties": {
         "site_name": "Lewistown"
       }
@@ -6354,6 +6283,7 @@
         ],
         "type": "Point"
       },
+      "id": 487,
       "properties": {
         "site_name": "Kalispell"
       }
@@ -6770,6 +6700,7 @@
         ],
         "type": "Point"
       },
+      "id": 519,
       "properties": {
         "site_name": "Omak"
       }
@@ -8486,6 +8417,7 @@
         ],
         "type": "Point"
       },
+      "id": 651,
       "properties": {
         "site_name": "Pasco/Kennewick"
       }
@@ -8837,6 +8769,7 @@
         ],
         "type": "Point"
       },
+      "id": 678,
       "properties": {
         "site_name": "American Samoa"
       }
@@ -10072,6 +10005,7 @@
         ],
         "type": "Point"
       },
+      "id": 773,
       "properties": {
         "site_name": "Astoria"
       }
@@ -10178,6 +10112,358 @@
       },
       "properties": {
         "site_name": "Somerset"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -92.5397,
+          40.0925
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Kirksville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -91.1191,
+          40.7807
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Burlington"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -91.1947,
+          39.9354
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Quincey"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -123.426,
+          48.655
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Victoria"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -82.981,
+          43.782
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Bad Axe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -86.4097,
+          43.9569
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Ludington"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -145.4606,
+          62.158
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Glennallen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -142.9599,
+          63.3267
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Tok"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -139.6713,
+          59.5081
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Yakutat"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -149.0946,
+          61.5977
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Palmer/Anchorage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -155.6009,
+          62.9551
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "McGrath"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -156.9291,
+          64.7381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Galena"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -145.5681,
+          68.1115
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Arctic Village"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          118.3177,
+          -31.5248
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Merredin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          123.1797,
+          -31.8476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Nova"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          117.8439,
+          -28.1156
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Mount Magnet"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          123.6658,
+          -17.3669
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Derby"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          125.5636,
+          -18.1796
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Fitzroy Crossing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          126.3893,
+          -14.0875
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Mungalalu-Truscott"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          130.8103,
+          -17.4308
+        ],
+        "type": "Point"
+      },
+      "id": 798,
+      "properties": {
+        "site_name": "Kalkarindji/Daguragu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          136.2998,
+          -16.0704
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Borroloola"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -93.2198,
+          30.1317
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Lake Charles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -94.0186,
+          29.9572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Beaumont/Port Arthur"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -93.9984,
+          33.4566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Texarkana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -94.2068,
+          34.5526
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Mena"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -88.3706,
+          36.6625
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Murray"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -94.3688,
+          38.9606
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Lee's Summit"
       }
     }
   ]
