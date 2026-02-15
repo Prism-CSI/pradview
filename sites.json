@@ -3052,7 +3052,6 @@
         ],
         "type": "Point"
       },
-      "id": 236,
       "properties": {
         "site_name": "Montreal/Laval"
       }
@@ -3300,7 +3299,6 @@
         ],
         "type": "Point"
       },
-      "id": 255,
       "properties": {
         "site_name": "Chilliwack"
       }
@@ -3782,7 +3780,6 @@
         ],
         "type": "Point"
       },
-      "id": 292,
       "properties": {
         "site_name": "Fairbanks"
       }
@@ -3952,7 +3949,6 @@
         ],
         "type": "Point"
       },
-      "id": 305,
       "properties": {
         "site_name": "Delta Junction/Fort Greely"
       }
@@ -4720,7 +4716,6 @@
         ],
         "type": "Point"
       },
-      "id": 367,
       "properties": {
         "site_name": "Montreal/Saint-Jerome"
       }
@@ -5176,7 +5171,6 @@
         ],
         "type": "Point"
       },
-      "id": 402,
       "properties": {
         "site_name": "Salmon"
       }
@@ -5242,7 +5236,6 @@
         ],
         "type": "Point"
       },
-      "id": 407,
       "properties": {
         "site_name": "Lewistown"
       }
@@ -6283,7 +6276,6 @@
         ],
         "type": "Point"
       },
-      "id": 487,
       "properties": {
         "site_name": "Kalispell"
       }
@@ -6700,7 +6692,6 @@
         ],
         "type": "Point"
       },
-      "id": 519,
       "properties": {
         "site_name": "Omak"
       }
@@ -8417,7 +8408,6 @@
         ],
         "type": "Point"
       },
-      "id": 651,
       "properties": {
         "site_name": "Pasco/Kennewick"
       }
@@ -8769,7 +8759,6 @@
         ],
         "type": "Point"
       },
-      "id": 678,
       "properties": {
         "site_name": "American Samoa"
       }
@@ -10005,7 +9994,6 @@
         ],
         "type": "Point"
       },
-      "id": 773,
       "properties": {
         "site_name": "Astoria"
       }
@@ -10370,7 +10358,6 @@
         ],
         "type": "Point"
       },
-      "id": 798,
       "properties": {
         "site_name": "Kalkarindji/Daguragu"
       }
@@ -10464,6 +10451,305 @@
       },
       "properties": {
         "site_name": "Lee's Summit"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -52.657,
+          -27.1314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Chapeco"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -54.7213,
+          -16.5919
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Rondonopolis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -55.58,
+          -11.8786
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Sinop"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -61.8512,
+          -10.8754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Ji-Parana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -56.0082,
+          -4.2453
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Itaituba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -64.7244,
+          -3.3769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Tefe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -66.9939,
+          -0.1521
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Sao Gabriel"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -69.9391,
+          -4.2494
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Tabatinga"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -50.9585,
+          -17.8349
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Rio Verde"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -54.9253,
+          -22.1973
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Dourados"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -61.2797,
+          -5.8097
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Manicore"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -45.001,
+          -12.0813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Barreiras"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -44.3732,
+          -9.0574
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Bom Jesus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -51.9588,
+          -6.6427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Sao Felix do Xingu"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -60.1047,
+          -12.7001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Vilhena"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -41.7287,
+          -2.8956
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Parnaiba"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -40.3328,
+          -3.6792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Sobral"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -57.0383,
+          -29.7861
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Uruguaiana"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -51.5199,
+          -25.3884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Guarapuava"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -49.0662,
+          -28.6759
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Criciuma"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -50.2777,
+          -27.7805
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Lages"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -38.2491,
+          -9.397
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Paulo Afonso"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -72.7714,
+          -7.5944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Cruzeiro do Sul"
       }
     }
   ]
