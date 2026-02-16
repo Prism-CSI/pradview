@@ -2546,7 +2546,7 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Bay City"
+        "site_name": "Midland/Saginaw/Bay City"
       }
     },
     {
@@ -6511,7 +6511,7 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Key West/Bikini Bottom"
+        "site_name": "Key West"
       }
     },
     {
