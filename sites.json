@@ -10751,6 +10751,71 @@
       "properties": {
         "site_name": "Cruzeiro do Sul"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -92.4385,
+          41.1066
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Ottumwa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -94.0099,
+          40.2754
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Bethany"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -93.335,
+          43.149
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Mason City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -107.2078,
+          41.7979
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Rawlins"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -103.6026,
+          41.8665
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Scottsbluff"
+      }
     }
   ]
 }
