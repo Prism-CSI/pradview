@@ -10816,6 +10816,45 @@
       "properties": {
         "site_name": "Scottsbluff"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -98.2414,
+          26.1864
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "McAllen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -106.966,
+          44.7733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Sheridan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -116.0953,
+          44.8935
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "McCall"
+      }
     }
   ]
 }
