@@ -980,19 +980,6 @@
       "type": "Feature",
       "geometry": {
         "coordinates": [
-          -87.9379,
-          41.994
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Chicago"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
           -87.4159,
           41.6248
         ],
@@ -10854,6 +10841,266 @@
       },
       "properties": {
         "site_name": "McCall"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          151.8499,
+          7.4603
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Chuuk"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          158.2039,
+          6.9804
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Pohnpei"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          162.9714,
+          5.353
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Kosrae"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          171.2793,
+          7.0677
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Majuro"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          167.7356,
+          8.7242
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Ebeye"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          173.141,
+          1.3873
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "South Tarawa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          166.9346,
+          -0.5339
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Nauru"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -157.352,
+          1.9786
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Line Islands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -171.7168,
+          -2.783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Phoenix Islands"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -171.8592,
+          -9.1896
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Tokelau"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -172.021,
+          -13.8338
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Apia"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -178.073,
+          -14.3088
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Futuna"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -176.1969,
+          -13.2415
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Wallis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          179.1993,
+          -8.5231
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Funafuti"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          176.1213,
+          -5.6669
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Nanumea Atoll"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          57.6806,
+          -20.4448
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Port Louis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          63.3556,
+          -19.7525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Port Mathurin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -94.5054,
+          37.1467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Joplin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -88.2414,
+          41.9073
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Chicago/DuPage"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -88.0932,
+          41.6025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Chicago/Lewis"
       }
     }
   ]
