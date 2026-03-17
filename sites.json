@@ -525,19 +525,6 @@
       "type": "Feature",
       "geometry": {
         "coordinates": [
-          -99.9115,
-          34.7057
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Hollis"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
           -111.681,
           35.1402
         ],
@@ -3639,19 +3626,6 @@
       },
       "properties": {
         "site_name": "Yakima"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
-          -117.8096,
-          44.8331
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Baker City"
       }
     },
     {
@@ -11101,6 +11075,188 @@
       },
       "properties": {
         "site_name": "Chicago/Lewis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -99.3984,
+          35.4259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Elk City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -100.2819,
+          34.4365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Childress"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -98.4063,
+          34.5743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Lawton"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -99.3332,
+          34.697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Altus"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -104.4915,
+          38.2793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Pueblo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -96.9164,
+          32.4528
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Dallas/Waxahachie"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -84.5153,
+          33.9199
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Atlanta/Marietta"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -118.0059,
+          45.2832
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "La Grande"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          138.6331,
+          -34.7857
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Adelaide/Salisbury"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          150.7072,
+          -33.8994
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Sydney/Penrith"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          116.0281,
+          -31.6659
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Perth/Pearce"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          145.1085,
+          -37.9737
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "South Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          121.0182,
+          14.5057
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Manila"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          117.7509,
+          -23.1718
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Paraburdoo"
       }
     }
   ]
