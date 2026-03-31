@@ -10392,19 +10392,6 @@
       "type": "Feature",
       "geometry": {
         "coordinates": [
-          -88.3706,
-          36.6625
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Murray"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
           -94.3688,
           38.9606
         ],
@@ -11257,6 +11244,97 @@
       },
       "properties": {
         "site_name": "Paraburdoo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -88.7599,
+          37.062
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Paducah"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -106.0723,
+          35.6245
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Santa Fe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -109.4265,
+          -27.1771
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Easter Island/Hanga Roa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -149.6176,
+          -17.5644
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Papeete"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -151.4657,
+          -16.7258
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Uturoa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -139.0095,
+          -9.7694
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Hiva Oa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -159.7939,
+          -21.2228
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Cook Islands"
       }
     }
   ]
