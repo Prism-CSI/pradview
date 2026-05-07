@@ -271,9 +271,15 @@
 
         map.on('click', 'radars-layer', (e) => {
             if (currentPopup) currentPopup.remove();
+            const props = e.features[0].properties;
             const coords = e.features[0].geometry.coordinates.slice();
-            const siteName = e.features[0].properties['site_name'] || 'Unknown Site';
-            currentPopup = new maplibregl.Popup().setLngLat(coords).setHTML(siteName).addTo(map);
+            const siteId = props['site_id'] || 'N/A';
+            const siteName = props['site_name'] || 'Unknown Site';
+            const popupContent = `${siteId}: ${siteName}`;
+            currentPopup = new maplibregl.Popup()
+                .setLngLat(coords)
+                .setHTML(popupContent)
+                .addTo(map);
         });
         map.on('mouseenter', 'radars-layer', () => map.getCanvas().style.cursor = 'pointer');
         map.on('mouseleave', 'radars-layer', () => map.getCanvas().style.cursor = '');
