@@ -11,7 +11,8 @@
         ]
       },
       "properties": {
-        "site_name": "Newark/New York"
+        "site_name": "Newark/New York",
+        "site_id": "NEWYK"
       }
     },
     {
@@ -24,33 +25,8 @@
         ]
       },
       "properties": {
-        "site_name": "Phoenix/Luke"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -121.9131,
-          37.348
-        ]
-      },
-      "properties": {
-        "site_name": "San Jose"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -82.9094,
-          40.0007
-        ]
-      },
-      "properties": {
-        "site_name": "Columbus"
+        "site_name": "Phoenix/Luke",
+        "site_id": "PHXLK"
       }
     },
     {
@@ -63,7 +39,8 @@
         ]
       },
       "properties": {
-        "site_name": "Indianapolis"
+        "site_name": "Indianapolis",
+        "site_id": "INDYP"
       }
     },
     {
@@ -76,7 +53,8 @@
         ]
       },
       "properties": {
-        "site_name": "San Francisco/Oakland"
+        "site_name": "San Francisco/Oakland",
+        "site_id": "SFOKL"
       }
     },
     {
@@ -89,7 +67,8 @@
         ]
       },
       "properties": {
-        "site_name": "Denver"
+        "site_name": "Denver",
+        "site_id": "DENVR"
       }
     },
     {
@@ -102,7 +81,8 @@
         ]
       },
       "properties": {
-        "site_name": "Oklahoma City"
+        "site_name": "Oklahoma City",
+        "site_id": "OKCTY"
       }
     },
     {
@@ -115,7 +95,8 @@
         ]
       },
       "properties": {
-        "site_name": "Washington/Arlington"
+        "site_name": "Washington/Arlington",
+        "site_id": "DCARL"
       }
     },
     {
@@ -128,7 +109,8 @@
         ]
       },
       "properties": {
-        "site_name": "Washington/Northern Virginia"
+        "site_name": "Washington/Northern Virginia",
+        "site_id": "DCNVA"
       }
     },
     {
@@ -141,7 +123,8 @@
         ]
       },
       "properties": {
-        "site_name": "Las Vegas"
+        "site_name": "Las Vegas",
+        "site_id": "LSVGS"
       }
     },
     {
@@ -154,7 +137,8 @@
         ]
       },
       "properties": {
-        "site_name": "Milwaukee"
+        "site_name": "Milwaukee",
+        "site_id": "MLWKE"
       }
     },
     {
@@ -167,7 +151,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sacramento"
+        "site_name": "Sacramento",
+        "site_id": "SCRMN"
       }
     },
     {
@@ -180,7 +165,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kansas City"
+        "site_name": "Kansas City",
+        "site_id": "KSCIT"
       }
     },
     {
@@ -193,7 +179,8 @@
         ]
       },
       "properties": {
-        "site_name": "Minneapolis/Saint Paul"
+        "site_name": "Minneapolis/Saint Paul",
+        "site_id": "MSPUL"
       }
     },
     {
@@ -206,7 +193,8 @@
         ]
       },
       "properties": {
-        "site_name": "Buffalo/Niagara Falls"
+        "site_name": "Buffalo/Niagara Falls",
+        "site_id": "BUFNF"
       }
     },
     {
@@ -219,7 +207,8 @@
         ]
       },
       "properties": {
-        "site_name": "Providence/Rhode Island"
+        "site_name": "Providence/Rhode Island",
+        "site_id": "PVDRI"
       }
     },
     {
@@ -232,7 +221,8 @@
         ]
       },
       "properties": {
-        "site_name": "Shreveport"
+        "site_name": "Shreveport",
+        "site_id": "SHRVT"
       }
     },
     {
@@ -245,7 +235,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bridgeport"
+        "site_name": "Bridgeport",
+        "site_id": "BRGPT"
       }
     },
     {
@@ -258,7 +249,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rockford"
+        "site_name": "Rockford",
+        "site_id": "RCKFD"
       }
     },
     {
@@ -271,7 +263,8 @@
         ]
       },
       "properties": {
-        "site_name": "Allentown"
+        "site_name": "Allentown",
+        "site_id": "ALNTN"
       }
     },
     {
@@ -284,7 +277,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rochester"
+        "site_name": "Rochester",
+        "site_id": "ROCHR"
       }
     },
     {
@@ -297,7 +291,8 @@
         ]
       },
       "properties": {
-        "site_name": "Billings"
+        "site_name": "Billings",
+        "site_id": "BILNG"
       }
     },
     {
@@ -310,7 +305,8 @@
         ]
       },
       "properties": {
-        "site_name": "Las Cruces/El Paso"
+        "site_name": "Las Cruces/El Paso",
+        "site_id": "LCEPA"
       }
     },
     {
@@ -323,7 +319,8 @@
         ]
       },
       "properties": {
-        "site_name": "Springfield"
+        "site_name": "Springfield",
+        "site_id": "SPRFD"
       }
     },
     {
@@ -336,7 +333,8 @@
         ]
       },
       "properties": {
-        "site_name": "Evansville"
+        "site_name": "Evansville",
+        "site_id": "EVNVL"
       }
     },
     {
@@ -349,7 +347,8 @@
         ]
       },
       "properties": {
-        "site_name": "Green Bay"
+        "site_name": "Green Bay",
+        "site_id": "GRNBY"
       }
     },
     {
@@ -362,7 +361,8 @@
         ]
       },
       "properties": {
-        "site_name": "Davenport/Quad Cities"
+        "site_name": "Davenport/Quad Cities",
+        "site_id": "DVPQC"
       }
     },
     {
@@ -375,7 +375,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bangor"
+        "site_name": "Bangor",
+        "site_id": "BANGR"
       }
     },
     {
@@ -388,7 +389,8 @@
         ]
       },
       "properties": {
-        "site_name": "Presque Isle"
+        "site_name": "Presque Isle",
+        "site_id": "PRQIS"
       }
     },
     {
@@ -401,7 +403,8 @@
         ]
       },
       "properties": {
-        "site_name": "Clarksburg"
+        "site_name": "Clarksburg",
+        "site_id": "CLRKB"
       }
     },
     {
@@ -414,7 +417,8 @@
         ]
       },
       "properties": {
-        "site_name": "Montpelier"
+        "site_name": "Montpelier",
+        "site_id": "MNTPL"
       }
     },
     {
@@ -427,7 +431,8 @@
         ]
       },
       "properties": {
-        "site_name": "Clarksville/Hopkinsville"
+        "site_name": "Clarksville/Hopkinsville",
+        "site_id": "CLKHP"
       }
     },
     {
@@ -440,7 +445,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint Marys"
+        "site_name": "Saint Marys",
+        "site_id": "STMRY"
       }
     },
     {
@@ -453,7 +459,8 @@
         ]
       },
       "properties": {
-        "site_name": "West Plains"
+        "site_name": "West Plains",
+        "site_id": "WPLNS"
       }
     },
     {
@@ -466,7 +473,8 @@
         ]
       },
       "properties": {
-        "site_name": "Adriondack Park/Saranac Lake"
+        "site_name": "Adriondack Park/Saranac Lake",
+        "site_id": "ADKSL"
       }
     },
     {
@@ -479,7 +487,8 @@
         ]
       },
       "properties": {
-        "site_name": "Duluth"
+        "site_name": "Duluth",
+        "site_id": "DLUTH"
       }
     },
     {
@@ -492,20 +501,8 @@
         ]
       },
       "properties": {
-        "site_name": "Salina"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -104.0094,
-          30.3709
-        ]
-      },
-      "properties": {
-        "site_name": "Marfa"
+        "site_name": "Salina",
+        "site_id": "SALNA"
       }
     },
     {
@@ -518,7 +515,8 @@
         ]
       },
       "properties": {
-        "site_name": "Flagstaff"
+        "site_name": "Flagstaff",
+        "site_id": "FLGST"
       }
     },
     {
@@ -531,7 +529,8 @@
         ]
       },
       "properties": {
-        "site_name": "Socorro"
+        "site_name": "Socorro",
+        "site_id": "SCCRO"
       }
     },
     {
@@ -544,7 +543,8 @@
         ]
       },
       "properties": {
-        "site_name": "Steamboat Springs"
+        "site_name": "Steamboat Springs",
+        "site_id": "STMSP"
       }
     },
     {
@@ -557,7 +557,8 @@
         ]
       },
       "properties": {
-        "site_name": "North Platte"
+        "site_name": "North Platte",
+        "site_id": "NPLTE"
       }
     },
     {
@@ -570,7 +571,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gunnison"
+        "site_name": "Gunnison",
+        "site_id": "GUNSN"
       }
     },
     {
@@ -583,7 +585,8 @@
         ]
       },
       "properties": {
-        "site_name": "Virginia Beach/Oceana"
+        "site_name": "Virginia Beach/Oceana",
+        "site_id": "VBAOC"
       }
     },
     {
@@ -596,7 +599,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bakersfield"
+        "site_name": "Bakersfield",
+        "site_id": "BKRSD"
       }
     },
     {
@@ -609,7 +613,8 @@
         ]
       },
       "properties": {
-        "site_name": "Los Angeles"
+        "site_name": "Los Angeles",
+        "site_id": "LSANL"
       }
     },
     {
@@ -622,7 +627,8 @@
         ]
       },
       "properties": {
-        "site_name": "Los Angeles/Riverside"
+        "site_name": "Los Angeles/Riverside",
+        "site_id": "LARVS"
       }
     },
     {
@@ -635,7 +641,8 @@
         ]
       },
       "properties": {
-        "site_name": "Phoenix/Mesa"
+        "site_name": "Phoenix/Mesa",
+        "site_id": "PHXMS"
       }
     },
     {
@@ -648,7 +655,8 @@
         ]
       },
       "properties": {
-        "site_name": "Philadelphia"
+        "site_name": "Philadelphia",
+        "site_id": "PHLDP"
       }
     },
     {
@@ -661,7 +669,8 @@
         ]
       },
       "properties": {
-        "site_name": "Houston"
+        "site_name": "Houston",
+        "site_id": "HSTUN"
       }
     },
     {
@@ -674,7 +683,8 @@
         ]
       },
       "properties": {
-        "site_name": "Houston/Galveston"
+        "site_name": "Houston/Galveston",
+        "site_id": "HSTGV"
       }
     },
     {
@@ -687,7 +697,8 @@
         ]
       },
       "properties": {
-        "site_name": "San Antonio"
+        "site_name": "San Antonio",
+        "site_id": "SNANT"
       }
     },
     {
@@ -700,7 +711,8 @@
         ]
       },
       "properties": {
-        "site_name": "San Diego/North Island"
+        "site_name": "San Diego/North Island",
+        "site_id": "SDNIS"
       }
     },
     {
@@ -713,7 +725,8 @@
         ]
       },
       "properties": {
-        "site_name": "Austin"
+        "site_name": "Austin",
+        "site_id": "ASTIN"
       }
     },
     {
@@ -726,7 +739,8 @@
         ]
       },
       "properties": {
-        "site_name": "Charlotte"
+        "site_name": "Charlotte",
+        "site_id": "CHRLT"
       }
     },
     {
@@ -739,7 +753,8 @@
         ]
       },
       "properties": {
-        "site_name": "Seattle/Tacoma"
+        "site_name": "Seattle/Tacoma",
+        "site_id": "SEATC"
       }
     },
     {
@@ -752,7 +767,8 @@
         ]
       },
       "properties": {
-        "site_name": "El Paso"
+        "site_name": "El Paso",
+        "site_id": "ELPSO"
       }
     },
     {
@@ -765,7 +781,8 @@
         ]
       },
       "properties": {
-        "site_name": "Boston"
+        "site_name": "Boston",
+        "site_id": "BSTUN"
       }
     },
     {
@@ -778,7 +795,8 @@
         ]
       },
       "properties": {
-        "site_name": "Detroit"
+        "site_name": "Detroit",
+        "site_id": "DTRIT"
       }
     },
     {
@@ -791,7 +809,8 @@
         ]
       },
       "properties": {
-        "site_name": "Louisville"
+        "site_name": "Louisville",
+        "site_id": "LSVIL"
       }
     },
     {
@@ -804,7 +823,8 @@
         ]
       },
       "properties": {
-        "site_name": "Portland"
+        "site_name": "Portland",
+        "site_id": "PTLND"
       }
     },
     {
@@ -817,7 +837,8 @@
         ]
       },
       "properties": {
-        "site_name": "Memphis"
+        "site_name": "Memphis",
+        "site_id": "MMPHS"
       }
     },
     {
@@ -830,7 +851,8 @@
         ]
       },
       "properties": {
-        "site_name": "Baltimore"
+        "site_name": "Baltimore",
+        "site_id": "BLTMR"
       }
     },
     {
@@ -843,7 +865,8 @@
         ]
       },
       "properties": {
-        "site_name": "Albuquerque"
+        "site_name": "Albuquerque",
+        "site_id": "ALBUQ"
       }
     },
     {
@@ -856,7 +879,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tucson"
+        "site_name": "Tucson",
+        "site_id": "TCSUN"
       }
     },
     {
@@ -869,7 +893,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fresno"
+        "site_name": "Fresno",
+        "site_id": "FRSNO"
       }
     },
     {
@@ -882,7 +907,8 @@
         ]
       },
       "properties": {
-        "site_name": "Atlanta"
+        "site_name": "Atlanta",
+        "site_id": "ATLNT"
       }
     },
     {
@@ -895,7 +921,8 @@
         ]
       },
       "properties": {
-        "site_name": "Raleigh/Durham"
+        "site_name": "Raleigh/Durham",
+        "site_id": "RDUHM"
       }
     },
     {
@@ -908,7 +935,8 @@
         ]
       },
       "properties": {
-        "site_name": "Colorado Springs"
+        "site_name": "Colorado Springs",
+        "site_id": "COSPR"
       }
     },
     {
@@ -921,7 +949,8 @@
         ]
       },
       "properties": {
-        "site_name": "Omaha"
+        "site_name": "Omaha",
+        "site_id": "OMAHA"
       }
     },
     {
@@ -934,7 +963,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chicago/Gary"
+        "site_name": "Chicago/Gary",
+        "site_id": "CHGRY"
       }
     },
     {
@@ -947,7 +977,8 @@
         ]
       },
       "properties": {
-        "site_name": "Minneapolis/Saint Cloud"
+        "site_name": "Minneapolis/Saint Cloud",
+        "site_id": "MSCLD"
       }
     },
     {
@@ -960,7 +991,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tulsa"
+        "site_name": "Tulsa",
+        "site_id": "TULSA"
       }
     },
     {
@@ -973,7 +1005,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tampa"
+        "site_name": "Tampa",
+        "site_id": "TAMPA"
       }
     },
     {
@@ -986,7 +1019,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wichita"
+        "site_name": "Wichita",
+        "site_id": "WCHTA"
       }
     },
     {
@@ -999,7 +1033,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cleveland"
+        "site_name": "Cleveland",
+        "site_id": "CLEVE"
       }
     },
     {
@@ -1012,7 +1047,8 @@
         ]
       },
       "properties": {
-        "site_name": "New Orleans"
+        "site_name": "New Orleans",
+        "site_id": "NORLN"
       }
     },
     {
@@ -1025,7 +1061,8 @@
         ]
       },
       "properties": {
-        "site_name": "Honolulu"
+        "site_name": "Honolulu",
+        "site_id": "HONOL"
       }
     },
     {
@@ -1038,7 +1075,8 @@
         ]
       },
       "properties": {
-        "site_name": "Orlando"
+        "site_name": "Orlando",
+        "site_id": "ORLND"
       }
     },
     {
@@ -1051,7 +1089,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lexington"
+        "site_name": "Lexington",
+        "site_id": "LEXGT"
       }
     },
     {
@@ -1064,7 +1103,8 @@
         ]
       },
       "properties": {
-        "site_name": "Stockton/Modesto"
+        "site_name": "Stockton/Modesto",
+        "site_id": "STKMD"
       }
     },
     {
@@ -1077,7 +1117,8 @@
         ]
       },
       "properties": {
-        "site_name": "Corpus Christi"
+        "site_name": "Corpus Christi",
+        "site_id": "CRPSC"
       }
     },
     {
@@ -1090,7 +1131,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cincinnati/Northern Kentucky"
+        "site_name": "Cincinnati/Northern Kentucky",
+        "site_id": "CVGKY"
       }
     },
     {
@@ -1103,7 +1145,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pittsburgh"
+        "site_name": "Pittsburgh",
+        "site_id": "PITTS"
       }
     },
     {
@@ -1116,7 +1159,8 @@
         ]
       },
       "properties": {
-        "site_name": "Greensboro/Winston-Salem"
+        "site_name": "Greensboro/Winston-Salem",
+        "site_id": "GBWNS"
       }
     },
     {
@@ -1129,7 +1173,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lincoln"
+        "site_name": "Lincoln",
+        "site_id": "LNCLN"
       }
     },
     {
@@ -1142,7 +1187,8 @@
         ]
       },
       "properties": {
-        "site_name": "Anchorage"
+        "site_name": "Anchorage",
+        "site_id": "ANCHR"
       }
     },
     {
@@ -1155,7 +1201,8 @@
         ]
       },
       "properties": {
-        "site_name": "Madison"
+        "site_name": "Madison",
+        "site_id": "MDSUN"
       }
     },
     {
@@ -1168,7 +1215,8 @@
         ]
       },
       "properties": {
-        "site_name": "Reno"
+        "site_name": "Reno",
+        "site_id": "RENOO"
       }
     },
     {
@@ -1181,7 +1229,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Wayne"
+        "site_name": "Fort Wayne",
+        "site_id": "FTWYN"
       }
     },
     {
@@ -1194,7 +1243,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lubbock"
+        "site_name": "Lubbock",
+        "site_id": "LUBBK"
       }
     },
     {
@@ -1207,7 +1257,8 @@
         ]
       },
       "properties": {
-        "site_name": "Toledo"
+        "site_name": "Toledo",
+        "site_id": "TOLED"
       }
     },
     {
@@ -1220,7 +1271,8 @@
         ]
       },
       "properties": {
-        "site_name": "Laredo"
+        "site_name": "Laredo",
+        "site_id": "LARED"
       }
     },
     {
@@ -1233,7 +1285,8 @@
         ]
       },
       "properties": {
-        "site_name": "Port St. Lucie/Fort Pierce"
+        "site_name": "Port St. Lucie/Fort Pierce",
+        "site_id": "PSLFP"
       }
     },
     {
@@ -1246,7 +1299,8 @@
         ]
       },
       "properties": {
-        "site_name": "Boise"
+        "site_name": "Boise",
+        "site_id": "BOISE"
       }
     },
     {
@@ -1259,7 +1313,8 @@
         ]
       },
       "properties": {
-        "site_name": "Richmond"
+        "site_name": "Richmond",
+        "site_id": "RCHMD"
       }
     },
     {
@@ -1272,7 +1327,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cape Coral"
+        "site_name": "Cape Coral",
+        "site_id": "CPCOR"
       }
     },
     {
@@ -1285,7 +1341,8 @@
         ]
       },
       "properties": {
-        "site_name": "Spokane"
+        "site_name": "Spokane",
+        "site_id": "SPOKN"
       }
     },
     {
@@ -1298,7 +1355,8 @@
         ]
       },
       "properties": {
-        "site_name": "Huntsville"
+        "site_name": "Huntsville",
+        "site_id": "HNTVL"
       }
     },
     {
@@ -1311,7 +1369,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lafayette"
+        "site_name": "Lafayette",
+        "site_id": "LAFYT"
       }
     },
     {
@@ -1324,7 +1383,8 @@
         ]
       },
       "properties": {
-        "site_name": "Baton Rouge"
+        "site_name": "Baton Rouge",
+        "site_id": "BTRGE"
       }
     },
     {
@@ -1337,7 +1397,8 @@
         ]
       },
       "properties": {
-        "site_name": "Salt Lake City"
+        "site_name": "Salt Lake City",
+        "site_id": "SLCIT"
       }
     },
     {
@@ -1350,7 +1411,8 @@
         ]
       },
       "properties": {
-        "site_name": "Des Moines"
+        "site_name": "Des Moines",
+        "site_id": "DSMON"
       }
     },
     {
@@ -1363,7 +1425,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fayetteville"
+        "site_name": "Fayetteville",
+        "site_id": "FYTVL"
       }
     },
     {
@@ -1376,7 +1439,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sioux Falls"
+        "site_name": "Sioux Falls",
+        "site_id": "SXFLS"
       }
     },
     {
@@ -1389,7 +1453,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tallahassee"
+        "site_name": "Tallahassee",
+        "site_id": "TLHSE"
       }
     },
     {
@@ -1402,7 +1467,8 @@
         ]
       },
       "properties": {
-        "site_name": "Little Rock"
+        "site_name": "Little Rock",
+        "site_id": "LTRCK"
       }
     },
     {
@@ -1415,7 +1481,8 @@
         ]
       },
       "properties": {
-        "site_name": "Amarillo"
+        "site_name": "Amarillo",
+        "site_id": "AMRLO"
       }
     },
     {
@@ -1428,7 +1495,8 @@
         ]
       },
       "properties": {
-        "site_name": "Columbus"
+        "site_name": "Columbus",
+        "site_id": "CLMBS"
       }
     },
     {
@@ -1441,7 +1509,8 @@
         ]
       },
       "properties": {
-        "site_name": "Augusta"
+        "site_name": "Augusta",
+        "site_id": "AGSTA"
       }
     },
     {
@@ -1454,7 +1523,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mobile"
+        "site_name": "Mobile",
+        "site_id": "MOBIL"
       }
     },
     {
@@ -1467,7 +1537,8 @@
         ]
       },
       "properties": {
-        "site_name": "Grand Rapids"
+        "site_name": "Grand Rapids",
+        "site_id": "GRRAP"
       }
     },
     {
@@ -1480,7 +1551,8 @@
         ]
       },
       "properties": {
-        "site_name": "Knoxville"
+        "site_name": "Knoxville",
+        "site_id": "KNXVL"
       }
     },
     {
@@ -1493,7 +1565,8 @@
         ]
       },
       "properties": {
-        "site_name": "Birmingham"
+        "site_name": "Birmingham",
+        "site_id": "BRMGM"
       }
     },
     {
@@ -1506,7 +1579,8 @@
         ]
       },
       "properties": {
-        "site_name": "Montgomery"
+        "site_name": "Montgomery",
+        "site_id": "MNTGM"
       }
     },
     {
@@ -1519,7 +1593,8 @@
         ]
       },
       "properties": {
-        "site_name": "Brownsville"
+        "site_name": "Brownsville",
+        "site_id": "BRWNS"
       }
     },
     {
@@ -1532,7 +1607,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chattanooga"
+        "site_name": "Chattanooga",
+        "site_id": "CHATT"
       }
     },
     {
@@ -1545,7 +1621,8 @@
         ]
       },
       "properties": {
-        "site_name": "Salem"
+        "site_name": "Salem",
+        "site_id": "SALEM"
       }
     },
     {
@@ -1558,7 +1635,8 @@
         ]
       },
       "properties": {
-        "site_name": "Eugene"
+        "site_name": "Eugene",
+        "site_id": "EUGNE"
       }
     },
     {
@@ -1571,7 +1649,8 @@
         ]
       },
       "properties": {
-        "site_name": "Springfield"
+        "site_name": "Springfield",
+        "site_id": "SPRFE"
       }
     },
     {
@@ -1584,7 +1663,8 @@
         ]
       },
       "properties": {
-        "site_name": "Salinas"
+        "site_name": "Salinas",
+        "site_id": "SALNS"
       }
     },
     {
@@ -1597,7 +1677,8 @@
         ]
       },
       "properties": {
-        "site_name": "Killeen/Waco"
+        "site_name": "Killeen/Waco",
+        "site_id": "KLWCO"
       }
     },
     {
@@ -1610,7 +1691,8 @@
         ]
       },
       "properties": {
-        "site_name": "Charleston"
+        "site_name": "Charleston",
+        "site_id": "CHRLS"
       }
     },
     {
@@ -1623,7 +1705,8 @@
         ]
       },
       "properties": {
-        "site_name": "Macon/Central Georgia"
+        "site_name": "Macon/Central Georgia",
+        "site_id": "MACGA"
       }
     },
     {
@@ -1636,7 +1719,8 @@
         ]
       },
       "properties": {
-        "site_name": "Savannah"
+        "site_name": "Savannah",
+        "site_id": "SVANH"
       }
     },
     {
@@ -1649,7 +1733,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gainesville"
+        "site_name": "Gainesville",
+        "site_id": "GNSVL"
       }
     },
     {
@@ -1662,7 +1747,8 @@
         ]
       },
       "properties": {
-        "site_name": "Syracuse"
+        "site_name": "Syracuse",
+        "site_id": "SYRCS"
       }
     },
     {
@@ -1675,7 +1761,8 @@
         ]
       },
       "properties": {
-        "site_name": "Columbia"
+        "site_name": "Columbia",
+        "site_id": "COLUM"
       }
     },
     {
@@ -1688,7 +1775,8 @@
         ]
       },
       "properties": {
-        "site_name": "Midland/Odessa"
+        "site_name": "Midland/Odessa",
+        "site_id": "MDODS"
       }
     },
     {
@@ -1701,7 +1789,8 @@
         ]
       },
       "properties": {
-        "site_name": "Jackson"
+        "site_name": "Jackson",
+        "site_id": "JKSUN"
       }
     },
     {
@@ -1714,7 +1803,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cedar Rapids"
+        "site_name": "Cedar Rapids",
+        "site_id": "CDRRP"
       }
     },
     {
@@ -1727,7 +1817,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dayton"
+        "site_name": "Dayton",
+        "site_id": "DYTUN"
       }
     },
     {
@@ -1740,7 +1831,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fargo"
+        "site_name": "Fargo",
+        "site_id": "FARGO"
       }
     },
     {
@@ -1753,7 +1845,8 @@
         ]
       },
       "properties": {
-        "site_name": "Columbia"
+        "site_name": "Columbia",
+        "site_id": "CLMBA"
       }
     },
     {
@@ -1766,7 +1859,8 @@
         ]
       },
       "properties": {
-        "site_name": "Abilene"
+        "site_name": "Abilene",
+        "site_id": "ABLNE"
       }
     },
     {
@@ -1779,7 +1873,8 @@
         ]
       },
       "properties": {
-        "site_name": "Athens"
+        "site_name": "Athens",
+        "site_id": "ATHNS"
       }
     },
     {
@@ -1792,7 +1887,8 @@
         ]
       },
       "properties": {
-        "site_name": "College Station"
+        "site_name": "College Station",
+        "site_id": "CGSTN"
       }
     },
     {
@@ -1805,7 +1901,8 @@
         ]
       },
       "properties": {
-        "site_name": "Topeka"
+        "site_name": "Topeka",
+        "site_id": "TOPKA"
       }
     },
     {
@@ -1818,7 +1915,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wilmington"
+        "site_name": "Wilmington",
+        "site_id": "WLMGT"
       }
     },
     {
@@ -1831,7 +1929,8 @@
         ]
       },
       "properties": {
-        "site_name": "Manchester"
+        "site_name": "Manchester",
+        "site_id": "MNCHS"
       }
     },
     {
@@ -1844,7 +1943,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lansing"
+        "site_name": "Lansing",
+        "site_id": "LNSNG"
       }
     },
     {
@@ -1857,7 +1957,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tuscaloosa"
+        "site_name": "Tuscaloosa",
+        "site_id": "TSCLS"
       }
     },
     {
@@ -1870,7 +1971,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tyler"
+        "site_name": "Tyler",
+        "site_id": "TYLER"
       }
     },
     {
@@ -1883,7 +1985,8 @@
         ]
       },
       "properties": {
-        "site_name": "Santa Maria"
+        "site_name": "Santa Maria",
+        "site_id": "STMAR"
       }
     },
     {
@@ -1896,7 +1999,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bend/Redmond"
+        "site_name": "Bend/Redmond",
+        "site_id": "BNDRD"
       }
     },
     {
@@ -1909,7 +2013,8 @@
         ]
       },
       "properties": {
-        "site_name": "St. George"
+        "site_name": "St. George",
+        "site_id": "STGRG"
       }
     },
     {
@@ -1922,7 +2027,8 @@
         ]
       },
       "properties": {
-        "site_name": "South Bend"
+        "site_name": "South Bend",
+        "site_id": "SBEND"
       }
     },
     {
@@ -1935,7 +2041,8 @@
         ]
       },
       "properties": {
-        "site_name": "Yuma"
+        "site_name": "Yuma",
+        "site_id": "YUMAA"
       }
     },
     {
@@ -1948,7 +2055,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chico"
+        "site_name": "Chico",
+        "site_id": "CHICO"
       }
     },
     {
@@ -1961,7 +2069,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wichita Falls/Sheppard"
+        "site_name": "Wichita Falls/Sheppard",
+        "site_id": "WFSHE"
       }
     },
     {
@@ -1974,7 +2083,8 @@
         ]
       },
       "properties": {
-        "site_name": "Albany"
+        "site_name": "Albany",
+        "site_id": "ALBNY"
       }
     },
     {
@@ -1987,7 +2097,8 @@
         ]
       },
       "properties": {
-        "site_name": "San Angelo"
+        "site_name": "San Angelo",
+        "site_id": "SNANG"
       }
     },
     {
@@ -2000,7 +2111,8 @@
         ]
       },
       "properties": {
-        "site_name": "San Juan"
+        "site_name": "San Juan",
+        "site_id": "SNJUN"
       }
     },
     {
@@ -2013,7 +2125,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ponce"
+        "site_name": "Ponce",
+        "site_id": "PONCE"
       }
     },
     {
@@ -2026,7 +2139,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hilo"
+        "site_name": "Hilo",
+        "site_id": "HILOO"
       }
     },
     {
@@ -2039,7 +2153,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kailua-Kona"
+        "site_name": "Kailua-Kona",
+        "site_id": "KLKNA"
       }
     },
     {
@@ -2052,7 +2167,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kahului"
+        "site_name": "Kahului",
+        "site_id": "KAHLI"
       }
     },
     {
@@ -2065,7 +2181,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lihue"
+        "site_name": "Lihue",
+        "site_id": "LIHUE"
       }
     },
     {
@@ -2078,7 +2195,8 @@
         ]
       },
       "properties": {
-        "site_name": "Portland"
+        "site_name": "Portland",
+        "site_id": "PTLOR"
       }
     },
     {
@@ -2091,7 +2209,8 @@
         ]
       },
       "properties": {
-        "site_name": "Roanoke"
+        "site_name": "Roanoke",
+        "site_id": "ROANK"
       }
     },
     {
@@ -2104,7 +2223,8 @@
         ]
       },
       "properties": {
-        "site_name": "Harrisonburg/Staunton"
+        "site_name": "Harrisonburg/Staunton",
+        "site_id": "HBGST"
       }
     },
     {
@@ -2117,7 +2237,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cape Girardeau"
+        "site_name": "Cape Girardeau",
+        "site_id": "CPGRD"
       }
     },
     {
@@ -2130,7 +2251,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bristol/Tri-Cities"
+        "site_name": "Bristol/Tri-Cities",
+        "site_id": "BRSTC"
       }
     },
     {
@@ -2143,7 +2265,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cumberland"
+        "site_name": "Cumberland",
+        "site_id": "CMBLD"
       }
     },
     {
@@ -2156,7 +2279,8 @@
         ]
       },
       "properties": {
-        "site_name": "Salisbury"
+        "site_name": "Salisbury",
+        "site_id": "SLSBR"
       }
     },
     {
@@ -2169,7 +2293,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tupelo"
+        "site_name": "Tupelo",
+        "site_id": "TUPLO"
       }
     },
     {
@@ -2182,7 +2307,8 @@
         ]
       },
       "properties": {
-        "site_name": "Greenville"
+        "site_name": "Greenville",
+        "site_id": "GRNVL"
       }
     },
     {
@@ -2195,7 +2321,8 @@
         ]
       },
       "properties": {
-        "site_name": "Monroe"
+        "site_name": "Monroe",
+        "site_id": "MONRE"
       }
     },
     {
@@ -2208,7 +2335,8 @@
         ]
       },
       "properties": {
-        "site_name": "Alexandria"
+        "site_name": "Alexandria",
+        "site_id": "ALXND"
       }
     },
     {
@@ -2221,7 +2349,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lufkin"
+        "site_name": "Lufkin",
+        "site_id": "LFKIN"
       }
     },
     {
@@ -2234,7 +2363,8 @@
         ]
       },
       "properties": {
-        "site_name": "Victoria"
+        "site_name": "Victoria",
+        "site_id": "VCTRA"
       }
     },
     {
@@ -2247,7 +2377,8 @@
         ]
       },
       "properties": {
-        "site_name": "Del Rio/Laughlin"
+        "site_name": "Del Rio/Laughlin",
+        "site_id": "DRLGH"
       }
     },
     {
@@ -2260,7 +2391,8 @@
         ]
       },
       "properties": {
-        "site_name": "Durant"
+        "site_name": "Durant",
+        "site_id": "DURNT"
       }
     },
     {
@@ -2273,7 +2405,8 @@
         ]
       },
       "properties": {
-        "site_name": "Meridian"
+        "site_name": "Meridian",
+        "site_id": "MERID"
       }
     },
     {
@@ -2286,7 +2419,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hattiesburg"
+        "site_name": "Hattiesburg",
+        "site_id": "HTSBG"
       }
     },
     {
@@ -2299,7 +2433,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dothan/Enterprise"
+        "site_name": "Dothan/Enterprise",
+        "site_id": "DTENT"
       }
     },
     {
@@ -2312,7 +2447,8 @@
         ]
       },
       "properties": {
-        "site_name": "Asheville"
+        "site_name": "Asheville",
+        "site_id": "ASHVL"
       }
     },
     {
@@ -2325,7 +2461,8 @@
         ]
       },
       "properties": {
-        "site_name": "Jackson"
+        "site_name": "Jackson",
+        "site_id": "JXSON"
       }
     },
     {
@@ -2338,7 +2475,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Smith"
+        "site_name": "Fort Smith",
+        "site_id": "FTSMH"
       }
     },
     {
@@ -2351,7 +2489,8 @@
         ]
       },
       "properties": {
-        "site_name": "Harrisburg"
+        "site_name": "Harrisburg",
+        "site_id": "HRSBG"
       }
     },
     {
@@ -2364,7 +2503,8 @@
         ]
       },
       "properties": {
-        "site_name": "Atlantic City"
+        "site_name": "Atlantic City",
+        "site_id": "ATCTY"
       }
     },
     {
@@ -2377,7 +2517,8 @@
         ]
       },
       "properties": {
-        "site_name": "Erie"
+        "site_name": "Erie",
+        "site_id": "ERIEE"
       }
     },
     {
@@ -2390,7 +2531,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rochester"
+        "site_name": "Rochester",
+        "site_id": "ROCHS"
       }
     },
     {
@@ -2403,7 +2545,8 @@
         ]
       },
       "properties": {
-        "site_name": "Binghampton"
+        "site_name": "Binghampton",
+        "site_id": "BNGHM"
       }
     },
     {
@@ -2416,7 +2559,8 @@
         ]
       },
       "properties": {
-        "site_name": "Peoria"
+        "site_name": "Peoria",
+        "site_id": "PEORA"
       }
     },
     {
@@ -2429,7 +2573,8 @@
         ]
       },
       "properties": {
-        "site_name": "Champaign/Urbana"
+        "site_name": "Champaign/Urbana",
+        "site_id": "CHURB"
       }
     },
     {
@@ -2442,7 +2587,8 @@
         ]
       },
       "properties": {
-        "site_name": "Eau Claire"
+        "site_name": "Eau Claire",
+        "site_id": "EUCLR"
       }
     },
     {
@@ -2455,7 +2601,8 @@
         ]
       },
       "properties": {
-        "site_name": "Midland/Saginaw/Bay City"
+        "site_name": "Midland/Saginaw/Bay City",
+        "site_id": "MSBCT"
       }
     },
     {
@@ -2468,7 +2615,8 @@
         ]
       },
       "properties": {
-        "site_name": "Traverse City"
+        "site_name": "Traverse City",
+        "site_id": "TRVCT"
       }
     },
     {
@@ -2481,7 +2629,8 @@
         ]
       },
       "properties": {
-        "site_name": "Alpena"
+        "site_name": "Alpena",
+        "site_id": "ALPNA"
       }
     },
     {
@@ -2494,7 +2643,8 @@
         ]
       },
       "properties": {
-        "site_name": "Houghton"
+        "site_name": "Houghton",
+        "site_id": "HGTUN"
       }
     },
     {
@@ -2507,7 +2657,8 @@
         ]
       },
       "properties": {
-        "site_name": "Aberdeen"
+        "site_name": "Aberdeen",
+        "site_id": "ABRDN"
       }
     },
     {
@@ -2520,7 +2671,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rapid City"
+        "site_name": "Rapid City",
+        "site_id": "RPDCY"
       }
     },
     {
@@ -2533,7 +2685,8 @@
         ]
       },
       "properties": {
-        "site_name": "Idaho Falls"
+        "site_name": "Idaho Falls",
+        "site_id": "IDFLS"
       }
     },
     {
@@ -2546,7 +2699,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dodge City"
+        "site_name": "Dodge City",
+        "site_id": "DGECY"
       }
     },
     {
@@ -2559,7 +2713,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hays"
+        "site_name": "Hays",
+        "site_id": "HAYSS"
       }
     },
     {
@@ -2572,7 +2727,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lamar"
+        "site_name": "Lamar",
+        "site_id": "LAMAR"
       }
     },
     {
@@ -2585,7 +2741,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fairmont"
+        "site_name": "Fairmont",
+        "site_id": "FRMNT"
       }
     },
     {
@@ -2598,7 +2755,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sioux City"
+        "site_name": "Sioux City",
+        "site_id": "SXCIT"
       }
     },
     {
@@ -2611,7 +2769,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Dodge"
+        "site_name": "Fort Dodge",
+        "site_id": "FTDGE"
       }
     },
     {
@@ -2624,7 +2783,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cheyenne"
+        "site_name": "Cheyenne",
+        "site_id": "CHYNE"
       }
     },
     {
@@ -2637,7 +2797,8 @@
         ]
       },
       "properties": {
-        "site_name": "Raton"
+        "site_name": "Raton",
+        "site_id": "RATON"
       }
     },
     {
@@ -2650,7 +2811,8 @@
         ]
       },
       "properties": {
-        "site_name": "Woodward"
+        "site_name": "Woodward",
+        "site_id": "WDWRD"
       }
     },
     {
@@ -2663,7 +2825,8 @@
         ]
       },
       "properties": {
-        "site_name": "Parkersburg"
+        "site_name": "Parkersburg",
+        "site_id": "PRKSB"
       }
     },
     {
@@ -2676,7 +2839,8 @@
         ]
       },
       "properties": {
-        "site_name": "Huntington"
+        "site_name": "Huntington",
+        "site_id": "HNTGT"
       }
     },
     {
@@ -2689,7 +2853,8 @@
         ]
       },
       "properties": {
-        "site_name": "Beckley"
+        "site_name": "Beckley",
+        "site_id": "BCKLY"
       }
     },
     {
@@ -2702,7 +2867,8 @@
         ]
       },
       "properties": {
-        "site_name": "Williamsport"
+        "site_name": "Williamsport",
+        "site_id": "WLMPT"
       }
     },
     {
@@ -2715,7 +2881,8 @@
         ]
       },
       "properties": {
-        "site_name": "Guymon"
+        "site_name": "Guymon",
+        "site_id": "GYMON"
       }
     },
     {
@@ -2728,7 +2895,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sidney"
+        "site_name": "Sidney",
+        "site_id": "SIDNY"
       }
     },
     {
@@ -2741,7 +2909,8 @@
         ]
       },
       "properties": {
-        "site_name": "Grand Island/Hastings"
+        "site_name": "Grand Island/Hastings",
+        "site_id": "GIHST"
       }
     },
     {
@@ -2754,7 +2923,8 @@
         ]
       },
       "properties": {
-        "site_name": "Enid/Vance"
+        "site_name": "Enid/Vance",
+        "site_id": "ENDVN"
       }
     },
     {
@@ -2767,7 +2937,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chanute"
+        "site_name": "Chanute",
+        "site_id": "CHNTE"
       }
     },
     {
@@ -2780,7 +2951,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tucumcari"
+        "site_name": "Tucumcari",
+        "site_id": "TCMCR"
       }
     },
     {
@@ -2793,7 +2965,8 @@
         ]
       },
       "properties": {
-        "site_name": "Carlsbad"
+        "site_name": "Carlsbad",
+        "site_id": "CRLBD"
       }
     },
     {
@@ -2806,7 +2979,8 @@
         ]
       },
       "properties": {
-        "site_name": "Farmington"
+        "site_name": "Farmington",
+        "site_id": "FRMTN"
       }
     },
     {
@@ -2819,7 +2993,8 @@
         ]
       },
       "properties": {
-        "site_name": "Grand Junction"
+        "site_name": "Grand Junction",
+        "site_id": "GRJNC"
       }
     },
     {
@@ -2832,7 +3007,8 @@
         ]
       },
       "properties": {
-        "site_name": "St. Johns"
+        "site_name": "St. Johns",
+        "site_id": "STJNS"
       }
     },
     {
@@ -2845,7 +3021,8 @@
         ]
       },
       "properties": {
-        "site_name": "Page"
+        "site_name": "Page",
+        "site_id": "PAGEE"
       }
     },
     {
@@ -2858,7 +3035,8 @@
         ]
       },
       "properties": {
-        "site_name": "Stafford"
+        "site_name": "Stafford",
+        "site_id": "STFRD"
       }
     },
     {
@@ -2871,7 +3049,8 @@
         ]
       },
       "properties": {
-        "site_name": "Alamosa"
+        "site_name": "Alamosa",
+        "site_id": "ALMSA"
       }
     },
     {
@@ -2884,7 +3063,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lake Havasu City"
+        "site_name": "Lake Havasu City",
+        "site_id": "LKHVC"
       }
     },
     {
@@ -2897,7 +3077,8 @@
         ]
       },
       "properties": {
-        "site_name": "Vernal"
+        "site_name": "Vernal",
+        "site_id": "VERNL"
       }
     },
     {
@@ -2910,7 +3091,8 @@
         ]
       },
       "properties": {
-        "site_name": "O'neill"
+        "site_name": "O'neill",
+        "site_id": "ONEIL"
       }
     },
     {
@@ -2923,7 +3105,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Irwin"
+        "site_name": "Fort Irwin",
+        "site_id": "FTIRW"
       }
     },
     {
@@ -2936,7 +3119,8 @@
         ]
       },
       "properties": {
-        "site_name": "Toronto"
+        "site_name": "Toronto",
+        "site_id": "TRNTO"
       }
     },
     {
@@ -2949,7 +3133,8 @@
         ]
       },
       "properties": {
-        "site_name": "Montreal/Laval"
+        "site_name": "Montreal/Laval",
+        "site_id": "MTLVL"
       }
     },
     {
@@ -2962,7 +3147,8 @@
         ]
       },
       "properties": {
-        "site_name": "Vancouver"
+        "site_name": "Vancouver",
+        "site_id": "VNCVR"
       }
     },
     {
@@ -2975,7 +3161,8 @@
         ]
       },
       "properties": {
-        "site_name": "Calgary"
+        "site_name": "Calgary",
+        "site_id": "CLGRY"
       }
     },
     {
@@ -2988,7 +3175,8 @@
         ]
       },
       "properties": {
-        "site_name": "Edmonton"
+        "site_name": "Edmonton",
+        "site_id": "EDMNT"
       }
     },
     {
@@ -3001,7 +3189,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ottawa"
+        "site_name": "Ottawa",
+        "site_id": "OTTWA"
       }
     },
     {
@@ -3014,7 +3203,8 @@
         ]
       },
       "properties": {
-        "site_name": "Winnipeg"
+        "site_name": "Winnipeg",
+        "site_id": "WNIPG"
       }
     },
     {
@@ -3027,7 +3217,8 @@
         ]
       },
       "properties": {
-        "site_name": "Quebec City"
+        "site_name": "Quebec City",
+        "site_id": "QBCCY"
       }
     },
     {
@@ -3040,7 +3231,8 @@
         ]
       },
       "properties": {
-        "site_name": "London"
+        "site_name": "London",
+        "site_id": "LNDON"
       }
     },
     {
@@ -3053,7 +3245,8 @@
         ]
       },
       "properties": {
-        "site_name": "Port Angeles"
+        "site_name": "Port Angeles",
+        "site_id": "PTANG"
       }
     },
     {
@@ -3066,7 +3259,8 @@
         ]
       },
       "properties": {
-        "site_name": "Windsor"
+        "site_name": "Windsor",
+        "site_id": "WNDSR"
       }
     },
     {
@@ -3079,7 +3273,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saskatoon"
+        "site_name": "Saskatoon",
+        "site_id": "SKTUN"
       }
     },
     {
@@ -3092,7 +3287,8 @@
         ]
       },
       "properties": {
-        "site_name": "Regina"
+        "site_name": "Regina",
+        "site_id": "RGINA"
       }
     },
     {
@@ -3105,7 +3301,8 @@
         ]
       },
       "properties": {
-        "site_name": "St. John's"
+        "site_name": "St. John's",
+        "site_id": "STJHN"
       }
     },
     {
@@ -3118,7 +3315,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kelowna"
+        "site_name": "Kelowna",
+        "site_id": "KLWNA"
       }
     },
     {
@@ -3131,7 +3329,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sherbrooke"
+        "site_name": "Sherbrooke",
+        "site_id": "SHRBR"
       }
     },
     {
@@ -3144,7 +3343,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fredericton"
+        "site_name": "Fredericton",
+        "site_id": "FRDCT"
       }
     },
     {
@@ -3157,7 +3357,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sydney"
+        "site_name": "Sydney",
+        "site_id": "SYDNY"
       }
     },
     {
@@ -3170,7 +3371,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sudbury"
+        "site_name": "Sudbury",
+        "site_id": "SDBRY"
       }
     },
     {
@@ -3183,7 +3385,8 @@
         ]
       },
       "properties": {
-        "site_name": "Peterborough"
+        "site_name": "Peterborough",
+        "site_id": "PTRBR"
       }
     },
     {
@@ -3196,7 +3399,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chilliwack"
+        "site_name": "Chilliwack",
+        "site_id": "CHLWK"
       }
     },
     {
@@ -3209,7 +3413,8 @@
         ]
       },
       "properties": {
-        "site_name": "Campbell River"
+        "site_name": "Campbell River",
+        "site_id": "CMPRV"
       }
     },
     {
@@ -3222,7 +3427,8 @@
         ]
       },
       "properties": {
-        "site_name": "Prince George"
+        "site_name": "Prince George",
+        "site_id": "PRGRG"
       }
     },
     {
@@ -3235,7 +3441,8 @@
         ]
       },
       "properties": {
-        "site_name": "Grande Prairie"
+        "site_name": "Grande Prairie",
+        "site_id": "GPRRE"
       }
     },
     {
@@ -3248,7 +3455,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort McMurray"
+        "site_name": "Fort McMurray",
+        "site_id": "FTMCM"
       }
     },
     {
@@ -3261,7 +3469,8 @@
         ]
       },
       "properties": {
-        "site_name": "Medicine Hat"
+        "site_name": "Medicine Hat",
+        "site_id": "MEDHT"
       }
     },
     {
@@ -3274,7 +3483,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lethbridge"
+        "site_name": "Lethbridge",
+        "site_id": "LTHBR"
       }
     },
     {
@@ -3287,7 +3497,8 @@
         ]
       },
       "properties": {
-        "site_name": "Thunder Bay"
+        "site_name": "Thunder Bay",
+        "site_id": "THDBY"
       }
     },
     {
@@ -3300,7 +3511,8 @@
         ]
       },
       "properties": {
-        "site_name": "Moncton"
+        "site_name": "Moncton",
+        "site_id": "MNCTN"
       }
     },
     {
@@ -3313,7 +3525,8 @@
         ]
       },
       "properties": {
-        "site_name": "Casper"
+        "site_name": "Casper",
+        "site_id": "CSPER"
       }
     },
     {
@@ -3326,7 +3539,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gillette"
+        "site_name": "Gillette",
+        "site_id": "GLLTE"
       }
     },
     {
@@ -3339,7 +3553,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cody"
+        "site_name": "Cody",
+        "site_id": "CODYW"
       }
     },
     {
@@ -3352,7 +3567,8 @@
         ]
       },
       "properties": {
-        "site_name": "Riverton"
+        "site_name": "Riverton",
+        "site_id": "RVRTN"
       }
     },
     {
@@ -3365,20 +3581,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pierre"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -86.5213,
-          36.0193
-        ]
-      },
-      "properties": {
-        "site_name": "Nashville/Murfreesboro"
+        "site_name": "Pierre",
+        "site_id": "PIRRE"
       }
     },
     {
@@ -3391,7 +3595,8 @@
         ]
       },
       "properties": {
-        "site_name": "Price"
+        "site_name": "Price",
+        "site_id": "PRICE"
       }
     },
     {
@@ -3404,7 +3609,8 @@
         ]
       },
       "properties": {
-        "site_name": "Blanding"
+        "site_name": "Blanding",
+        "site_id": "BLNDG"
       }
     },
     {
@@ -3417,7 +3623,8 @@
         ]
       },
       "properties": {
-        "site_name": "Richfield"
+        "site_name": "Richfield",
+        "site_id": "RCHFD"
       }
     },
     {
@@ -3430,7 +3637,8 @@
         ]
       },
       "properties": {
-        "site_name": "Twin Falls"
+        "site_name": "Twin Falls",
+        "site_id": "TWNFL"
       }
     },
     {
@@ -3443,7 +3651,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ely"
+        "site_name": "Ely",
+        "site_id": "ELYNV"
       }
     },
     {
@@ -3456,7 +3665,8 @@
         ]
       },
       "properties": {
-        "site_name": "Beatty"
+        "site_name": "Beatty",
+        "site_id": "BEATY"
       }
     },
     {
@@ -3469,7 +3679,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hawthorne"
+        "site_name": "Hawthorne",
+        "site_id": "HWTHN"
       }
     },
     {
@@ -3482,7 +3693,8 @@
         ]
       },
       "properties": {
-        "site_name": "Willits"
+        "site_name": "Willits",
+        "site_id": "WLITS"
       }
     },
     {
@@ -3495,7 +3707,8 @@
         ]
       },
       "properties": {
-        "site_name": "Eureka"
+        "site_name": "Eureka",
+        "site_id": "EURKA"
       }
     },
     {
@@ -3508,7 +3721,8 @@
         ]
       },
       "properties": {
-        "site_name": "Medford"
+        "site_name": "Medford",
+        "site_id": "MDFRD"
       }
     },
     {
@@ -3521,7 +3735,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lakeview"
+        "site_name": "Lakeview",
+        "site_id": "LKVUE"
       }
     },
     {
@@ -3534,7 +3749,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lewiston"
+        "site_name": "Lewiston",
+        "site_id": "LWSTN"
       }
     },
     {
@@ -3547,7 +3763,8 @@
         ]
       },
       "properties": {
-        "site_name": "Yakima"
+        "site_name": "Yakima",
+        "site_id": "YAKMA"
       }
     },
     {
@@ -3560,7 +3777,8 @@
         ]
       },
       "properties": {
-        "site_name": "Burns"
+        "site_name": "Burns",
+        "site_id": "BURNS"
       }
     },
     {
@@ -3573,7 +3791,8 @@
         ]
       },
       "properties": {
-        "site_name": "Valentine"
+        "site_name": "Valentine",
+        "site_id": "VLTNE"
       }
     },
     {
@@ -3586,7 +3805,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chadron"
+        "site_name": "Chadron",
+        "site_id": "CHDRN"
       }
     },
     {
@@ -3599,7 +3819,8 @@
         ]
       },
       "properties": {
-        "site_name": "Montevideo"
+        "site_name": "Montevideo",
+        "site_id": "MNTVD"
       }
     },
     {
@@ -3612,7 +3833,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dryden"
+        "site_name": "Dryden",
+        "site_id": "DRYDN"
       }
     },
     {
@@ -3625,7 +3847,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ketchikan"
+        "site_name": "Ketchikan",
+        "site_id": "KTCHN"
       }
     },
     {
@@ -3638,7 +3861,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sitka"
+        "site_name": "Sitka",
+        "site_id": "SITKA"
       }
     },
     {
@@ -3651,7 +3875,8 @@
         ]
       },
       "properties": {
-        "site_name": "Juneau"
+        "site_name": "Juneau",
+        "site_id": "JUNEU"
       }
     },
     {
@@ -3664,7 +3889,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fairbanks"
+        "site_name": "Fairbanks",
+        "site_id": "FRBNK"
       }
     },
     {
@@ -3677,7 +3903,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nome"
+        "site_name": "Nome",
+        "site_id": "NOMEE"
       }
     },
     {
@@ -3690,7 +3917,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bethel"
+        "site_name": "Bethel",
+        "site_id": "BETHL"
       }
     },
     {
@@ -3703,7 +3931,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dillingham"
+        "site_name": "Dillingham",
+        "site_id": "DLNGM"
       }
     },
     {
@@ -3716,7 +3945,8 @@
         ]
       },
       "properties": {
-        "site_name": "Unalaska"
+        "site_name": "Unalaska",
+        "site_id": "UNLKA"
       }
     },
     {
@@ -3729,7 +3959,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kodiak"
+        "site_name": "Kodiak",
+        "site_id": "KODIA"
       }
     },
     {
@@ -3742,7 +3973,8 @@
         ]
       },
       "properties": {
-        "site_name": "Seward"
+        "site_name": "Seward",
+        "site_id": "SEWRD"
       }
     },
     {
@@ -3755,7 +3987,8 @@
         ]
       },
       "properties": {
-        "site_name": "Valdez"
+        "site_name": "Valdez",
+        "site_id": "VLDEZ"
       }
     },
     {
@@ -3768,7 +4001,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kotzebue"
+        "site_name": "Kotzebue",
+        "site_id": "KTZBU"
       }
     },
     {
@@ -3781,7 +4015,8 @@
         ]
       },
       "properties": {
-        "site_name": "Point Hope"
+        "site_name": "Point Hope",
+        "site_id": "PTHPE"
       }
     },
     {
@@ -3794,7 +4029,8 @@
         ]
       },
       "properties": {
-        "site_name": "Utqiagvik"
+        "site_name": "Utqiagvik",
+        "site_id": "UTQGV"
       }
     },
     {
@@ -3807,7 +4043,8 @@
         ]
       },
       "properties": {
-        "site_name": "Deadhorse"
+        "site_name": "Deadhorse",
+        "site_id": "DDHRS"
       }
     },
     {
@@ -3820,7 +4057,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kaktovik"
+        "site_name": "Kaktovik",
+        "site_id": "KKTVK"
       }
     },
     {
@@ -3833,7 +4071,8 @@
         ]
       },
       "properties": {
-        "site_name": "Delta Junction/Fort Greely"
+        "site_name": "Delta Junction/Fort Greely",
+        "site_id": "DJFGR"
       }
     },
     {
@@ -3846,7 +4085,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sand Point"
+        "site_name": "Sand Point",
+        "site_id": "SNDPT"
       }
     },
     {
@@ -3859,7 +4099,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kenai/Homer"
+        "site_name": "Kenai/Homer",
+        "site_id": "KNHMR"
       }
     },
     {
@@ -3872,7 +4113,8 @@
         ]
       },
       "properties": {
-        "site_name": "Winnemucca"
+        "site_name": "Winnemucca",
+        "site_id": "WNMCA"
       }
     },
     {
@@ -3885,7 +4127,8 @@
         ]
       },
       "properties": {
-        "site_name": "Elko"
+        "site_name": "Elko",
+        "site_id": "ELKOO"
       }
     },
     {
@@ -3898,7 +4141,8 @@
         ]
       },
       "properties": {
-        "site_name": "Anaktuvuk Pass"
+        "site_name": "Anaktuvuk Pass",
+        "site_id": "ANKTP"
       }
     },
     {
@@ -3911,7 +4155,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dawson City"
+        "site_name": "Dawson City",
+        "site_id": "DWSCY"
       }
     },
     {
@@ -3924,7 +4169,8 @@
         ]
       },
       "properties": {
-        "site_name": "Prince Albert"
+        "site_name": "Prince Albert",
+        "site_id": "PRALB"
       }
     },
     {
@@ -3937,7 +4183,8 @@
         ]
       },
       "properties": {
-        "site_name": "Yorkton"
+        "site_name": "Yorkton",
+        "site_id": "YRKTN"
       }
     },
     {
@@ -3950,7 +4197,8 @@
         ]
       },
       "properties": {
-        "site_name": "Swift Current"
+        "site_name": "Swift Current",
+        "site_id": "SWFCT"
       }
     },
     {
@@ -3963,7 +4211,8 @@
         ]
       },
       "properties": {
-        "site_name": "Estevan"
+        "site_name": "Estevan",
+        "site_id": "ESTVN"
       }
     },
     {
@@ -3976,7 +4225,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cranbrook"
+        "site_name": "Cranbrook",
+        "site_id": "CRNBK"
       }
     },
     {
@@ -3989,7 +4239,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort St. John"
+        "site_name": "Fort St. John",
+        "site_id": "FTSJN"
       }
     },
     {
@@ -4002,7 +4253,8 @@
         ]
       },
       "properties": {
-        "site_name": "Prince Rupert"
+        "site_name": "Prince Rupert",
+        "site_id": "PRRPT"
       }
     },
     {
@@ -4015,7 +4267,8 @@
         ]
       },
       "properties": {
-        "site_name": "Terrace"
+        "site_name": "Terrace",
+        "site_id": "TERRE"
       }
     },
     {
@@ -4028,7 +4281,8 @@
         ]
       },
       "properties": {
-        "site_name": "Williams Lake"
+        "site_name": "Williams Lake",
+        "site_id": "WLMLK"
       }
     },
     {
@@ -4041,7 +4295,8 @@
         ]
       },
       "properties": {
-        "site_name": "Castlegar"
+        "site_name": "Castlegar",
+        "site_id": "CSTLG"
       }
     },
     {
@@ -4054,7 +4309,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Nelson"
+        "site_name": "Fort Nelson",
+        "site_id": "FTNLS"
       }
     },
     {
@@ -4067,7 +4323,8 @@
         ]
       },
       "properties": {
-        "site_name": "Watson Lake"
+        "site_name": "Watson Lake",
+        "site_id": "WTSLK"
       }
     },
     {
@@ -4080,7 +4337,8 @@
         ]
       },
       "properties": {
-        "site_name": "Petersburg"
+        "site_name": "Petersburg",
+        "site_id": "PTSBR"
       }
     },
     {
@@ -4093,7 +4351,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lloydminster"
+        "site_name": "Lloydminster",
+        "site_id": "LLYDM"
       }
     },
     {
@@ -4106,7 +4365,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cold Lake"
+        "site_name": "Cold Lake",
+        "site_id": "CLDLK"
       }
     },
     {
@@ -4119,7 +4379,8 @@
         ]
       },
       "properties": {
-        "site_name": "Edson"
+        "site_name": "Edson",
+        "site_id": "EDSON"
       }
     },
     {
@@ -4132,7 +4393,8 @@
         ]
       },
       "properties": {
-        "site_name": "La Ronge"
+        "site_name": "La Ronge",
+        "site_id": "LRNGE"
       }
     },
     {
@@ -4145,7 +4407,8 @@
         ]
       },
       "properties": {
-        "site_name": "Meadow Lake"
+        "site_name": "Meadow Lake",
+        "site_id": "MDWLK"
       }
     },
     {
@@ -4158,7 +4421,8 @@
         ]
       },
       "properties": {
-        "site_name": "North Battleford/Battleford"
+        "site_name": "North Battleford/Battleford",
+        "site_id": "NBFBT"
       }
     },
     {
@@ -4171,7 +4435,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kindersley"
+        "site_name": "Kindersley",
+        "site_id": "KNDSL"
       }
     },
     {
@@ -4184,7 +4449,8 @@
         ]
       },
       "properties": {
-        "site_name": "Brandon"
+        "site_name": "Brandon",
+        "site_id": "BRNDN"
       }
     },
     {
@@ -4197,7 +4463,8 @@
         ]
       },
       "properties": {
-        "site_name": "Thompson"
+        "site_name": "Thompson",
+        "site_id": "THMPS"
       }
     },
     {
@@ -4210,7 +4477,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dauphin"
+        "site_name": "Dauphin",
+        "site_id": "DAPHN"
       }
     },
     {
@@ -4223,7 +4491,8 @@
         ]
       },
       "properties": {
-        "site_name": "International Falls"
+        "site_name": "International Falls",
+        "site_id": "INFLS"
       }
     },
     {
@@ -4236,7 +4505,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bemidji"
+        "site_name": "Bemidji",
+        "site_id": "BMDJI"
       }
     },
     {
@@ -4249,7 +4519,8 @@
         ]
       },
       "properties": {
-        "site_name": "The Pas/Flin Flon"
+        "site_name": "The Pas/Flin Flon",
+        "site_id": "TPFFL"
       }
     },
     {
@@ -4262,7 +4533,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kingston"
+        "site_name": "Kingston",
+        "site_id": "KNGST"
       }
     },
     {
@@ -4275,7 +4547,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sault Ste. Marie"
+        "site_name": "Sault Ste. Marie",
+        "site_id": "SSMAR"
       }
     },
     {
@@ -4288,7 +4561,8 @@
         ]
       },
       "properties": {
-        "site_name": "North Bay"
+        "site_name": "North Bay",
+        "site_id": "NBAYY"
       }
     },
     {
@@ -4301,7 +4575,8 @@
         ]
       },
       "properties": {
-        "site_name": "Timmins"
+        "site_name": "Timmins",
+        "site_id": "TIMNS"
       }
     },
     {
@@ -4314,7 +4589,8 @@
         ]
       },
       "properties": {
-        "site_name": "Owen Sound"
+        "site_name": "Owen Sound",
+        "site_id": "OWNSD"
       }
     },
     {
@@ -4327,7 +4603,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pembroke"
+        "site_name": "Pembroke",
+        "site_id": "PMBRK"
       }
     },
     {
@@ -4340,7 +4617,8 @@
         ]
       },
       "properties": {
-        "site_name": "Elliot Lake"
+        "site_name": "Elliot Lake",
+        "site_id": "ELTLK"
       }
     },
     {
@@ -4353,7 +4631,8 @@
         ]
       },
       "properties": {
-        "site_name": "Temiskaming Shores"
+        "site_name": "Temiskaming Shores",
+        "site_id": "TMSHS"
       }
     },
     {
@@ -4366,7 +4645,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hearst"
+        "site_name": "Hearst",
+        "site_id": "HRSTT"
       }
     },
     {
@@ -4379,7 +4659,8 @@
         ]
       },
       "properties": {
-        "site_name": "Marathon"
+        "site_name": "Marathon",
+        "site_id": "MRTUN"
       }
     },
     {
@@ -4392,7 +4673,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wawa"
+        "site_name": "Wawa",
+        "site_id": "WAWAA"
       }
     },
     {
@@ -4405,7 +4687,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sandy Lake"
+        "site_name": "Sandy Lake",
+        "site_id": "SNDLK"
       }
     },
     {
@@ -4418,7 +4701,8 @@
         ]
       },
       "properties": {
-        "site_name": "Red Lake"
+        "site_name": "Red Lake",
+        "site_id": "REDLK"
       }
     },
     {
@@ -4431,7 +4715,8 @@
         ]
       },
       "properties": {
-        "site_name": "Moosonee/Moose Factory"
+        "site_name": "Moosonee/Moose Factory",
+        "site_id": "MSFCT"
       }
     },
     {
@@ -4444,7 +4729,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chicoutimi"
+        "site_name": "Chicoutimi",
+        "site_id": "CHCTM"
       }
     },
     {
@@ -4457,7 +4743,8 @@
         ]
       },
       "properties": {
-        "site_name": "Trois-Rivieres"
+        "site_name": "Trois-Rivieres",
+        "site_id": "TRRIV"
       }
     },
     {
@@ -4470,7 +4757,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rimouski"
+        "site_name": "Rimouski",
+        "site_id": "RMSKI"
       }
     },
     {
@@ -4483,7 +4771,8 @@
         ]
       },
       "properties": {
-        "site_name": "Val-d'Or"
+        "site_name": "Val-d'Or",
+        "site_id": "VLDOR"
       }
     },
     {
@@ -4496,7 +4785,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sept-Iles"
+        "site_name": "Sept-Iles",
+        "site_id": "SPTIL"
       }
     },
     {
@@ -4509,7 +4799,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mont-Laurier"
+        "site_name": "Mont-Laurier",
+        "site_id": "MTLRR"
       }
     },
     {
@@ -4522,7 +4813,8 @@
         ]
       },
       "properties": {
-        "site_name": "Toronto/Hamilton"
+        "site_name": "Toronto/Hamilton",
+        "site_id": "TRHML"
       }
     },
     {
@@ -4535,7 +4827,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hudson Bay"
+        "site_name": "Hudson Bay",
+        "site_id": "HDSNB"
       }
     },
     {
@@ -4548,7 +4841,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dolbeau-Mistassini/Saint-Felicien"
+        "site_name": "Dolbeau-Mistassini/Saint-Felicien",
+        "site_id": "DMSFC"
       }
     },
     {
@@ -4561,7 +4855,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chibougamau/Chapais"
+        "site_name": "Chibougamau/Chapais",
+        "site_id": "CHCHP"
       }
     },
     {
@@ -4574,7 +4869,8 @@
         ]
       },
       "properties": {
-        "site_name": "La Sarre"
+        "site_name": "La Sarre",
+        "site_id": "LASRE"
       }
     },
     {
@@ -4587,7 +4883,8 @@
         ]
       },
       "properties": {
-        "site_name": "Montreal/Saint-Jerome"
+        "site_name": "Montreal/Saint-Jerome",
+        "site_id": "MTLST"
       }
     },
     {
@@ -4600,7 +4897,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chisasibi"
+        "site_name": "Chisasibi",
+        "site_id": "CHSBI"
       }
     },
     {
@@ -4613,7 +4911,8 @@
         ]
       },
       "properties": {
-        "site_name": "Riviere-du-Loup"
+        "site_name": "Riviere-du-Loup",
+        "site_id": "RVDLP"
       }
     },
     {
@@ -4626,7 +4925,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sainte-Anne-des-Monts"
+        "site_name": "Sainte-Anne-des-Monts",
+        "site_id": "SADMN"
       }
     },
     {
@@ -4639,7 +4939,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint-Georges/Northwestern Maine"
+        "site_name": "Saint-Georges/Northwestern Maine",
+        "site_id": "SGNME"
       }
     },
     {
@@ -4652,7 +4953,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint John"
+        "site_name": "Saint John",
+        "site_id": "SNJHN"
       }
     },
     {
@@ -4665,7 +4967,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bathurst"
+        "site_name": "Bathurst",
+        "site_id": "BTHST"
       }
     },
     {
@@ -4678,7 +4981,8 @@
         ]
       },
       "properties": {
-        "site_name": "Edmundston/Northern Maine"
+        "site_name": "Edmundston/Northern Maine",
+        "site_id": "EDMME"
       }
     },
     {
@@ -4691,7 +4995,8 @@
         ]
       },
       "properties": {
-        "site_name": "Charlottetown/Prince Edward Island"
+        "site_name": "Charlottetown/Prince Edward Island",
+        "site_id": "CHTPE"
       }
     },
     {
@@ -4704,7 +5009,8 @@
         ]
       },
       "properties": {
-        "site_name": "Halifax"
+        "site_name": "Halifax",
+        "site_id": "HLFAX"
       }
     },
     {
@@ -4717,7 +5023,8 @@
         ]
       },
       "properties": {
-        "site_name": "Yarmouth"
+        "site_name": "Yarmouth",
+        "site_id": "YRMTH"
       }
     },
     {
@@ -4730,7 +5037,8 @@
         ]
       },
       "properties": {
-        "site_name": "New Glasgow"
+        "site_name": "New Glasgow",
+        "site_id": "NWGLS"
       }
     },
     {
@@ -4743,7 +5051,8 @@
         ]
       },
       "properties": {
-        "site_name": "Corner Brook/Deer Lake"
+        "site_name": "Corner Brook/Deer Lake",
+        "site_id": "CBDLK"
       }
     },
     {
@@ -4756,7 +5065,8 @@
         ]
       },
       "properties": {
-        "site_name": "Grand Falls-Windsor/Gander"
+        "site_name": "Grand Falls-Windsor/Gander",
+        "site_id": "GFWGD"
       }
     },
     {
@@ -4769,7 +5079,8 @@
         ]
       },
       "properties": {
-        "site_name": "Labrador City"
+        "site_name": "Labrador City",
+        "site_id": "LBRCY"
       }
     },
     {
@@ -4782,7 +5093,8 @@
         ]
       },
       "properties": {
-        "site_name": "Stephenville"
+        "site_name": "Stephenville",
+        "site_id": "STPHV"
       }
     },
     {
@@ -4795,7 +5107,8 @@
         ]
       },
       "properties": {
-        "site_name": "Happy Valley-Goose Bay"
+        "site_name": "Happy Valley-Goose Bay",
+        "site_id": "HVGBY"
       }
     },
     {
@@ -4808,7 +5121,8 @@
         ]
       },
       "properties": {
-        "site_name": "Marystown/Burin Peninsula"
+        "site_name": "Marystown/Burin Peninsula",
+        "site_id": "MRBPN"
       }
     },
     {
@@ -4821,7 +5135,8 @@
         ]
       },
       "properties": {
-        "site_name": "St. Anthony/Northern Newfoundland"
+        "site_name": "St. Anthony/Northern Newfoundland",
+        "site_id": "STANN"
       }
     },
     {
@@ -4834,7 +5149,8 @@
         ]
       },
       "properties": {
-        "site_name": "Burgeo"
+        "site_name": "Burgeo",
+        "site_id": "BURGO"
       }
     },
     {
@@ -4847,7 +5163,8 @@
         ]
       },
       "properties": {
-        "site_name": "Whitehorse"
+        "site_name": "Whitehorse",
+        "site_id": "WHTHR"
       }
     },
     {
@@ -4860,7 +5177,8 @@
         ]
       },
       "properties": {
-        "site_name": "Yellowknife"
+        "site_name": "Yellowknife",
+        "site_id": "YLWKF"
       }
     },
     {
@@ -4873,7 +5191,8 @@
         ]
       },
       "properties": {
-        "site_name": "Inuvik"
+        "site_name": "Inuvik",
+        "site_id": "INVIK"
       }
     },
     {
@@ -4886,7 +5205,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hay River"
+        "site_name": "Hay River",
+        "site_id": "HYRVR"
       }
     },
     {
@@ -4899,7 +5219,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Smith"
+        "site_name": "Fort Smith",
+        "site_id": "FTSMI"
       }
     },
     {
@@ -4912,7 +5233,8 @@
         ]
       },
       "properties": {
-        "site_name": "Iqaluit"
+        "site_name": "Iqaluit",
+        "site_id": "IQLUT"
       }
     },
     {
@@ -4925,7 +5247,8 @@
         ]
       },
       "properties": {
-        "site_name": "Arviat"
+        "site_name": "Arviat",
+        "site_id": "ARVAT"
       }
     },
     {
@@ -4938,7 +5261,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rankin Inlet"
+        "site_name": "Rankin Inlet",
+        "site_id": "RNKIN"
       }
     },
     {
@@ -4951,7 +5275,8 @@
         ]
       },
       "properties": {
-        "site_name": "Baker Lake"
+        "site_name": "Baker Lake",
+        "site_id": "BKRLK"
       }
     },
     {
@@ -4964,7 +5289,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cambridge Bay"
+        "site_name": "Cambridge Bay",
+        "site_id": "CMBRG"
       }
     },
     {
@@ -4977,7 +5303,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gjoa Haven"
+        "site_name": "Gjoa Haven",
+        "site_id": "GJOAH"
       }
     },
     {
@@ -4990,7 +5317,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kugluktuk"
+        "site_name": "Kugluktuk",
+        "site_id": "KGLTK"
       }
     },
     {
@@ -5003,7 +5331,8 @@
         ]
       },
       "properties": {
-        "site_name": "Missoula"
+        "site_name": "Missoula",
+        "site_id": "MSULA"
       }
     },
     {
@@ -5016,7 +5345,8 @@
         ]
       },
       "properties": {
-        "site_name": "Great Falls"
+        "site_name": "Great Falls",
+        "site_id": "GRFLS"
       }
     },
     {
@@ -5029,7 +5359,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bozeman"
+        "site_name": "Bozeman",
+        "site_id": "BZMAN"
       }
     },
     {
@@ -5042,7 +5373,8 @@
         ]
       },
       "properties": {
-        "site_name": "Salmon"
+        "site_name": "Salmon",
+        "site_id": "SLMUN"
       }
     },
     {
@@ -5055,7 +5387,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bismarck"
+        "site_name": "Bismarck",
+        "site_id": "BSMRK"
       }
     },
     {
@@ -5068,7 +5401,8 @@
         ]
       },
       "properties": {
-        "site_name": "Minot"
+        "site_name": "Minot",
+        "site_id": "MINOT"
       }
     },
     {
@@ -5081,7 +5415,8 @@
         ]
       },
       "properties": {
-        "site_name": "Havre"
+        "site_name": "Havre",
+        "site_id": "HAVRE"
       }
     },
     {
@@ -5094,7 +5429,8 @@
         ]
       },
       "properties": {
-        "site_name": "Miles City"
+        "site_name": "Miles City",
+        "site_id": "MLSCY"
       }
     },
     {
@@ -5107,7 +5443,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lewistown"
+        "site_name": "Lewistown",
+        "site_id": "LWSTW"
       }
     },
     {
@@ -5120,7 +5457,8 @@
         ]
       },
       "properties": {
-        "site_name": "Glasgow"
+        "site_name": "Glasgow",
+        "site_id": "GLSGW"
       }
     },
     {
@@ -5133,7 +5471,8 @@
         ]
       },
       "properties": {
-        "site_name": "Williston"
+        "site_name": "Williston",
+        "site_id": "WLSTN"
       }
     },
     {
@@ -5146,7 +5485,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dickinson"
+        "site_name": "Dickinson",
+        "site_id": "DCKSN"
       }
     },
     {
@@ -5159,7 +5499,8 @@
         ]
       },
       "properties": {
-        "site_name": "Grand Forks"
+        "site_name": "Grand Forks",
+        "site_id": "GRFRK"
       }
     },
     {
@@ -5172,7 +5513,8 @@
         ]
       },
       "properties": {
-        "site_name": "Devils Lake"
+        "site_name": "Devils Lake",
+        "site_id": "DVLLK"
       }
     },
     {
@@ -5185,7 +5527,8 @@
         ]
       },
       "properties": {
-        "site_name": "Jamestown"
+        "site_name": "Jamestown",
+        "site_id": "JMSTN"
       }
     },
     {
@@ -5198,7 +5541,8 @@
         ]
       },
       "properties": {
-        "site_name": "Buffalo"
+        "site_name": "Buffalo",
+        "site_id": "BUFLO"
       }
     },
     {
@@ -5211,7 +5555,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sydney"
+        "site_name": "Sydney",
+        "site_id": "SYDAU"
       }
     },
     {
@@ -5224,7 +5569,8 @@
         ]
       },
       "properties": {
-        "site_name": "Newcastle"
+        "site_name": "Newcastle",
+        "site_id": "NWCST"
       }
     },
     {
@@ -5237,7 +5583,8 @@
         ]
       },
       "properties": {
-        "site_name": "Canberra/Queanbeyan"
+        "site_name": "Canberra/Queanbeyan",
+        "site_id": "CBRQN"
       }
     },
     {
@@ -5250,7 +5597,8 @@
         ]
       },
       "properties": {
-        "site_name": "Melbourne"
+        "site_name": "Melbourne",
+        "site_id": "MLBRN"
       }
     },
     {
@@ -5263,7 +5611,8 @@
         ]
       },
       "properties": {
-        "site_name": "Brisbane"
+        "site_name": "Brisbane",
+        "site_id": "BRSBN"
       }
     },
     {
@@ -5276,7 +5625,8 @@
         ]
       },
       "properties": {
-        "site_name": "Perth"
+        "site_name": "Perth",
+        "site_id": "PERTH"
       }
     },
     {
@@ -5289,7 +5639,8 @@
         ]
       },
       "properties": {
-        "site_name": "Adelaide"
+        "site_name": "Adelaide",
+        "site_id": "ADLDE"
       }
     },
     {
@@ -5302,7 +5653,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hobart"
+        "site_name": "Hobart",
+        "site_id": "HOBRT"
       }
     },
     {
@@ -5315,7 +5667,8 @@
         ]
       },
       "properties": {
-        "site_name": "Darwin"
+        "site_name": "Darwin",
+        "site_id": "DRWIN"
       }
     },
     {
@@ -5328,7 +5681,8 @@
         ]
       },
       "properties": {
-        "site_name": "Townsville"
+        "site_name": "Townsville",
+        "site_id": "TWNVL"
       }
     },
     {
@@ -5341,7 +5695,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cairns\t"
+        "site_name": "Cairns\t",
+        "site_id": "CAIRN"
       }
     },
     {
@@ -5354,7 +5709,8 @@
         ]
       },
       "properties": {
-        "site_name": "Toowoomba"
+        "site_name": "Toowoomba",
+        "site_id": "TWMBA"
       }
     },
     {
@@ -5367,7 +5723,8 @@
         ]
       },
       "properties": {
-        "site_name": "Albury/Wodonga"
+        "site_name": "Albury/Wodonga",
+        "site_id": "ALWOD"
       }
     },
     {
@@ -5380,7 +5737,8 @@
         ]
       },
       "properties": {
-        "site_name": "Launceston"
+        "site_name": "Launceston",
+        "site_id": "LNCST"
       }
     },
     {
@@ -5393,7 +5751,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mackay"
+        "site_name": "Mackay",
+        "site_id": "MCKAY"
       }
     },
     {
@@ -5406,7 +5765,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rockhampton"
+        "site_name": "Rockhampton",
+        "site_id": "RKHMP"
       }
     },
     {
@@ -5419,7 +5779,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bunbury\t"
+        "site_name": "Bunbury\t",
+        "site_id": "BNBRY"
       }
     },
     {
@@ -5432,7 +5793,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bundaberg"
+        "site_name": "Bundaberg",
+        "site_id": "BNDBG"
       }
     },
     {
@@ -5445,7 +5807,8 @@
         ]
       },
       "properties": {
-        "site_name": "Coffs Harbour"
+        "site_name": "Coffs Harbour",
+        "site_id": "CFSHB"
       }
     },
     {
@@ -5458,7 +5821,8 @@
         ]
       },
       "properties": {
-        "site_name": "Shepparton/Mooroopna"
+        "site_name": "Shepparton/Mooroopna",
+        "site_id": "SHMRP"
       }
     },
     {
@@ -5471,7 +5835,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mildura/Buronga"
+        "site_name": "Mildura/Buronga",
+        "site_id": "MLDRB"
       }
     },
     {
@@ -5484,7 +5849,8 @@
         ]
       },
       "properties": {
-        "site_name": "Port Macquarie"
+        "site_name": "Port Macquarie",
+        "site_id": "PTMQC"
       }
     },
     {
@@ -5497,7 +5863,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ballina"
+        "site_name": "Ballina",
+        "site_id": "BALNA"
       }
     },
     {
@@ -5510,7 +5877,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tamworth"
+        "site_name": "Tamworth",
+        "site_id": "TMWRH"
       }
     },
     {
@@ -5523,7 +5891,8 @@
         ]
       },
       "properties": {
-        "site_name": "Traralgon/Morwell"
+        "site_name": "Traralgon/Morwell",
+        "site_id": "TRGMW"
       }
     },
     {
@@ -5536,7 +5905,8 @@
         ]
       },
       "properties": {
-        "site_name": "Orange"
+        "site_name": "Orange",
+        "site_id": "ORNGE"
       }
     },
     {
@@ -5549,7 +5919,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dubbo"
+        "site_name": "Dubbo",
+        "site_id": "DUBBO"
       }
     },
     {
@@ -5562,7 +5933,8 @@
         ]
       },
       "properties": {
-        "site_name": "Geraldton"
+        "site_name": "Geraldton",
+        "site_id": "GRLDT"
       }
     },
     {
@@ -5575,7 +5947,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nowra/Bomaderry"
+        "site_name": "Nowra/Bomaderry",
+        "site_id": "NRBMD"
       }
     },
     {
@@ -5588,7 +5961,8 @@
         ]
       },
       "properties": {
-        "site_name": "Albany"
+        "site_name": "Albany",
+        "site_id": "ALBAU"
       }
     },
     {
@@ -5601,7 +5975,8 @@
         ]
       },
       "properties": {
-        "site_name": "Warrnambool"
+        "site_name": "Warrnambool",
+        "site_id": "WRNMB"
       }
     },
     {
@@ -5614,7 +5989,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kalgoorlie-Boulder"
+        "site_name": "Kalgoorlie-Boulder",
+        "site_id": "KGLBL"
       }
     },
     {
@@ -5627,7 +6003,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mount Gambier"
+        "site_name": "Mount Gambier",
+        "site_id": "MTGMB"
       }
     },
     {
@@ -5640,7 +6017,8 @@
         ]
       },
       "properties": {
-        "site_name": "Alice Springs"
+        "site_name": "Alice Springs",
+        "site_id": "ALCSP"
       }
     },
     {
@@ -5653,7 +6031,8 @@
         ]
       },
       "properties": {
-        "site_name": "Burnie/Somerset"
+        "site_name": "Burnie/Somerset",
+        "site_id": "BNSMS"
       }
     },
     {
@@ -5666,7 +6045,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gympie"
+        "site_name": "Gympie",
+        "site_id": "GYMPI"
       }
     },
     {
@@ -5679,7 +6059,8 @@
         ]
       },
       "properties": {
-        "site_name": "Whyalla"
+        "site_name": "Whyalla",
+        "site_id": "WHYLA"
       }
     },
     {
@@ -5692,7 +6073,8 @@
         ]
       },
       "properties": {
-        "site_name": "Griffith"
+        "site_name": "Griffith",
+        "site_id": "GRFTH"
       }
     },
     {
@@ -5705,7 +6087,8 @@
         ]
       },
       "properties": {
-        "site_name": "Karratha"
+        "site_name": "Karratha",
+        "site_id": "KRTHA"
       }
     },
     {
@@ -5718,7 +6101,8 @@
         ]
       },
       "properties": {
-        "site_name": "Broken Hill"
+        "site_name": "Broken Hill",
+        "site_id": "BRKNH"
       }
     },
     {
@@ -5731,7 +6115,8 @@
         ]
       },
       "properties": {
-        "site_name": "Port Lincoln"
+        "site_name": "Port Lincoln",
+        "site_id": "PTLNC"
       }
     },
     {
@@ -5744,7 +6129,8 @@
         ]
       },
       "properties": {
-        "site_name": "Port Hedland"
+        "site_name": "Port Hedland",
+        "site_id": "PTHDL"
       }
     },
     {
@@ -5757,7 +6143,8 @@
         ]
       },
       "properties": {
-        "site_name": "Horsham"
+        "site_name": "Horsham",
+        "site_id": "HRSHM"
       }
     },
     {
@@ -5770,7 +6157,8 @@
         ]
       },
       "properties": {
-        "site_name": "Broome"
+        "site_name": "Broome",
+        "site_id": "BROME"
       }
     },
     {
@@ -5783,7 +6171,8 @@
         ]
       },
       "properties": {
-        "site_name": "Emerald"
+        "site_name": "Emerald",
+        "site_id": "EMRLD"
       }
     },
     {
@@ -5796,7 +6185,8 @@
         ]
       },
       "properties": {
-        "site_name": "Esperance"
+        "site_name": "Esperance",
+        "site_id": "ESPRN"
       }
     },
     {
@@ -5809,7 +6199,8 @@
         ]
       },
       "properties": {
-        "site_name": "Swan Hill"
+        "site_name": "Swan Hill",
+        "site_id": "SWNHL"
       }
     },
     {
@@ -5822,7 +6213,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mount Isa"
+        "site_name": "Mount Isa",
+        "site_id": "MTISA"
       }
     },
     {
@@ -5835,7 +6227,8 @@
         ]
       },
       "properties": {
-        "site_name": "Newman"
+        "site_name": "Newman",
+        "site_id": "NEMAN"
       }
     },
     {
@@ -5848,7 +6241,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kununurra\t"
+        "site_name": "Kununurra\t",
+        "site_id": "KNNRA"
       }
     },
     {
@@ -5861,7 +6255,8 @@
         ]
       },
       "properties": {
-        "site_name": "Carnarvon"
+        "site_name": "Carnarvon",
+        "site_id": "CRNVN"
       }
     },
     {
@@ -5874,7 +6269,8 @@
         ]
       },
       "properties": {
-        "site_name": "Narrogin/Katanning"
+        "site_name": "Narrogin/Katanning",
+        "site_id": "NRGKT"
       }
     },
     {
@@ -5887,7 +6283,8 @@
         ]
       },
       "properties": {
-        "site_name": "Katherine"
+        "site_name": "Katherine",
+        "site_id": "KTHRN"
       }
     },
     {
@@ -5900,7 +6297,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nhulunbuy"
+        "site_name": "Nhulunbuy",
+        "site_id": "NHLNB"
       }
     },
     {
@@ -5913,7 +6311,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tennant Creek"
+        "site_name": "Tennant Creek",
+        "site_id": "TNTCK"
       }
     },
     {
@@ -5926,7 +6325,8 @@
         ]
       },
       "properties": {
-        "site_name": "Maningrida"
+        "site_name": "Maningrida",
+        "site_id": "MNGRD"
       }
     },
     {
@@ -5939,7 +6339,8 @@
         ]
       },
       "properties": {
-        "site_name": "Renmark"
+        "site_name": "Renmark",
+        "site_id": "RNMRK"
       }
     },
     {
@@ -5952,7 +6353,8 @@
         ]
       },
       "properties": {
-        "site_name": "Roxby Downs"
+        "site_name": "Roxby Downs",
+        "site_id": "RXBYD"
       }
     },
     {
@@ -5965,7 +6367,8 @@
         ]
       },
       "properties": {
-        "site_name": "Clare/Burra"
+        "site_name": "Clare/Burra",
+        "site_id": "CLRBR"
       }
     },
     {
@@ -5978,7 +6381,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bordertown"
+        "site_name": "Bordertown",
+        "site_id": "BRDTN"
       }
     },
     {
@@ -5991,7 +6395,8 @@
         ]
       },
       "properties": {
-        "site_name": "Yulara"
+        "site_name": "Yulara",
+        "site_id": "YULRA"
       }
     },
     {
@@ -6004,7 +6409,8 @@
         ]
       },
       "properties": {
-        "site_name": "Warburton"
+        "site_name": "Warburton",
+        "site_id": "WRBRT"
       }
     },
     {
@@ -6017,7 +6423,8 @@
         ]
       },
       "properties": {
-        "site_name": "Halls Creek"
+        "site_name": "Halls Creek",
+        "site_id": "HLSCK"
       }
     },
     {
@@ -6030,7 +6437,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bowen"
+        "site_name": "Bowen",
+        "site_id": "BOWEN"
       }
     },
     {
@@ -6043,7 +6451,8 @@
         ]
       },
       "properties": {
-        "site_name": "Moranbah"
+        "site_name": "Moranbah",
+        "site_id": "MRNBH"
       }
     },
     {
@@ -6056,7 +6465,8 @@
         ]
       },
       "properties": {
-        "site_name": "Roma"
+        "site_name": "Roma",
+        "site_id": "ROMAA"
       }
     },
     {
@@ -6069,7 +6479,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chinchilla"
+        "site_name": "Chinchilla",
+        "site_id": "CHNCH"
       }
     },
     {
@@ -6082,7 +6493,8 @@
         ]
       },
       "properties": {
-        "site_name": "Goondiwindi"
+        "site_name": "Goondiwindi",
+        "site_id": "GNDWD"
       }
     },
     {
@@ -6095,7 +6507,8 @@
         ]
       },
       "properties": {
-        "site_name": "Stanthorpe"
+        "site_name": "Stanthorpe",
+        "site_id": "STNTH"
       }
     },
     {
@@ -6108,7 +6521,8 @@
         ]
       },
       "properties": {
-        "site_name": "Weipa"
+        "site_name": "Weipa",
+        "site_id": "WEIPA"
       }
     },
     {
@@ -6121,7 +6535,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gladstone"
+        "site_name": "Gladstone",
+        "site_id": "GLDST"
       }
     },
     {
@@ -6134,7 +6549,8 @@
         ]
       },
       "properties": {
-        "site_name": "Charleville"
+        "site_name": "Charleville",
+        "site_id": "CHRVL"
       }
     },
     {
@@ -6147,7 +6563,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kalispell"
+        "site_name": "Kalispell",
+        "site_id": "KLSPL"
       }
     },
     {
@@ -6160,7 +6577,8 @@
         ]
       },
       "properties": {
-        "site_name": "Thursday Island/Horn Island"
+        "site_name": "Thursday Island/Horn Island",
+        "site_id": "TIHRI"
       }
     },
     {
@@ -6173,7 +6591,8 @@
         ]
       },
       "properties": {
-        "site_name": "Longreach"
+        "site_name": "Longreach",
+        "site_id": "LNGRC"
       }
     },
     {
@@ -6186,7 +6605,8 @@
         ]
       },
       "properties": {
-        "site_name": "Karumba"
+        "site_name": "Karumba",
+        "site_id": "KRUMB"
       }
     },
     {
@@ -6199,7 +6619,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hughenden"
+        "site_name": "Hughenden",
+        "site_id": "HGHDN"
       }
     },
     {
@@ -6212,7 +6633,8 @@
         ]
       },
       "properties": {
-        "site_name": "Boulia"
+        "site_name": "Boulia",
+        "site_id": "BOULA"
       }
     },
     {
@@ -6225,7 +6647,8 @@
         ]
       },
       "properties": {
-        "site_name": "Durham"
+        "site_name": "Durham",
+        "site_id": "DURHM"
       }
     },
     {
@@ -6238,7 +6661,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bourke"
+        "site_name": "Bourke",
+        "site_id": "BURKE"
       }
     },
     {
@@ -6251,7 +6675,8 @@
         ]
       },
       "properties": {
-        "site_name": "Inverell"
+        "site_name": "Inverell",
+        "site_id": "INVER"
       }
     },
     {
@@ -6264,7 +6689,8 @@
         ]
       },
       "properties": {
-        "site_name": "Merimbula"
+        "site_name": "Merimbula",
+        "site_id": "MRMBL"
       }
     },
     {
@@ -6277,7 +6703,8 @@
         ]
       },
       "properties": {
-        "site_name": "Young\t"
+        "site_name": "Young\t",
+        "site_id": "YOUNG"
       }
     },
     {
@@ -6290,7 +6717,8 @@
         ]
       },
       "properties": {
-        "site_name": "Walgett"
+        "site_name": "Walgett",
+        "site_id": "WLGTT"
       }
     },
     {
@@ -6303,7 +6731,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wagga Wagga"
+        "site_name": "Wagga Wagga",
+        "site_id": "WGGWG"
       }
     },
     {
@@ -6316,7 +6745,8 @@
         ]
       },
       "properties": {
-        "site_name": "Moree"
+        "site_name": "Moree",
+        "site_id": "MOREE"
       }
     },
     {
@@ -6329,7 +6759,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cobar"
+        "site_name": "Cobar",
+        "site_id": "COBAR"
       }
     },
     {
@@ -6342,7 +6773,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tibooburra"
+        "site_name": "Tibooburra",
+        "site_id": "TBBRA"
       }
     },
     {
@@ -6355,7 +6787,8 @@
         ]
       },
       "properties": {
-        "site_name": "Coober Pedy"
+        "site_name": "Coober Pedy",
+        "site_id": "CBPDY"
       }
     },
     {
@@ -6368,7 +6801,8 @@
         ]
       },
       "properties": {
-        "site_name": "Marla/Mintabie"
+        "site_name": "Marla/Mintabie",
+        "site_id": "MRMNT"
       }
     },
     {
@@ -6381,7 +6815,8 @@
         ]
       },
       "properties": {
-        "site_name": "Key West"
+        "site_name": "Key West",
+        "site_id": "KYWST"
       }
     },
     {
@@ -6394,7 +6829,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mount Shasta/Dunsmuir"
+        "site_name": "Mount Shasta/Dunsmuir",
+        "site_id": "MTSDN"
       }
     },
     {
@@ -6407,7 +6843,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nuuk"
+        "site_name": "Nuuk",
+        "site_id": "NUUKK"
       }
     },
     {
@@ -6420,7 +6857,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sisimiut"
+        "site_name": "Sisimiut",
+        "site_id": "SSMUT"
       }
     },
     {
@@ -6433,7 +6871,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ilulissat"
+        "site_name": "Ilulissat",
+        "site_id": "ILLST"
       }
     },
     {
@@ -6446,7 +6885,8 @@
         ]
       },
       "properties": {
-        "site_name": "Qaqortoq"
+        "site_name": "Qaqortoq",
+        "site_id": "QQRTQ"
       }
     },
     {
@@ -6459,7 +6899,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tasiilaq"
+        "site_name": "Tasiilaq",
+        "site_id": "TASLQ"
       }
     },
     {
@@ -6472,7 +6913,8 @@
         ]
       },
       "properties": {
-        "site_name": "Reykjavik"
+        "site_name": "Reykjavik",
+        "site_id": "RYKVK"
       }
     },
     {
@@ -6485,7 +6927,8 @@
         ]
       },
       "properties": {
-        "site_name": "Akureyri"
+        "site_name": "Akureyri",
+        "site_id": "AKRYR"
       }
     },
     {
@@ -6498,7 +6941,8 @@
         ]
       },
       "properties": {
-        "site_name": "Isafjordur"
+        "site_name": "Isafjordur",
+        "site_id": "ISFDR"
       }
     },
     {
@@ -6511,7 +6955,8 @@
         ]
       },
       "properties": {
-        "site_name": "Eielsstadir"
+        "site_name": "Eielsstadir",
+        "site_id": "ELSDR"
       }
     },
     {
@@ -6524,7 +6969,8 @@
         ]
       },
       "properties": {
-        "site_name": "Springfield"
+        "site_name": "Springfield",
+        "site_id": "SPRFG"
       }
     },
     {
@@ -6537,7 +6983,8 @@
         ]
       },
       "properties": {
-        "site_name": "Jonesboro"
+        "site_name": "Jonesboro",
+        "site_id": "JNSBR"
       }
     },
     {
@@ -6550,7 +6997,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wendover"
+        "site_name": "Wendover",
+        "site_id": "WNDVR"
       }
     },
     {
@@ -6563,7 +7011,8 @@
         ]
       },
       "properties": {
-        "site_name": "Omak"
+        "site_name": "Omak",
+        "site_id": "OMAKK"
       }
     },
     {
@@ -6576,7 +7025,8 @@
         ]
       },
       "properties": {
-        "site_name": "New York"
+        "site_name": "New York",
+        "site_id": "NYCIT"
       }
     },
     {
@@ -6589,7 +7039,8 @@
         ]
       },
       "properties": {
-        "site_name": "Long Island"
+        "site_name": "Long Island",
+        "site_id": "LNGIS"
       }
     },
     {
@@ -6602,7 +7053,8 @@
         ]
       },
       "properties": {
-        "site_name": "Birdsville"
+        "site_name": "Birdsville",
+        "site_id": "BRDVL"
       }
     },
     {
@@ -6615,7 +7067,8 @@
         ]
       },
       "properties": {
-        "site_name": "The Granites/Twin Hills"
+        "site_name": "The Granites/Twin Hills",
+        "site_id": "GRNTH"
       }
     },
     {
@@ -6628,7 +7081,8 @@
         ]
       },
       "properties": {
-        "site_name": "Telfer"
+        "site_name": "Telfer",
+        "site_id": "TELFR"
       }
     },
     {
@@ -6641,7 +7095,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mount Vernon"
+        "site_name": "Mount Vernon",
+        "site_id": "MTVRN"
       }
     },
     {
@@ -6654,7 +7109,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bowling Green"
+        "site_name": "Bowling Green",
+        "site_id": "BWLGR"
       }
     },
     {
@@ -6667,7 +7123,8 @@
         ]
       },
       "properties": {
-        "site_name": "Keflavik"
+        "site_name": "Keflavik",
+        "site_id": "KFLVK"
       }
     },
     {
@@ -6680,7 +7137,8 @@
         ]
       },
       "properties": {
-        "site_name": "Exmouth"
+        "site_name": "Exmouth",
+        "site_id": "EXMTH"
       }
     },
     {
@@ -6693,7 +7151,8 @@
         ]
       },
       "properties": {
-        "site_name": "Forrest/Eucla"
+        "site_name": "Forrest/Eucla",
+        "site_id": "FREUC"
       }
     },
     {
@@ -6706,7 +7165,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ceduna"
+        "site_name": "Ceduna",
+        "site_id": "CEDNA"
       }
     },
     {
@@ -6719,7 +7179,8 @@
         ]
       },
       "properties": {
-        "site_name": "Midway"
+        "site_name": "Midway",
+        "site_id": "MDWAY"
       }
     },
     {
@@ -6732,7 +7193,8 @@
         ]
       },
       "properties": {
-        "site_name": "Inukjuak"
+        "site_name": "Inukjuak",
+        "site_id": "INKJK"
       }
     },
     {
@@ -6745,7 +7207,8 @@
         ]
       },
       "properties": {
-        "site_name": "Norman Wells"
+        "site_name": "Norman Wells",
+        "site_id": "NMWLS"
       }
     },
     {
@@ -6758,7 +7221,8 @@
         ]
       },
       "properties": {
-        "site_name": "Adak"
+        "site_name": "Adak",
+        "site_id": "ADAKK"
       }
     },
     {
@@ -6771,7 +7235,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bermuda"
+        "site_name": "Bermuda",
+        "site_id": "BRMDA"
       }
     },
     {
@@ -6784,7 +7249,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wiluna"
+        "site_name": "Wiluna",
+        "site_id": "WLUNA"
       }
     },
     {
@@ -6797,7 +7263,8 @@
         ]
       },
       "properties": {
-        "site_name": "Panama City"
+        "site_name": "Panama City",
+        "site_id": "PNMCT"
       }
     },
     {
@@ -6810,7 +7277,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fayetteville/Northwest Arkansas"
+        "site_name": "Fayetteville/Northwest Arkansas",
+        "site_id": "FYNWA"
       }
     },
     {
@@ -6823,7 +7291,8 @@
         ]
       },
       "properties": {
-        "site_name": "London/Corbin"
+        "site_name": "London/Corbin",
+        "site_id": "LNDCB"
       }
     },
     {
@@ -6836,7 +7305,8 @@
         ]
       },
       "properties": {
-        "site_name": "Akron/Canton"
+        "site_name": "Akron/Canton",
+        "site_id": "AKRCN"
       }
     },
     {
@@ -6849,7 +7319,8 @@
         ]
       },
       "properties": {
-        "site_name": "Huron"
+        "site_name": "Huron",
+        "site_id": "HURON"
       }
     },
     {
@@ -6862,7 +7333,8 @@
         ]
       },
       "properties": {
-        "site_name": "Aguadilla"
+        "site_name": "Aguadilla",
+        "site_id": "AGUDL"
       }
     },
     {
@@ -6875,7 +7347,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint Thomas"
+        "site_name": "Saint Thomas",
+        "site_id": "STTMS"
       }
     },
     {
@@ -6888,7 +7361,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint Croix"
+        "site_name": "Saint Croix",
+        "site_id": "STCRX"
       }
     },
     {
@@ -6901,7 +7375,8 @@
         ]
       },
       "properties": {
-        "site_name": "La Crosse"
+        "site_name": "La Crosse",
+        "site_id": "LACRS"
       }
     },
     {
@@ -6914,7 +7389,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dubuque"
+        "site_name": "Dubuque",
+        "site_id": "DUBQU"
       }
     },
     {
@@ -6927,7 +7403,8 @@
         ]
       },
       "properties": {
-        "site_name": "Waterloo"
+        "site_name": "Waterloo",
+        "site_id": "WTRLO"
       }
     },
     {
@@ -6940,7 +7417,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kingston"
+        "site_name": "Kingston",
+        "site_id": "KNGJM"
       }
     },
     {
@@ -6953,7 +7431,8 @@
         ]
       },
       "properties": {
-        "site_name": "Montego Bay"
+        "site_name": "Montego Bay",
+        "site_id": "MNTGB"
       }
     },
     {
@@ -6966,7 +7445,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ocho Rios/Port Maria"
+        "site_name": "Ocho Rios/Port Maria",
+        "site_id": "ORPMR"
       }
     },
     {
@@ -6979,7 +7459,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nassau"
+        "site_name": "Nassau",
+        "site_id": "NASAU"
       }
     },
     {
@@ -6992,7 +7473,8 @@
         ]
       },
       "properties": {
-        "site_name": "Freeport"
+        "site_name": "Freeport",
+        "site_id": "FRPRT"
       }
     },
     {
@@ -7005,7 +7487,8 @@
         ]
       },
       "properties": {
-        "site_name": "Marsh Harbour"
+        "site_name": "Marsh Harbour",
+        "site_id": "MSHHB"
       }
     },
     {
@@ -7018,7 +7501,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tarpum Bay"
+        "site_name": "Tarpum Bay",
+        "site_id": "TRPMB"
       }
     },
     {
@@ -7031,7 +7515,8 @@
         ]
       },
       "properties": {
-        "site_name": "San Salvador"
+        "site_name": "San Salvador",
+        "site_id": "SNSLV"
       }
     },
     {
@@ -7044,7 +7529,8 @@
         ]
       },
       "properties": {
-        "site_name": "Great Exuma"
+        "site_name": "Great Exuma",
+        "site_id": "GRTEX"
       }
     },
     {
@@ -7057,7 +7543,8 @@
         ]
       },
       "properties": {
-        "site_name": "George Town"
+        "site_name": "George Town",
+        "site_id": "GETWN"
       }
     },
     {
@@ -7070,7 +7557,8 @@
         ]
       },
       "properties": {
-        "site_name": "West End"
+        "site_name": "West End",
+        "site_id": "WSTND"
       }
     },
     {
@@ -7083,7 +7571,8 @@
         ]
       },
       "properties": {
-        "site_name": "Barbados"
+        "site_name": "Barbados",
+        "site_id": "BRBDS"
       }
     },
     {
@@ -7096,7 +7585,8 @@
         ]
       },
       "properties": {
-        "site_name": "Antigua"
+        "site_name": "Antigua",
+        "site_id": "ANTIG"
       }
     },
     {
@@ -7109,7 +7599,8 @@
         ]
       },
       "properties": {
-        "site_name": "Barbuda"
+        "site_name": "Barbuda",
+        "site_id": "BRBDA"
       }
     },
     {
@@ -7122,7 +7613,8 @@
         ]
       },
       "properties": {
-        "site_name": "San Andres"
+        "site_name": "San Andres",
+        "site_id": "SNADR"
       }
     },
     {
@@ -7135,7 +7627,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lafayette"
+        "site_name": "Lafayette",
+        "site_id": "LFYIN"
       }
     },
     {
@@ -7148,7 +7641,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pikeville"
+        "site_name": "Pikeville",
+        "site_id": "PKVIL"
       }
     },
     {
@@ -7161,7 +7655,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tifton"
+        "site_name": "Tifton",
+        "site_id": "TFTUN"
       }
     },
     {
@@ -7174,7 +7669,8 @@
         ]
       },
       "properties": {
-        "site_name": "Goodland"
+        "site_name": "Goodland",
+        "site_id": "GDLND"
       }
     },
     {
@@ -7187,7 +7683,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kitty Hawk"
+        "site_name": "Kitty Hawk",
+        "site_id": "KTHWK"
       }
     },
     {
@@ -7200,7 +7697,8 @@
         ]
       },
       "properties": {
-        "site_name": "Beaufort"
+        "site_name": "Beaufort",
+        "site_id": "BFRTT"
       }
     },
     {
@@ -7213,7 +7711,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mobridge"
+        "site_name": "Mobridge",
+        "site_id": "MBRDG"
       }
     },
     {
@@ -7226,7 +7725,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kemmerer"
+        "site_name": "Kemmerer",
+        "site_id": "KMMRR"
       }
     },
     {
@@ -7239,7 +7739,8 @@
         ]
       },
       "properties": {
-        "site_name": "Greenville"
+        "site_name": "Greenville",
+        "site_id": "GRVMS"
       }
     },
     {
@@ -7252,7 +7753,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kuujjuaq"
+        "site_name": "Kuujjuaq",
+        "site_id": "KUJJQ"
       }
     },
     {
@@ -7265,7 +7767,8 @@
         ]
       },
       "properties": {
-        "site_name": "Paris"
+        "site_name": "Paris",
+        "site_id": "PARIS"
       }
     },
     {
@@ -7278,7 +7781,8 @@
         ]
       },
       "properties": {
-        "site_name": "Marseille"
+        "site_name": "Marseille",
+        "site_id": "MRSEL"
       }
     },
     {
@@ -7291,7 +7795,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lyon"
+        "site_name": "Lyon",
+        "site_id": "LYONN"
       }
     },
     {
@@ -7304,7 +7809,8 @@
         ]
       },
       "properties": {
-        "site_name": "Toulouse"
+        "site_name": "Toulouse",
+        "site_id": "TULSE"
       }
     },
     {
@@ -7317,7 +7823,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nice"
+        "site_name": "Nice",
+        "site_id": "NICEE"
       }
     },
     {
@@ -7330,7 +7837,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nantes"
+        "site_name": "Nantes",
+        "site_id": "NNTES"
       }
     },
     {
@@ -7343,7 +7851,8 @@
         ]
       },
       "properties": {
-        "site_name": "Montpellier"
+        "site_name": "Montpellier",
+        "site_id": "MTPLR"
       }
     },
     {
@@ -7356,7 +7865,8 @@
         ]
       },
       "properties": {
-        "site_name": "Strasbourg"
+        "site_name": "Strasbourg",
+        "site_id": "STRBG"
       }
     },
     {
@@ -7369,7 +7879,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bordeaux"
+        "site_name": "Bordeaux",
+        "site_id": "BORDX"
       }
     },
     {
@@ -7382,7 +7893,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lille"
+        "site_name": "Lille",
+        "site_id": "LILLE"
       }
     },
     {
@@ -7395,7 +7907,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rennes"
+        "site_name": "Rennes",
+        "site_id": "RENNS"
       }
     },
     {
@@ -7408,7 +7921,8 @@
         ]
       },
       "properties": {
-        "site_name": "Reims"
+        "site_name": "Reims",
+        "site_id": "REIMS"
       }
     },
     {
@@ -7421,7 +7935,8 @@
         ]
       },
       "properties": {
-        "site_name": "Paris/Creteil"
+        "site_name": "Paris/Creteil",
+        "site_id": "PRCRT"
       }
     },
     {
@@ -7434,7 +7949,8 @@
         ]
       },
       "properties": {
-        "site_name": "Le Havre"
+        "site_name": "Le Havre",
+        "site_id": "LHAVR"
       }
     },
     {
@@ -7447,7 +7963,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dijon"
+        "site_name": "Dijon",
+        "site_id": "DIJON"
       }
     },
     {
@@ -7460,7 +7977,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint-Denis"
+        "site_name": "Saint-Denis",
+        "site_id": "STDNS"
       }
     },
     {
@@ -7473,7 +7991,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint-Pierre"
+        "site_name": "Saint-Pierre",
+        "site_id": "STPRE"
       }
     },
     {
@@ -7486,7 +8005,8 @@
         ]
       },
       "properties": {
-        "site_name": "Clermont-Ferrand"
+        "site_name": "Clermont-Ferrand",
+        "site_id": "CLMFR"
       }
     },
     {
@@ -7499,7 +8019,8 @@
         ]
       },
       "properties": {
-        "site_name": "Le Mans"
+        "site_name": "Le Mans",
+        "site_id": "LMANS"
       }
     },
     {
@@ -7512,7 +8033,8 @@
         ]
       },
       "properties": {
-        "site_name": "Brest"
+        "site_name": "Brest",
+        "site_id": "BREST"
       }
     },
     {
@@ -7525,7 +8047,8 @@
         ]
       },
       "properties": {
-        "site_name": "Limoges"
+        "site_name": "Limoges",
+        "site_id": "LMGES"
       }
     },
     {
@@ -7538,7 +8061,8 @@
         ]
       },
       "properties": {
-        "site_name": "Perpignan"
+        "site_name": "Perpignan",
+        "site_id": "PRPGN"
       }
     },
     {
@@ -7551,7 +8075,8 @@
         ]
       },
       "properties": {
-        "site_name": "Metz"
+        "site_name": "Metz",
+        "site_id": "METZZ"
       }
     },
     {
@@ -7564,7 +8089,8 @@
         ]
       },
       "properties": {
-        "site_name": "Orleans"
+        "site_name": "Orleans",
+        "site_id": "ORLNS"
       }
     },
     {
@@ -7577,7 +8103,8 @@
         ]
       },
       "properties": {
-        "site_name": "Marquette"
+        "site_name": "Marquette",
+        "site_id": "MRQTE"
       }
     },
     {
@@ -7590,7 +8117,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dublin"
+        "site_name": "Dublin",
+        "site_id": "DUBLN"
       }
     },
     {
@@ -7603,7 +8131,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cork"
+        "site_name": "Cork",
+        "site_id": "CORKK"
       }
     },
     {
@@ -7616,7 +8145,8 @@
         ]
       },
       "properties": {
-        "site_name": "Galway"
+        "site_name": "Galway",
+        "site_id": "GALWY"
       }
     },
     {
@@ -7629,7 +8159,8 @@
         ]
       },
       "properties": {
-        "site_name": "Belfast"
+        "site_name": "Belfast",
+        "site_id": "BLFST"
       }
     },
     {
@@ -7642,7 +8173,8 @@
         ]
       },
       "properties": {
-        "site_name": "Londonderry"
+        "site_name": "Londonderry",
+        "site_id": "LNDRY"
       }
     },
     {
@@ -7655,7 +8187,8 @@
         ]
       },
       "properties": {
-        "site_name": "Berlin/Schonefeld"
+        "site_name": "Berlin/Schonefeld",
+        "site_id": "BLNSF"
       }
     },
     {
@@ -7668,7 +8201,8 @@
         ]
       },
       "properties": {
-        "site_name": "Berlin"
+        "site_name": "Berlin",
+        "site_id": "BRLIN"
       }
     },
     {
@@ -7681,7 +8215,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hamburg"
+        "site_name": "Hamburg",
+        "site_id": "HMBRG"
       }
     },
     {
@@ -7694,7 +8229,8 @@
         ]
       },
       "properties": {
-        "site_name": "Munich"
+        "site_name": "Munich",
+        "site_id": "MNICH"
       }
     },
     {
@@ -7707,7 +8243,8 @@
         ]
       },
       "properties": {
-        "site_name": "Frankfurt"
+        "site_name": "Frankfurt",
+        "site_id": "FRNKF"
       }
     },
     {
@@ -7720,7 +8257,8 @@
         ]
       },
       "properties": {
-        "site_name": "Stuttgart"
+        "site_name": "Stuttgart",
+        "site_id": "STTGT"
       }
     },
     {
@@ -7733,7 +8271,8 @@
         ]
       },
       "properties": {
-        "site_name": "Leipzig"
+        "site_name": "Leipzig",
+        "site_id": "LEPZG"
       }
     },
     {
@@ -7746,7 +8285,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hanover"
+        "site_name": "Hanover",
+        "site_id": "HNVRR"
       }
     },
     {
@@ -7759,7 +8299,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nuremberg"
+        "site_name": "Nuremberg",
+        "site_id": "NRMBG"
       }
     },
     {
@@ -7772,7 +8313,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cologne"
+        "site_name": "Cologne",
+        "site_id": "CLGNE"
       }
     },
     {
@@ -7785,7 +8327,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dortmund"
+        "site_name": "Dortmund",
+        "site_id": "DRTMD"
       }
     },
     {
@@ -7798,7 +8341,8 @@
         ]
       },
       "properties": {
-        "site_name": "Amsterdam"
+        "site_name": "Amsterdam",
+        "site_id": "AMSRD"
       }
     },
     {
@@ -7811,7 +8355,8 @@
         ]
       },
       "properties": {
-        "site_name": "Groningen"
+        "site_name": "Groningen",
+        "site_id": "GRNGN"
       }
     },
     {
@@ -7824,7 +8369,8 @@
         ]
       },
       "properties": {
-        "site_name": "Brussels"
+        "site_name": "Brussels",
+        "site_id": "BRSSL"
       }
     },
     {
@@ -7837,7 +8383,8 @@
         ]
       },
       "properties": {
-        "site_name": "Stralsund/Rostock"
+        "site_name": "Stralsund/Rostock",
+        "site_id": "STRST"
       }
     },
     {
@@ -7850,7 +8397,8 @@
         ]
       },
       "properties": {
-        "site_name": "Copenhagen"
+        "site_name": "Copenhagen",
+        "site_id": "CPNHG"
       }
     },
     {
@@ -7863,7 +8411,8 @@
         ]
       },
       "properties": {
-        "site_name": "Herning"
+        "site_name": "Herning",
+        "site_id": "HRNGN"
       }
     },
     {
@@ -7876,7 +8425,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rome"
+        "site_name": "Rome",
+        "site_id": "ROMEE"
       }
     },
     {
@@ -7889,7 +8439,8 @@
         ]
       },
       "properties": {
-        "site_name": "Milan"
+        "site_name": "Milan",
+        "site_id": "MILAN"
       }
     },
     {
@@ -7902,7 +8453,8 @@
         ]
       },
       "properties": {
-        "site_name": "Naples"
+        "site_name": "Naples",
+        "site_id": "NAPLS"
       }
     },
     {
@@ -7915,7 +8467,8 @@
         ]
       },
       "properties": {
-        "site_name": "Turin"
+        "site_name": "Turin",
+        "site_id": "TURIN"
       }
     },
     {
@@ -7928,7 +8481,8 @@
         ]
       },
       "properties": {
-        "site_name": "Palermo"
+        "site_name": "Palermo",
+        "site_id": "PLRMO"
       }
     },
     {
@@ -7941,7 +8495,8 @@
         ]
       },
       "properties": {
-        "site_name": "Genoa"
+        "site_name": "Genoa",
+        "site_id": "GENOA"
       }
     },
     {
@@ -7954,7 +8509,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bologna"
+        "site_name": "Bologna",
+        "site_id": "BLGNA"
       }
     },
     {
@@ -7967,7 +8523,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bari"
+        "site_name": "Bari",
+        "site_id": "BARII"
       }
     },
     {
@@ -7980,7 +8537,8 @@
         ]
       },
       "properties": {
-        "site_name": "Catania"
+        "site_name": "Catania",
+        "site_id": "CATNA"
       }
     },
     {
@@ -7993,7 +8551,8 @@
         ]
       },
       "properties": {
-        "site_name": "Perugia"
+        "site_name": "Perugia",
+        "site_id": "PRUGA"
       }
     },
     {
@@ -8006,7 +8565,8 @@
         ]
       },
       "properties": {
-        "site_name": "Crotone"
+        "site_name": "Crotone",
+        "site_id": "CRTNE"
       }
     },
     {
@@ -8019,7 +8579,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cagliari"
+        "site_name": "Cagliari",
+        "site_id": "CGLRI"
       }
     },
     {
@@ -8032,7 +8593,8 @@
         ]
       },
       "properties": {
-        "site_name": "Olbia"
+        "site_name": "Olbia",
+        "site_id": "OLBIA"
       }
     },
     {
@@ -8045,7 +8607,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bastia"
+        "site_name": "Bastia",
+        "site_id": "BSTIA"
       }
     },
     {
@@ -8058,7 +8621,8 @@
         ]
       },
       "properties": {
-        "site_name": "Paphos"
+        "site_name": "Paphos",
+        "site_id": "PAPHS"
       }
     },
     {
@@ -8071,7 +8635,8 @@
         ]
       },
       "properties": {
-        "site_name": "Larnaca"
+        "site_name": "Larnaca",
+        "site_id": "LRNCA"
       }
     },
     {
@@ -8084,7 +8649,8 @@
         ]
       },
       "properties": {
-        "site_name": "Oslo"
+        "site_name": "Oslo",
+        "site_id": "OSLOO"
       }
     },
     {
@@ -8097,7 +8663,8 @@
         ]
       },
       "properties": {
-        "site_name": "Venice"
+        "site_name": "Venice",
+        "site_id": "VENCE"
       }
     },
     {
@@ -8110,7 +8677,8 @@
         ]
       },
       "properties": {
-        "site_name": "Vestmannaeyjar"
+        "site_name": "Vestmannaeyjar",
+        "site_id": "VSTMN"
       }
     },
     {
@@ -8123,7 +8691,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kirkjubaejarklaustur"
+        "site_name": "Kirkjubaejarklaustur",
+        "site_id": "KRKBC"
       }
     },
     {
@@ -8136,7 +8705,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bergen"
+        "site_name": "Bergen",
+        "site_id": "BRGEN"
       }
     },
     {
@@ -8149,7 +8719,8 @@
         ]
       },
       "properties": {
-        "site_name": "Stavanger"
+        "site_name": "Stavanger",
+        "site_id": "STVNG"
       }
     },
     {
@@ -8162,7 +8733,8 @@
         ]
       },
       "properties": {
-        "site_name": "Trondheim"
+        "site_name": "Trondheim",
+        "site_id": "TRNDH"
       }
     },
     {
@@ -8175,7 +8747,8 @@
         ]
       },
       "properties": {
-        "site_name": "Skien"
+        "site_name": "Skien",
+        "site_id": "SKIEN"
       }
     },
     {
@@ -8188,7 +8761,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kristiansand"
+        "site_name": "Kristiansand",
+        "site_id": "KRTND"
       }
     },
     {
@@ -8201,7 +8775,8 @@
         ]
       },
       "properties": {
-        "site_name": "Alesund"
+        "site_name": "Alesund",
+        "site_id": "ALSND"
       }
     },
     {
@@ -8214,7 +8789,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kirkenes"
+        "site_name": "Kirkenes",
+        "site_id": "KRKNS"
       }
     },
     {
@@ -8227,7 +8803,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bodo"
+        "site_name": "Bodo",
+        "site_id": "BODOO"
       }
     },
     {
@@ -8240,7 +8817,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tromso"
+        "site_name": "Tromso",
+        "site_id": "TRMSO"
       }
     },
     {
@@ -8253,7 +8831,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ironwood"
+        "site_name": "Ironwood",
+        "site_id": "IRNWD"
       }
     },
     {
@@ -8266,7 +8845,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rhinelander"
+        "site_name": "Rhinelander",
+        "site_id": "RHNLD"
       }
     },
     {
@@ -8279,7 +8859,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pasco/Kennewick"
+        "site_name": "Pasco/Kennewick",
+        "site_id": "PSKNW"
       }
     },
     {
@@ -8292,7 +8873,8 @@
         ]
       },
       "properties": {
-        "site_name": "Escanaba"
+        "site_name": "Escanaba",
+        "site_id": "ESCNB"
       }
     },
     {
@@ -8305,7 +8887,8 @@
         ]
       },
       "properties": {
-        "site_name": "Namsos"
+        "site_name": "Namsos",
+        "site_id": "NAMSO"
       }
     },
     {
@@ -8318,7 +8901,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bronnoysund"
+        "site_name": "Bronnoysund",
+        "site_id": "BRNSY"
       }
     },
     {
@@ -8331,7 +8915,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mo I Rana"
+        "site_name": "Mo I Rana",
+        "site_id": "MOIRA"
       }
     },
     {
@@ -8344,7 +8929,8 @@
         ]
       },
       "properties": {
-        "site_name": "Harstad/Narvik"
+        "site_name": "Harstad/Narvik",
+        "site_id": "HRNVK"
       }
     },
     {
@@ -8357,7 +8943,8 @@
         ]
       },
       "properties": {
-        "site_name": "Alta"
+        "site_name": "Alta",
+        "site_id": "ALTAA"
       }
     },
     {
@@ -8370,7 +8957,8 @@
         ]
       },
       "properties": {
-        "site_name": "Stockholm"
+        "site_name": "Stockholm",
+        "site_id": "STKHM"
       }
     },
     {
@@ -8383,7 +8971,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gothenburg"
+        "site_name": "Gothenburg",
+        "site_id": "GTHNB"
       }
     },
     {
@@ -8396,7 +8985,8 @@
         ]
       },
       "properties": {
-        "site_name": "Malmo"
+        "site_name": "Malmo",
+        "site_id": "MALMO"
       }
     },
     {
@@ -8409,7 +8999,8 @@
         ]
       },
       "properties": {
-        "site_name": "Orebro"
+        "site_name": "Orebro",
+        "site_id": "OREBR"
       }
     },
     {
@@ -8422,7 +9013,8 @@
         ]
       },
       "properties": {
-        "site_name": "Linkoping"
+        "site_name": "Linkoping",
+        "site_id": "LNKPG"
       }
     },
     {
@@ -8435,7 +9027,8 @@
         ]
       },
       "properties": {
-        "site_name": "Jonkoping"
+        "site_name": "Jonkoping",
+        "site_id": "JNKPG"
       }
     },
     {
@@ -8448,7 +9041,8 @@
         ]
       },
       "properties": {
-        "site_name": "Umea"
+        "site_name": "Umea",
+        "site_id": "UMEAA"
       }
     },
     {
@@ -8461,7 +9055,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kiruna"
+        "site_name": "Kiruna",
+        "site_id": "KIRUN"
       }
     },
     {
@@ -8474,7 +9069,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lulea"
+        "site_name": "Lulea",
+        "site_id": "LULEA"
       }
     },
     {
@@ -8487,7 +9083,8 @@
         ]
       },
       "properties": {
-        "site_name": "Vilhelmina"
+        "site_name": "Vilhelmina",
+        "site_id": "VLHMN"
       }
     },
     {
@@ -8500,7 +9097,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kalmar"
+        "site_name": "Kalmar",
+        "site_id": "KLMAR"
       }
     },
     {
@@ -8513,7 +9111,8 @@
         ]
       },
       "properties": {
-        "site_name": "Vaxjo"
+        "site_name": "Vaxjo",
+        "site_id": "VAXJO"
       }
     },
     {
@@ -8526,7 +9125,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ostersund"
+        "site_name": "Ostersund",
+        "site_id": "OSTRS"
       }
     },
     {
@@ -8539,7 +9139,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sundsvall"
+        "site_name": "Sundsvall",
+        "site_id": "SNDVL"
       }
     },
     {
@@ -8552,7 +9153,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sveg"
+        "site_name": "Sveg",
+        "site_id": "SVEGG"
       }
     },
     {
@@ -8565,7 +9167,8 @@
         ]
       },
       "properties": {
-        "site_name": "Norfolk Island"
+        "site_name": "Norfolk Island",
+        "site_id": "NRFLK"
       }
     },
     {
@@ -8578,7 +9181,8 @@
         ]
       },
       "properties": {
-        "site_name": "Guam"
+        "site_name": "Guam",
+        "site_id": "GUAMM"
       }
     },
     {
@@ -8591,7 +9195,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saipan"
+        "site_name": "Saipan",
+        "site_id": "SAPAN"
       }
     },
     {
@@ -8604,7 +9209,8 @@
         ]
       },
       "properties": {
-        "site_name": "Palau"
+        "site_name": "Palau",
+        "site_id": "PALAU"
       }
     },
     {
@@ -8617,7 +9223,8 @@
         ]
       },
       "properties": {
-        "site_name": "Yap"
+        "site_name": "Yap",
+        "site_id": "YAPPP"
       }
     },
     {
@@ -8630,7 +9237,8 @@
         ]
       },
       "properties": {
-        "site_name": "American Samoa"
+        "site_name": "American Samoa",
+        "site_id": "ASAMO"
       }
     },
     {
@@ -8643,7 +9251,8 @@
         ]
       },
       "properties": {
-        "site_name": "Auckland"
+        "site_name": "Auckland",
+        "site_id": "ACKLD"
       }
     },
     {
@@ -8656,7 +9265,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wellington"
+        "site_name": "Wellington",
+        "site_id": "WLTUN"
       }
     },
     {
@@ -8669,7 +9279,8 @@
         ]
       },
       "properties": {
-        "site_name": "Christchurch"
+        "site_name": "Christchurch",
+        "site_id": "CHCHH"
       }
     },
     {
@@ -8682,7 +9293,8 @@
         ]
       },
       "properties": {
-        "site_name": "N. Auckland"
+        "site_name": "N. Auckland",
+        "site_id": "NACKL"
       }
     },
     {
@@ -8695,7 +9307,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hamilton"
+        "site_name": "Hamilton",
+        "site_id": "HMLTN"
       }
     },
     {
@@ -8708,7 +9321,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dunedin"
+        "site_name": "Dunedin",
+        "site_id": "DNDIN"
       }
     },
     {
@@ -8721,7 +9335,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tauranga"
+        "site_name": "Tauranga",
+        "site_id": "TRNGA"
       }
     },
     {
@@ -8734,7 +9349,8 @@
         ]
       },
       "properties": {
-        "site_name": "Palmerston North"
+        "site_name": "Palmerston North",
+        "site_id": "PLMTN"
       }
     },
     {
@@ -8747,7 +9363,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hastings"
+        "site_name": "Hastings",
+        "site_id": "HSTNG"
       }
     },
     {
@@ -8760,7 +9377,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nelson"
+        "site_name": "Nelson",
+        "site_id": "NLSON"
       }
     },
     {
@@ -8773,7 +9391,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gisborne"
+        "site_name": "Gisborne",
+        "site_id": "GSBRN"
       }
     },
     {
@@ -8786,7 +9405,8 @@
         ]
       },
       "properties": {
-        "site_name": "New Plymouth"
+        "site_name": "New Plymouth",
+        "site_id": "NWPLY"
       }
     },
     {
@@ -8799,7 +9419,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kaitaia"
+        "site_name": "Kaitaia",
+        "site_id": "KATIA"
       }
     },
     {
@@ -8812,7 +9433,8 @@
         ]
       },
       "properties": {
-        "site_name": "Whangarei"
+        "site_name": "Whangarei",
+        "site_id": "WHNGR"
       }
     },
     {
@@ -8825,7 +9447,8 @@
         ]
       },
       "properties": {
-        "site_name": "Invercargill"
+        "site_name": "Invercargill",
+        "site_id": "INVCG"
       }
     },
     {
@@ -8838,7 +9461,8 @@
         ]
       },
       "properties": {
-        "site_name": "Queenstown"
+        "site_name": "Queenstown",
+        "site_id": "QNSTN"
       }
     },
     {
@@ -8851,7 +9475,8 @@
         ]
       },
       "properties": {
-        "site_name": "Greymouth"
+        "site_name": "Greymouth",
+        "site_id": "GRMTH"
       }
     },
     {
@@ -8864,7 +9489,8 @@
         ]
       },
       "properties": {
-        "site_name": "Timaru"
+        "site_name": "Timaru",
+        "site_id": "TMARU"
       }
     },
     {
@@ -8877,7 +9503,8 @@
         ]
       },
       "properties": {
-        "site_name": "Grenada"
+        "site_name": "Grenada",
+        "site_id": "GRNDA"
       }
     },
     {
@@ -8890,7 +9517,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dominica"
+        "site_name": "Dominica",
+        "site_id": "DMNCA"
       }
     },
     {
@@ -8903,7 +9531,8 @@
         ]
       },
       "properties": {
-        "site_name": "Anguilla"
+        "site_name": "Anguilla",
+        "site_id": "ANGUL"
       }
     },
     {
@@ -8916,7 +9545,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint Lucia"
+        "site_name": "Saint Lucia",
+        "site_id": "STLCA"
       }
     },
     {
@@ -8929,7 +9559,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sao Paulo"
+        "site_name": "Sao Paulo",
+        "site_id": "SAOPL"
       }
     },
     {
@@ -8942,7 +9573,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rio de Janeiro"
+        "site_name": "Rio de Janeiro",
+        "site_id": "RDEJN"
       }
     },
     {
@@ -8955,7 +9587,8 @@
         ]
       },
       "properties": {
-        "site_name": "Belo Horizonte"
+        "site_name": "Belo Horizonte",
+        "site_id": "BLHZT"
       }
     },
     {
@@ -8968,7 +9601,8 @@
         ]
       },
       "properties": {
-        "site_name": "Brasilia"
+        "site_name": "Brasilia",
+        "site_id": "BRSLA"
       }
     },
     {
@@ -8981,7 +9615,8 @@
         ]
       },
       "properties": {
-        "site_name": "Recife"
+        "site_name": "Recife",
+        "site_id": "RECIF"
       }
     },
     {
@@ -8994,7 +9629,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fortaleza"
+        "site_name": "Fortaleza",
+        "site_id": "FRTLZ"
       }
     },
     {
@@ -9007,7 +9643,8 @@
         ]
       },
       "properties": {
-        "site_name": "Porto Alegre"
+        "site_name": "Porto Alegre",
+        "site_id": "PTALG"
       }
     },
     {
@@ -9020,7 +9657,8 @@
         ]
       },
       "properties": {
-        "site_name": "Salvador"
+        "site_name": "Salvador",
+        "site_id": "SLVDR"
       }
     },
     {
@@ -9033,7 +9671,8 @@
         ]
       },
       "properties": {
-        "site_name": "Curitiba"
+        "site_name": "Curitiba",
+        "site_id": "CRTBA"
       }
     },
     {
@@ -9046,7 +9685,8 @@
         ]
       },
       "properties": {
-        "site_name": "Campinas"
+        "site_name": "Campinas",
+        "site_id": "CMPNS"
       }
     },
     {
@@ -9059,7 +9699,8 @@
         ]
       },
       "properties": {
-        "site_name": "Goiania"
+        "site_name": "Goiania",
+        "site_id": "GOIAN"
       }
     },
     {
@@ -9072,7 +9713,8 @@
         ]
       },
       "properties": {
-        "site_name": "Belem"
+        "site_name": "Belem",
+        "site_id": "BELEM"
       }
     },
     {
@@ -9085,7 +9727,8 @@
         ]
       },
       "properties": {
-        "site_name": "Noumea"
+        "site_name": "Noumea",
+        "site_id": "NOUMA"
       }
     },
     {
@@ -9098,7 +9741,8 @@
         ]
       },
       "properties": {
-        "site_name": "Noumea/Tontouta"
+        "site_name": "Noumea/Tontouta",
+        "site_id": "NOTNT"
       }
     },
     {
@@ -9111,7 +9755,8 @@
         ]
       },
       "properties": {
-        "site_name": "Koumac"
+        "site_name": "Koumac",
+        "site_id": "KOMAC"
       }
     },
     {
@@ -9124,7 +9769,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kone"
+        "site_name": "Kone",
+        "site_id": "KONEE"
       }
     },
     {
@@ -9137,7 +9783,8 @@
         ]
       },
       "properties": {
-        "site_name": "Canala"
+        "site_name": "Canala",
+        "site_id": "CANLA"
       }
     },
     {
@@ -9150,7 +9797,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lifou Island"
+        "site_name": "Lifou Island",
+        "site_id": "LFISL"
       }
     },
     {
@@ -9163,7 +9811,8 @@
         ]
       },
       "properties": {
-        "site_name": "Suva"
+        "site_name": "Suva",
+        "site_id": "SUVAA"
       }
     },
     {
@@ -9176,7 +9825,8 @@
         ]
       },
       "properties": {
-        "site_name": "Labasa"
+        "site_name": "Labasa",
+        "site_id": "LABSA"
       }
     },
     {
@@ -9189,7 +9839,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nadi"
+        "site_name": "Nadi",
+        "site_id": "NADII"
       }
     },
     {
@@ -9202,7 +9853,8 @@
         ]
       },
       "properties": {
-        "site_name": "Waterford"
+        "site_name": "Waterford",
+        "site_id": "WTRFD"
       }
     },
     {
@@ -9215,7 +9867,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kassel"
+        "site_name": "Kassel",
+        "site_id": "KASSL"
       }
     },
     {
@@ -9228,7 +9881,8 @@
         ]
       },
       "properties": {
-        "site_name": "Manaus"
+        "site_name": "Manaus",
+        "site_id": "MANUS"
       }
     },
     {
@@ -9241,7 +9895,8 @@
         ]
       },
       "properties": {
-        "site_name": "Natal"
+        "site_name": "Natal",
+        "site_id": "NATAL"
       }
     },
     {
@@ -9254,7 +9909,8 @@
         ]
       },
       "properties": {
-        "site_name": "Joao Pessoa"
+        "site_name": "Joao Pessoa",
+        "site_id": "JOPSS"
       }
     },
     {
@@ -9267,7 +9923,8 @@
         ]
       },
       "properties": {
-        "site_name": "Maceio"
+        "site_name": "Maceio",
+        "site_id": "MACIO"
       }
     },
     {
@@ -9280,7 +9937,8 @@
         ]
       },
       "properties": {
-        "site_name": "Joinville"
+        "site_name": "Joinville",
+        "site_id": "JNVIL"
       }
     },
     {
@@ -9293,7 +9951,8 @@
         ]
       },
       "properties": {
-        "site_name": "Florianopolis"
+        "site_name": "Florianopolis",
+        "site_id": "FLRNP"
       }
     },
     {
@@ -9306,7 +9965,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sao Luis"
+        "site_name": "Sao Luis",
+        "site_id": "SAOLS"
       }
     },
     {
@@ -9319,7 +9979,8 @@
         ]
       },
       "properties": {
-        "site_name": "Aracaju"
+        "site_name": "Aracaju",
+        "site_id": "ARCJU"
       }
     },
     {
@@ -9332,7 +9993,8 @@
         ]
       },
       "properties": {
-        "site_name": "Teresina"
+        "site_name": "Teresina",
+        "site_id": "TRSIN"
       }
     },
     {
@@ -9345,7 +10007,8 @@
         ]
       },
       "properties": {
-        "site_name": "Campo Grande"
+        "site_name": "Campo Grande",
+        "site_id": "CMPGR"
       }
     },
     {
@@ -9358,7 +10021,8 @@
         ]
       },
       "properties": {
-        "site_name": "Londrina"
+        "site_name": "Londrina",
+        "site_id": "LNDRN"
       }
     },
     {
@@ -9371,7 +10035,8 @@
         ]
       },
       "properties": {
-        "site_name": "Santos"
+        "site_name": "Santos",
+        "site_id": "SNTSO"
       }
     },
     {
@@ -9384,7 +10049,8 @@
         ]
       },
       "properties": {
-        "site_name": "Uberlandia"
+        "site_name": "Uberlandia",
+        "site_id": "UBRLD"
       }
     },
     {
@@ -9397,7 +10063,8 @@
         ]
       },
       "properties": {
-        "site_name": "Feira de Santana"
+        "site_name": "Feira de Santana",
+        "site_id": "FRSNT"
       }
     },
     {
@@ -9410,7 +10077,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cuiaba"
+        "site_name": "Cuiaba",
+        "site_id": "CUIBA"
       }
     },
     {
@@ -9423,7 +10091,8 @@
         ]
       },
       "properties": {
-        "site_name": "Juiz de Fora"
+        "site_name": "Juiz de Fora",
+        "site_id": "JZDFR"
       }
     },
     {
@@ -9436,7 +10105,8 @@
         ]
       },
       "properties": {
-        "site_name": "Porto Velho"
+        "site_name": "Porto Velho",
+        "site_id": "PTVLH"
       }
     },
     {
@@ -9449,7 +10119,8 @@
         ]
       },
       "properties": {
-        "site_name": "Serra"
+        "site_name": "Serra",
+        "site_id": "SERRA"
       }
     },
     {
@@ -9462,7 +10133,8 @@
         ]
       },
       "properties": {
-        "site_name": "Macapa"
+        "site_name": "Macapa",
+        "site_id": "MACPA"
       }
     },
     {
@@ -9475,7 +10147,8 @@
         ]
       },
       "properties": {
-        "site_name": "Caxias do Sul"
+        "site_name": "Caxias do Sul",
+        "site_id": "CXDSL"
       }
     },
     {
@@ -9488,7 +10161,8 @@
         ]
       },
       "properties": {
-        "site_name": "Petrolina"
+        "site_name": "Petrolina",
+        "site_id": "PTRLN"
       }
     },
     {
@@ -9501,7 +10175,8 @@
         ]
       },
       "properties": {
-        "site_name": "Maringa"
+        "site_name": "Maringa",
+        "site_id": "MRNGA"
       }
     },
     {
@@ -9514,7 +10189,8 @@
         ]
       },
       "properties": {
-        "site_name": "Montes Claros"
+        "site_name": "Montes Claros",
+        "site_id": "MTCLR"
       }
     },
     {
@@ -9527,7 +10203,8 @@
         ]
       },
       "properties": {
-        "site_name": "Campina Grande"
+        "site_name": "Campina Grande",
+        "site_id": "CMPGG"
       }
     },
     {
@@ -9540,7 +10217,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rio Branco"
+        "site_name": "Rio Branco",
+        "site_id": "RBRNC"
       }
     },
     {
@@ -9553,7 +10231,8 @@
         ]
       },
       "properties": {
-        "site_name": "Campos dos Goytacazes"
+        "site_name": "Campos dos Goytacazes",
+        "site_id": "CMPGY"
       }
     },
     {
@@ -9566,7 +10245,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ribeirao Preto"
+        "site_name": "Ribeirao Preto",
+        "site_id": "RBRPT"
       }
     },
     {
@@ -9579,7 +10259,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sao Jose do Rio Preto"
+        "site_name": "Sao Jose do Rio Preto",
+        "site_id": "SJRPR"
       }
     },
     {
@@ -9592,7 +10273,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bauru"
+        "site_name": "Bauru",
+        "site_id": "BAURU"
       }
     },
     {
@@ -9605,7 +10287,8 @@
         ]
       },
       "properties": {
-        "site_name": "Boa Vista"
+        "site_name": "Boa Vista",
+        "site_id": "BOAVS"
       }
     },
     {
@@ -9618,7 +10301,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rio de Janeiro"
+        "site_name": "Rio de Janeiro",
+        "site_id": "RJANE"
       }
     },
     {
@@ -9631,7 +10315,8 @@
         ]
       },
       "properties": {
-        "site_name": "Caruaru"
+        "site_name": "Caruaru",
+        "site_id": "CRUAR"
       }
     },
     {
@@ -9644,7 +10329,8 @@
         ]
       },
       "properties": {
-        "site_name": "Vitoria da Conquista"
+        "site_name": "Vitoria da Conquista",
+        "site_id": "VTDCN"
       }
     },
     {
@@ -9657,7 +10343,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pelotas"
+        "site_name": "Pelotas",
+        "site_id": "PLTAS"
       }
     },
     {
@@ -9670,7 +10357,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cascavel"
+        "site_name": "Cascavel",
+        "site_id": "CSCVL"
       }
     },
     {
@@ -9683,7 +10371,8 @@
         ]
       },
       "properties": {
-        "site_name": "Santarem"
+        "site_name": "Santarem",
+        "site_id": "SNTRM"
       }
     },
     {
@@ -9696,7 +10385,8 @@
         ]
       },
       "properties": {
-        "site_name": "Palmas"
+        "site_name": "Palmas",
+        "site_id": "PLMAS"
       }
     },
     {
@@ -9709,7 +10399,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mossoro"
+        "site_name": "Mossoro",
+        "site_id": "MOSSR"
       }
     },
     {
@@ -9722,7 +10413,8 @@
         ]
       },
       "properties": {
-        "site_name": "Santa Maria"
+        "site_name": "Santa Maria",
+        "site_id": "SMBRZ"
       }
     },
     {
@@ -9735,7 +10427,8 @@
         ]
       },
       "properties": {
-        "site_name": "Maraba"
+        "site_name": "Maraba",
+        "site_id": "MARAB"
       }
     },
     {
@@ -9748,7 +10441,8 @@
         ]
       },
       "properties": {
-        "site_name": "Governador Valadares"
+        "site_name": "Governador Valadares",
+        "site_id": "GVLDR"
       }
     },
     {
@@ -9761,7 +10455,8 @@
         ]
       },
       "properties": {
-        "site_name": "Juazeiro do Norte"
+        "site_name": "Juazeiro do Norte",
+        "site_id": "JZDNR"
       }
     },
     {
@@ -9774,7 +10469,8 @@
         ]
       },
       "properties": {
-        "site_name": "Imperatriz"
+        "site_name": "Imperatriz",
+        "site_id": "IMPRZ"
       }
     },
     {
@@ -9787,7 +10483,8 @@
         ]
       },
       "properties": {
-        "site_name": "Myrtle Beach"
+        "site_name": "Myrtle Beach",
+        "site_id": "MYRTL"
       }
     },
     {
@@ -9800,7 +10497,8 @@
         ]
       },
       "properties": {
-        "site_name": "Martinique"
+        "site_name": "Martinique",
+        "site_id": "MRTNQ"
       }
     },
     {
@@ -9813,7 +10511,8 @@
         ]
       },
       "properties": {
-        "site_name": "Guadeloupe"
+        "site_name": "Guadeloupe",
+        "site_id": "GUDLP"
       }
     },
     {
@@ -9826,7 +10525,8 @@
         ]
       },
       "properties": {
-        "site_name": "Malta"
+        "site_name": "Malta",
+        "site_id": "MALTA"
       }
     },
     {
@@ -9839,7 +10539,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bornholm"
+        "site_name": "Bornholm",
+        "site_id": "BRNHM"
       }
     },
     {
@@ -9852,7 +10553,8 @@
         ]
       },
       "properties": {
-        "site_name": "Aberdeen"
+        "site_name": "Aberdeen",
+        "site_id": "ABRWA"
       }
     },
     {
@@ -9865,7 +10567,8 @@
         ]
       },
       "properties": {
-        "site_name": "Astoria"
+        "site_name": "Astoria",
+        "site_id": "ASTRA"
       }
     },
     {
@@ -9878,7 +10581,8 @@
         ]
       },
       "properties": {
-        "site_name": "Coos Bay"
+        "site_name": "Coos Bay",
+        "site_id": "COSBY"
       }
     },
     {
@@ -9891,7 +10595,8 @@
         ]
       },
       "properties": {
-        "site_name": "Roswell"
+        "site_name": "Roswell",
+        "site_id": "RSWLL"
       }
     },
     {
@@ -9904,7 +10609,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Sumner"
+        "site_name": "Fort Sumner",
+        "site_id": "FTSMN"
       }
     },
     {
@@ -9917,7 +10623,8 @@
         ]
       },
       "properties": {
-        "site_name": "Luxembourg"
+        "site_name": "Luxembourg",
+        "site_id": "LXMBG"
       }
     },
     {
@@ -9930,7 +10637,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint Kitts"
+        "site_name": "Saint Kitts",
+        "site_id": "STKTS"
       }
     },
     {
@@ -9943,7 +10651,8 @@
         ]
       },
       "properties": {
-        "site_name": "Saint Vincent"
+        "site_name": "Saint Vincent",
+        "site_id": "STVNT"
       }
     },
     {
@@ -9956,7 +10665,8 @@
         ]
       },
       "properties": {
-        "site_name": "Piarco"
+        "site_name": "Piarco",
+        "site_id": "PIARC"
       }
     },
     {
@@ -9969,7 +10679,8 @@
         ]
       },
       "properties": {
-        "site_name": "Somerset"
+        "site_name": "Somerset",
+        "site_id": "SMRST"
       }
     },
     {
@@ -9982,7 +10693,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kirksville"
+        "site_name": "Kirksville",
+        "site_id": "KRKVL"
       }
     },
     {
@@ -9995,7 +10707,8 @@
         ]
       },
       "properties": {
-        "site_name": "Burlington"
+        "site_name": "Burlington",
+        "site_id": "BRLGT"
       }
     },
     {
@@ -10008,7 +10721,8 @@
         ]
       },
       "properties": {
-        "site_name": "Quincey"
+        "site_name": "Quincey",
+        "site_id": "QUNCY"
       }
     },
     {
@@ -10021,7 +10735,8 @@
         ]
       },
       "properties": {
-        "site_name": "Victoria"
+        "site_name": "Victoria",
+        "site_id": "VCTRS"
       }
     },
     {
@@ -10034,7 +10749,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bad Axe"
+        "site_name": "Bad Axe",
+        "site_id": "BADAX"
       }
     },
     {
@@ -10047,7 +10763,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ludington"
+        "site_name": "Ludington",
+        "site_id": "LDNGT"
       }
     },
     {
@@ -10060,7 +10777,8 @@
         ]
       },
       "properties": {
-        "site_name": "Glennallen"
+        "site_name": "Glennallen",
+        "site_id": "GLNLN"
       }
     },
     {
@@ -10073,7 +10791,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tok"
+        "site_name": "Tok",
+        "site_id": "TOKAA"
       }
     },
     {
@@ -10086,7 +10805,8 @@
         ]
       },
       "properties": {
-        "site_name": "Yakutat"
+        "site_name": "Yakutat",
+        "site_id": "YKTAT"
       }
     },
     {
@@ -10099,7 +10819,8 @@
         ]
       },
       "properties": {
-        "site_name": "Palmer/Anchorage"
+        "site_name": "Palmer/Anchorage",
+        "site_id": "PMRAN"
       }
     },
     {
@@ -10112,7 +10833,8 @@
         ]
       },
       "properties": {
-        "site_name": "McGrath"
+        "site_name": "McGrath",
+        "site_id": "MCGRT"
       }
     },
     {
@@ -10125,7 +10847,8 @@
         ]
       },
       "properties": {
-        "site_name": "Galena"
+        "site_name": "Galena",
+        "site_id": "GLENA"
       }
     },
     {
@@ -10138,7 +10861,8 @@
         ]
       },
       "properties": {
-        "site_name": "Arctic Village"
+        "site_name": "Arctic Village",
+        "site_id": "ARCVL"
       }
     },
     {
@@ -10151,7 +10875,8 @@
         ]
       },
       "properties": {
-        "site_name": "Merredin"
+        "site_name": "Merredin",
+        "site_id": "MRRDN"
       }
     },
     {
@@ -10164,7 +10889,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nova"
+        "site_name": "Nova",
+        "site_id": "NOVAA"
       }
     },
     {
@@ -10177,7 +10903,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mount Magnet"
+        "site_name": "Mount Magnet",
+        "site_id": "MTMGN"
       }
     },
     {
@@ -10190,7 +10917,8 @@
         ]
       },
       "properties": {
-        "site_name": "Derby"
+        "site_name": "Derby",
+        "site_id": "DERBY"
       }
     },
     {
@@ -10203,7 +10931,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fitzroy Crossing"
+        "site_name": "Fitzroy Crossing",
+        "site_id": "FTZRC"
       }
     },
     {
@@ -10216,7 +10945,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mungalalu-Truscott"
+        "site_name": "Mungalalu-Truscott",
+        "site_id": "MNTRC"
       }
     },
     {
@@ -10229,7 +10959,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kalkarindji/Daguragu"
+        "site_name": "Kalkarindji/Daguragu",
+        "site_id": "KLKDG"
       }
     },
     {
@@ -10242,7 +10973,8 @@
         ]
       },
       "properties": {
-        "site_name": "Borroloola"
+        "site_name": "Borroloola",
+        "site_id": "BRLLA"
       }
     },
     {
@@ -10255,7 +10987,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lake Charles"
+        "site_name": "Lake Charles",
+        "site_id": "LKCHL"
       }
     },
     {
@@ -10268,7 +11001,8 @@
         ]
       },
       "properties": {
-        "site_name": "Beaumont/Port Arthur"
+        "site_name": "Beaumont/Port Arthur",
+        "site_id": "BMPTA"
       }
     },
     {
@@ -10281,7 +11015,8 @@
         ]
       },
       "properties": {
-        "site_name": "Texarkana"
+        "site_name": "Texarkana",
+        "site_id": "TXRKN"
       }
     },
     {
@@ -10294,7 +11029,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mena"
+        "site_name": "Mena",
+        "site_id": "MENAA"
       }
     },
     {
@@ -10307,7 +11043,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lee's Summit"
+        "site_name": "Lee's Summit",
+        "site_id": "LSMIT"
       }
     },
     {
@@ -10320,7 +11057,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chapeco"
+        "site_name": "Chapeco",
+        "site_id": "CHPCO"
       }
     },
     {
@@ -10333,7 +11071,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rondonopolis"
+        "site_name": "Rondonopolis",
+        "site_id": "RNDNP"
       }
     },
     {
@@ -10346,7 +11085,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sinop"
+        "site_name": "Sinop",
+        "site_id": "SINOP"
       }
     },
     {
@@ -10359,7 +11099,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ji-Parana"
+        "site_name": "Ji-Parana",
+        "site_id": "JIPRN"
       }
     },
     {
@@ -10372,7 +11113,8 @@
         ]
       },
       "properties": {
-        "site_name": "Itaituba"
+        "site_name": "Itaituba",
+        "site_id": "ITTBA"
       }
     },
     {
@@ -10385,7 +11127,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tefe"
+        "site_name": "Tefe",
+        "site_id": "TEFEE"
       }
     },
     {
@@ -10398,7 +11141,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sao Gabriel"
+        "site_name": "Sao Gabriel",
+        "site_id": "SNGBR"
       }
     },
     {
@@ -10411,7 +11155,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tabatinga"
+        "site_name": "Tabatinga",
+        "site_id": "TBTNG"
       }
     },
     {
@@ -10424,7 +11169,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rio Verde"
+        "site_name": "Rio Verde",
+        "site_id": "RVRDE"
       }
     },
     {
@@ -10437,7 +11183,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dourados"
+        "site_name": "Dourados",
+        "site_id": "DRDOS"
       }
     },
     {
@@ -10450,7 +11197,8 @@
         ]
       },
       "properties": {
-        "site_name": "Manicore"
+        "site_name": "Manicore",
+        "site_id": "MNCRE"
       }
     },
     {
@@ -10463,7 +11211,8 @@
         ]
       },
       "properties": {
-        "site_name": "Barreiras"
+        "site_name": "Barreiras",
+        "site_id": "BRRAS"
       }
     },
     {
@@ -10476,7 +11225,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bom Jesus"
+        "site_name": "Bom Jesus",
+        "site_id": "BMJSS"
       }
     },
     {
@@ -10489,7 +11239,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sao Felix do Xingu"
+        "site_name": "Sao Felix do Xingu",
+        "site_id": "SFXNG"
       }
     },
     {
@@ -10502,7 +11253,8 @@
         ]
       },
       "properties": {
-        "site_name": "Vilhena"
+        "site_name": "Vilhena",
+        "site_id": "VLHNA"
       }
     },
     {
@@ -10515,7 +11267,8 @@
         ]
       },
       "properties": {
-        "site_name": "Parnaiba"
+        "site_name": "Parnaiba",
+        "site_id": "PRNBA"
       }
     },
     {
@@ -10528,7 +11281,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sobral"
+        "site_name": "Sobral",
+        "site_id": "SOBRL"
       }
     },
     {
@@ -10541,7 +11295,8 @@
         ]
       },
       "properties": {
-        "site_name": "Uruguaiana"
+        "site_name": "Uruguaiana",
+        "site_id": "URGNA"
       }
     },
     {
@@ -10554,7 +11309,8 @@
         ]
       },
       "properties": {
-        "site_name": "Guarapuava"
+        "site_name": "Guarapuava",
+        "site_id": "GRPVA"
       }
     },
     {
@@ -10567,7 +11323,8 @@
         ]
       },
       "properties": {
-        "site_name": "Criciuma"
+        "site_name": "Criciuma",
+        "site_id": "CRCMI"
       }
     },
     {
@@ -10580,7 +11337,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lages"
+        "site_name": "Lages",
+        "site_id": "LAGES"
       }
     },
     {
@@ -10593,7 +11351,8 @@
         ]
       },
       "properties": {
-        "site_name": "Paulo Afonso"
+        "site_name": "Paulo Afonso",
+        "site_id": "PLAFS"
       }
     },
     {
@@ -10606,7 +11365,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cruzeiro do Sul"
+        "site_name": "Cruzeiro do Sul",
+        "site_id": "CRZDS"
       }
     },
     {
@@ -10619,7 +11379,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ottumwa"
+        "site_name": "Ottumwa",
+        "site_id": "OTTMW"
       }
     },
     {
@@ -10632,7 +11393,8 @@
         ]
       },
       "properties": {
-        "site_name": "Bethany"
+        "site_name": "Bethany",
+        "site_id": "BTHNY"
       }
     },
     {
@@ -10645,7 +11407,8 @@
         ]
       },
       "properties": {
-        "site_name": "Mason City"
+        "site_name": "Mason City",
+        "site_id": "MSCIT"
       }
     },
     {
@@ -10658,7 +11421,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rawlins"
+        "site_name": "Rawlins",
+        "site_id": "RWLNS"
       }
     },
     {
@@ -10671,7 +11435,8 @@
         ]
       },
       "properties": {
-        "site_name": "Scottsbluff"
+        "site_name": "Scottsbluff",
+        "site_id": "SCTBF"
       }
     },
     {
@@ -10684,7 +11449,8 @@
         ]
       },
       "properties": {
-        "site_name": "McAllen"
+        "site_name": "McAllen",
+        "site_id": "MCALN"
       }
     },
     {
@@ -10697,7 +11463,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sheridan"
+        "site_name": "Sheridan",
+        "site_id": "SHRDN"
       }
     },
     {
@@ -10710,7 +11477,8 @@
         ]
       },
       "properties": {
-        "site_name": "McCall"
+        "site_name": "McCall",
+        "site_id": "MCALL"
       }
     },
     {
@@ -10723,7 +11491,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chuuk"
+        "site_name": "Chuuk",
+        "site_id": "CHUUK"
       }
     },
     {
@@ -10736,7 +11505,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pohnpei"
+        "site_name": "Pohnpei",
+        "site_id": "PHNPE"
       }
     },
     {
@@ -10749,7 +11519,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kosrae"
+        "site_name": "Kosrae",
+        "site_id": "KOSRE"
       }
     },
     {
@@ -10762,7 +11533,8 @@
         ]
       },
       "properties": {
-        "site_name": "Majuro"
+        "site_name": "Majuro",
+        "site_id": "MJURO"
       }
     },
     {
@@ -10775,7 +11547,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ebeye"
+        "site_name": "Ebeye",
+        "site_id": "EBEYE"
       }
     },
     {
@@ -10788,7 +11561,8 @@
         ]
       },
       "properties": {
-        "site_name": "South Tarawa"
+        "site_name": "South Tarawa",
+        "site_id": "STRWA"
       }
     },
     {
@@ -10801,7 +11575,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nauru"
+        "site_name": "Nauru",
+        "site_id": "NAURU"
       }
     },
     {
@@ -10814,7 +11589,8 @@
         ]
       },
       "properties": {
-        "site_name": "Line Islands"
+        "site_name": "Line Islands",
+        "site_id": "LNISL"
       }
     },
     {
@@ -10827,7 +11603,8 @@
         ]
       },
       "properties": {
-        "site_name": "Phoenix Islands"
+        "site_name": "Phoenix Islands",
+        "site_id": "PHNIS"
       }
     },
     {
@@ -10840,7 +11617,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tokelau"
+        "site_name": "Tokelau",
+        "site_id": "TKLUA"
       }
     },
     {
@@ -10853,7 +11631,8 @@
         ]
       },
       "properties": {
-        "site_name": "Apia"
+        "site_name": "Apia",
+        "site_id": "APIAA"
       }
     },
     {
@@ -10866,7 +11645,8 @@
         ]
       },
       "properties": {
-        "site_name": "Futuna"
+        "site_name": "Futuna",
+        "site_id": "FTUNA"
       }
     },
     {
@@ -10879,7 +11659,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wallis"
+        "site_name": "Wallis",
+        "site_id": "WALLS"
       }
     },
     {
@@ -10892,7 +11673,8 @@
         ]
       },
       "properties": {
-        "site_name": "Funafuti"
+        "site_name": "Funafuti",
+        "site_id": "FNFTI"
       }
     },
     {
@@ -10905,7 +11687,8 @@
         ]
       },
       "properties": {
-        "site_name": "Nanumea Atoll"
+        "site_name": "Nanumea Atoll",
+        "site_id": "NNMAT"
       }
     },
     {
@@ -10918,7 +11701,8 @@
         ]
       },
       "properties": {
-        "site_name": "Port Louis"
+        "site_name": "Port Louis",
+        "site_id": "PTLUI"
       }
     },
     {
@@ -10931,7 +11715,8 @@
         ]
       },
       "properties": {
-        "site_name": "Port Mathurin"
+        "site_name": "Port Mathurin",
+        "site_id": "PTMTH"
       }
     },
     {
@@ -10944,7 +11729,8 @@
         ]
       },
       "properties": {
-        "site_name": "Joplin"
+        "site_name": "Joplin",
+        "site_id": "JPLIN"
       }
     },
     {
@@ -10957,7 +11743,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chicago/DuPage"
+        "site_name": "Chicago/DuPage",
+        "site_id": "CHDUP"
       }
     },
     {
@@ -10970,7 +11757,8 @@
         ]
       },
       "properties": {
-        "site_name": "Chicago/Lewis"
+        "site_name": "Chicago/Lewis",
+        "site_id": "CHLEW"
       }
     },
     {
@@ -10983,7 +11771,8 @@
         ]
       },
       "properties": {
-        "site_name": "Elk City"
+        "site_name": "Elk City",
+        "site_id": "ELKCY"
       }
     },
     {
@@ -10996,7 +11785,8 @@
         ]
       },
       "properties": {
-        "site_name": "Childress"
+        "site_name": "Childress",
+        "site_id": "CHLDR"
       }
     },
     {
@@ -11009,7 +11799,8 @@
         ]
       },
       "properties": {
-        "site_name": "Lawton"
+        "site_name": "Lawton",
+        "site_id": "LWTUN"
       }
     },
     {
@@ -11022,7 +11813,8 @@
         ]
       },
       "properties": {
-        "site_name": "Altus"
+        "site_name": "Altus",
+        "site_id": "ALTUS"
       }
     },
     {
@@ -11035,7 +11827,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pueblo"
+        "site_name": "Pueblo",
+        "site_id": "PUBLO"
       }
     },
     {
@@ -11048,7 +11841,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dallas/Waxahachie"
+        "site_name": "Dallas/Waxahachie",
+        "site_id": "DLWXH"
       }
     },
     {
@@ -11061,7 +11855,8 @@
         ]
       },
       "properties": {
-        "site_name": "Atlanta/Marietta"
+        "site_name": "Atlanta/Marietta",
+        "site_id": "ATMRT"
       }
     },
     {
@@ -11074,7 +11869,8 @@
         ]
       },
       "properties": {
-        "site_name": "La Grande"
+        "site_name": "La Grande",
+        "site_id": "LGRND"
       }
     },
     {
@@ -11087,7 +11883,8 @@
         ]
       },
       "properties": {
-        "site_name": "Adelaide/Salisbury"
+        "site_name": "Adelaide/Salisbury",
+        "site_id": "ADLSB"
       }
     },
     {
@@ -11100,7 +11897,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sydney/Penrith"
+        "site_name": "Sydney/Penrith",
+        "site_id": "SYDPN"
       }
     },
     {
@@ -11113,7 +11911,8 @@
         ]
       },
       "properties": {
-        "site_name": "Perth/Pearce"
+        "site_name": "Perth/Pearce",
+        "site_id": "PRTPC"
       }
     },
     {
@@ -11126,7 +11925,8 @@
         ]
       },
       "properties": {
-        "site_name": "South Melbourne"
+        "site_name": "South Melbourne",
+        "site_id": "SMLBR"
       }
     },
     {
@@ -11139,7 +11939,8 @@
         ]
       },
       "properties": {
-        "site_name": "Manila"
+        "site_name": "Manila",
+        "site_id": "MNILA"
       }
     },
     {
@@ -11152,7 +11953,8 @@
         ]
       },
       "properties": {
-        "site_name": "Paraburdoo"
+        "site_name": "Paraburdoo",
+        "site_id": "PRBRD"
       }
     },
     {
@@ -11165,7 +11967,8 @@
         ]
       },
       "properties": {
-        "site_name": "Paducah"
+        "site_name": "Paducah",
+        "site_id": "PDCAH"
       }
     },
     {
@@ -11178,7 +11981,8 @@
         ]
       },
       "properties": {
-        "site_name": "Santa Fe"
+        "site_name": "Santa Fe",
+        "site_id": "SNTFE"
       }
     },
     {
@@ -11191,7 +11995,8 @@
         ]
       },
       "properties": {
-        "site_name": "Easter Island/Hanga Roa"
+        "site_name": "Easter Island/Hanga Roa",
+        "site_id": "EIHGR"
       }
     },
     {
@@ -11204,7 +12009,8 @@
         ]
       },
       "properties": {
-        "site_name": "Papeete"
+        "site_name": "Papeete",
+        "site_id": "PAPET"
       }
     },
     {
@@ -11217,7 +12023,8 @@
         ]
       },
       "properties": {
-        "site_name": "Uturoa"
+        "site_name": "Uturoa",
+        "site_id": "UTROA"
       }
     },
     {
@@ -11230,7 +12037,8 @@
         ]
       },
       "properties": {
-        "site_name": "Hiva Oa"
+        "site_name": "Hiva Oa",
+        "site_id": "HIVAO"
       }
     },
     {
@@ -11243,7 +12051,8 @@
         ]
       },
       "properties": {
-        "site_name": "Cook Islands"
+        "site_name": "Cook Islands",
+        "site_id": "CKISL"
       }
     },
     {
@@ -11256,7 +12065,8 @@
         ]
       },
       "properties": {
-        "site_name": "Scranton/Wilkes-Barre"
+        "site_name": "Scranton/Wilkes-Barre",
+        "site_id": "SCRWB"
       }
     },
     {
@@ -11269,7 +12079,8 @@
         ]
       },
       "properties": {
-        "site_name": "Tonopah"
+        "site_name": "Tonopah",
+        "site_id": "TNPAH"
       }
     },
     {
@@ -11282,7 +12093,8 @@
         ]
       },
       "properties": {
-        "site_name": "Austin/Central Nevada"
+        "site_name": "Austin/Central Nevada",
+        "site_id": "ASCNV"
       }
     },
     {
@@ -11295,7 +12107,8 @@
         ]
       },
       "properties": {
-        "site_name": "Miami"
+        "site_name": "Miami",
+        "site_id": "MIAMI"
       }
     },
     {
@@ -11308,7 +12121,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Lauderdale/Hollywood"
+        "site_name": "Fort Lauderdale/Hollywood",
+        "site_id": "FLHWD"
       }
     },
     {
@@ -11321,7 +12135,8 @@
         ]
       },
       "properties": {
-        "site_name": "Sarasota/Bradenton"
+        "site_name": "Sarasota/Bradenton",
+        "site_id": "SRBTN"
       }
     },
     {
@@ -11334,7 +12149,8 @@
         ]
       },
       "properties": {
-        "site_name": "Flint"
+        "site_name": "Flint",
+        "site_id": "FLINT"
       }
     },
     {
@@ -11347,7 +12163,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wilmington"
+        "site_name": "Wilmington",
+        "site_id": "WLMNC"
       }
     },
     {
@@ -11360,7 +12177,8 @@
         ]
       },
       "properties": {
-        "site_name": "San Antonio/Lackland"
+        "site_name": "San Antonio/Lackland",
+        "site_id": "SNLAK"
       }
     },
     {
@@ -11373,7 +12191,8 @@
         ]
       },
       "properties": {
-        "site_name": "El Cajon"
+        "site_name": "El Cajon",
+        "site_id": "ELCJN"
       }
     },
     {
@@ -11386,7 +12205,8 @@
         ]
       },
       "properties": {
-        "site_name": "Jacksonville (Southwest)"
+        "site_name": "Jacksonville (Southwest)",
+        "site_id": "JKXSW"
       }
     },
     {
@@ -11399,7 +12219,8 @@
         ]
       },
       "properties": {
-        "site_name": "Jacksonville (North)"
+        "site_name": "Jacksonville (North)",
+        "site_id": "JKXNO"
       }
     },
     {
@@ -11412,7 +12233,8 @@
         ]
       },
       "properties": {
-        "site_name": "Charlotte/Concord"
+        "site_name": "Charlotte/Concord",
+        "site_id": "CHLCN"
       }
     },
     {
@@ -11425,7 +12247,8 @@
         ]
       },
       "properties": {
-        "site_name": "Seattle/Everett"
+        "site_name": "Seattle/Everett",
+        "site_id": "SEEVR"
       }
     },
     {
@@ -11438,7 +12261,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Collins/Greeley"
+        "site_name": "Fort Collins/Greeley",
+        "site_id": "FTCGR"
       }
     },
     {
@@ -11451,7 +12275,8 @@
         ]
       },
       "properties": {
-        "site_name": "Marysville (Manhattan/Beatrice)"
+        "site_name": "Marysville (Manhattan/Beatrice)",
+        "site_id": "MSVMB"
       }
     },
     {
@@ -11464,7 +12289,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gypsum/Eagle"
+        "site_name": "Gypsum/Eagle",
+        "site_id": "GPYEG"
       }
     },
     {
@@ -11477,7 +12303,8 @@
         ]
       },
       "properties": {
-        "site_name": "Rock Springs"
+        "site_name": "Rock Springs",
+        "site_id": "RKSPR"
       }
     },
     {
@@ -11490,7 +12317,8 @@
         ]
       },
       "properties": {
-        "site_name": "Evanston"
+        "site_name": "Evanston",
+        "site_id": "EVNST"
       }
     },
     {
@@ -11503,7 +12331,8 @@
         ]
       },
       "properties": {
-        "site_name": "Jackson"
+        "site_name": "Jackson",
+        "site_id": "JXNMS"
       }
     },
     {
@@ -11516,7 +12345,8 @@
         ]
       },
       "properties": {
-        "site_name": "St. Louis"
+        "site_name": "St. Louis",
+        "site_id": "STLOU"
       }
     },
     {
@@ -11529,7 +12359,8 @@
         ]
       },
       "properties": {
-        "site_name": "St. Louis/Scott"
+        "site_name": "St. Louis/Scott",
+        "site_id": "STLSC"
       }
     },
     {
@@ -11542,7 +12373,8 @@
         ]
       },
       "properties": {
-        "site_name": "Palm Beach"
+        "site_name": "Palm Beach",
+        "site_id": "PLMBH"
       }
     },
     {
@@ -11555,7 +12387,8 @@
         ]
       },
       "properties": {
-        "site_name": "St. Joseph"
+        "site_name": "St. Joseph",
+        "site_id": "STJPH"
       }
     },
     {
@@ -11568,7 +12401,8 @@
         ]
       },
       "properties": {
-        "site_name": "Muncie"
+        "site_name": "Muncie",
+        "site_id": "MNCIE"
       }
     },
     {
@@ -11581,7 +12415,8 @@
         ]
       },
       "properties": {
-        "site_name": "Las Vegas/Nellis"
+        "site_name": "Las Vegas/Nellis",
+        "site_id": "LVNLS"
       }
     },
     {
@@ -11594,7 +12429,8 @@
         ]
       },
       "properties": {
-        "site_name": "Florence"
+        "site_name": "Florence",
+        "site_id": "FLRNC"
       }
     },
     {
@@ -11607,7 +12443,8 @@
         ]
       },
       "properties": {
-        "site_name": "Gadsden"
+        "site_name": "Gadsden",
+        "site_id": "GDSDN"
       }
     },
     {
@@ -11620,7 +12457,8 @@
         ]
       },
       "properties": {
-        "site_name": "Altoona"
+        "site_name": "Altoona",
+        "site_id": "ALTNA"
       }
     },
     {
@@ -11633,7 +12471,8 @@
         ]
       },
       "properties": {
-        "site_name": "Burlington"
+        "site_name": "Burlington",
+        "site_id": "BRLIA"
       }
     },
     {
@@ -11646,7 +12485,8 @@
         ]
       },
       "properties": {
-        "site_name": "Logan"
+        "site_name": "Logan",
+        "site_id": "LOGAN"
       }
     },
     {
@@ -11659,7 +12499,8 @@
         ]
       },
       "properties": {
-        "site_name": "Ogden"
+        "site_name": "Ogden",
+        "site_id": "OGDEN"
       }
     },
     {
@@ -11672,7 +12513,8 @@
         ]
       },
       "properties": {
-        "site_name": "Provo"
+        "site_name": "Provo",
+        "site_id": "PROVO"
       }
     },
     {
@@ -11685,7 +12527,8 @@
         ]
       },
       "properties": {
-        "site_name": "Plano/McKinney"
+        "site_name": "Plano/McKinney",
+        "site_id": "PLMCK"
       }
     },
     {
@@ -11698,7 +12541,8 @@
         ]
       },
       "properties": {
-        "site_name": "Dallas/Fort Worth"
+        "site_name": "Dallas/Fort Worth",
+        "site_id": "DFWRT"
       }
     },
     {
@@ -11711,7 +12555,8 @@
         ]
       },
       "properties": {
-        "site_name": "Fort Worth"
+        "site_name": "Fort Worth",
+        "site_id": "FTWTH"
       }
     },
     {
@@ -11724,7 +12569,8 @@
         ]
       },
       "properties": {
-        "site_name": "Norman"
+        "site_name": "Norman",
+        "site_id": "NRMAN"
       }
     },
     {
@@ -11737,7 +12583,8 @@
         ]
       },
       "properties": {
-        "site_name": "Wausau/Stevens Point"
+        "site_name": "Wausau/Stevens Point",
+        "site_id": "WSUSP"
       }
     },
     {
@@ -11750,7 +12597,8 @@
         ]
       },
       "properties": {
-        "site_name": "Oshkosh"
+        "site_name": "Oshkosh",
+        "site_id": "OSHKS"
       }
     },
     {
@@ -11763,7 +12611,8 @@
         ]
       },
       "properties": {
-        "site_name": "Igloolik"
+        "site_name": "Igloolik",
+        "site_id": "IGLOK"
       }
     },
     {
@@ -11776,7 +12625,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pond Inlet"
+        "site_name": "Pond Inlet",
+        "site_id": "PNDIN"
       }
     },
     {
@@ -11789,7 +12639,8 @@
         ]
       },
       "properties": {
-        "site_name": "Pangnirtung"
+        "site_name": "Pangnirtung",
+        "site_id": "PNGNT"
       }
     },
     {
@@ -11802,7 +12653,8 @@
         ]
       },
       "properties": {
-        "site_name": "Kinngait"
+        "site_name": "Kinngait",
+        "site_id": "KNGAT"
       }
     },
     {
@@ -11815,7 +12667,8 @@
         ]
       },
       "properties": {
-        "site_name": "Clyde River"
+        "site_name": "Clyde River",
+        "site_id": "CLYDR"
       }
     },
     {
@@ -11828,7 +12681,8 @@
         ]
       },
       "properties": {
-        "site_name": "Naujaat"
+        "site_name": "Naujaat",
+        "site_id": "NAUJT"
       }
     },
     {
@@ -11841,7 +12695,8 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Resolute"
+        "site_name": "Resolute",
+        "site_id": "RSLTE"
       }
     },
     {
@@ -11854,7 +12709,8 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Grise Fiord"
+        "site_name": "Grise Fiord",
+        "site_id": "GRSFD"
       }
     },
     {
@@ -11867,7 +12723,8 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Stony Rapids"
+        "site_name": "Stony Rapids",
+        "site_id": "STNRP"
       }
     },
     {
@@ -11880,7 +12737,8 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Ulukhaktok"
+        "site_name": "Ulukhaktok",
+        "site_id": "ULKHT"
       }
     },
     {
@@ -11893,7 +12751,8 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Thule/Pituffik"
+        "site_name": "Thule/Pituffik",
+        "site_id": "THLPT"
       }
     },
     {
@@ -11906,7 +12765,8 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Eureka"
+        "site_name": "Eureka",
+        "site_id": "ERKCN"
       }
     },
     {
@@ -11919,7 +12779,498 @@
         "type": "Point"
       },
       "properties": {
-        "site_name": "Alert"
+        "site_name": "Alert",
+        "site_id": "ALRTT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -103.6779,
+          30.384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Alpine",
+        "site_id": "ALPIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -95.1748,
+          29.6002
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Houston/Ellington",
+        "site_id": "HSTEL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -87.2945,
+          39.4523
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Terre Haute",
+        "site_id": "TRHUT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -100.5896,
+          40.202
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "McCook",
+        "site_id": "MCKOK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -97.2276,
+          37.7489
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Wichita (Northeast)",
+        "site_id": "WCHNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -86.3816,
+          35.8782
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Murfreesboro/Central Tennessee",
+        "site_id": "MFBCT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -86.6739,
+          36.1399
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Nashville",
+        "site_id": "NSHVL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -121.9119,
+          37.3481
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "San Jose",
+        "site_id": "SNJSE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -122.3962,
+          37.6107
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "San Francisco/San Bruno",
+        "site_id": "SFSBN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -83.0721,
+          40.0737
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Columbus (North)",
+        "site_id": "CLMNO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -82.9278,
+          39.8246
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Columbus (South)",
+        "site_id": "CLMSO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -85.8987,
+          39.8456
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Indianapolis (East)",
+        "site_id": "INDIE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -83.4162,
+          42.66
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Detroit/Pontiac",
+        "site_id": "DTRPT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -85.7431,
+          38.364
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Louisville/Jeffersonville",
+        "site_id": "LSVJF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -90.2296,
+          35.139
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Memphis (West)",
+        "site_id": "MMPHW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -111.2177,
+          32.4007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Tucson/Marana",
+        "site_id": "TCSMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -95.994,
+          36.0359
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Tulsa/Riverside",
+        "site_id": "TULRV"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -84.427,
+          39.1067
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Cincinnati",
+        "site_id": "CINCI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -91.2924,
+          31.6147
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Natchez",
+        "site_id": "NTCHZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -89.0697,
+          30.4163
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Gulfport/Biloxi",
+        "site_id": "GPBLX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -83.2793,
+          30.7909
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Valdosta",
+        "site_id": "VLDST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -82.4019,
+          31.251
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Waycross",
+        "site_id": "WYCRS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -84.1857,
+          31.5362
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Albany",
+        "site_id": "ALBNG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -82.3829,
+          32.1946
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Vidalia/Lyons",
+        "site_id": "VDLYN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -87.1802,
+          35.5577
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Columbia",
+        "site_id": "CLMIA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -85.5273,
+          36.0546
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Cookeville",
+        "site_id": "CKVLE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -90.4709,
+          31.1816
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "McComb",
+        "site_id": "MCMBB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -90.0785,
+          33.4917
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Greenwood",
+        "site_id": "GRNWD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -88.5846,
+          33.4544
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Columbus/Starkville",
+        "site_id": "CLMST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -91.9413,
+          34.1799
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Pine Bluff",
+        "site_id": "PNBLF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -93.1005,
+          34.4721
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Hot Springs",
+        "site_id": "HTSPR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -92.8111,
+          33.2118
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "El Dorado",
+        "site_id": "ELDRA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -90.3229,
+          36.7641
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Poplar Bluff",
+        "site_id": "PPLRB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -91.7684,
+          38.1355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Rolla",
+        "site_id": "ROLLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -97.8735,
+          38.0622
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Hutchinson",
+        "site_id": "HTCHN"
       }
     }
   ]
