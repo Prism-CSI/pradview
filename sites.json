@@ -10604,20 +10604,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -104.2225,
-          34.4943
-        ]
-      },
-      "properties": {
-        "site_name": "Fort Sumner",
-        "site_id": "FTSMN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           6.2166,
           49.6442
         ]
@@ -13271,6 +13257,34 @@
       "properties": {
         "site_name": "Hutchinson",
         "site_id": "HTCHN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -104.633,
+          34.9343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_id": "SNRSA",
+        "site_name": "Santa Rosa"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -103.09,
+          34.4313
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Clovis",
+        "site_id": "CLVIS"
       }
     }
   ]
