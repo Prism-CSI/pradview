@@ -13286,6 +13286,48 @@
         "site_name": "Clovis",
         "site_id": "CLVIS"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -103.2125,
+          40.1733
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Fort Morgan/Akron",
+        "site_id": "FMAKR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -109.7404,
+          38.7588
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Moab",
+        "site_id": "MOABB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -113.0902,
+          37.6982
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Cedar City",
+        "site_id": "CEDAR"
+      }
     }
   ]
 }
