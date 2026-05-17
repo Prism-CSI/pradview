@@ -13328,6 +13328,34 @@
         "site_name": "Cedar City",
         "site_id": "CEDAR"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -103.2137,
+          32.696
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Hobbs",
+        "site_id": "HOBBS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -95.7866,
+          34.8853
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "McAlester",
+        "site_id": "MCALS"
+      }
     }
   ]
 }
