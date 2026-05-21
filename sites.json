@@ -12773,20 +12773,6 @@
       "type": "Feature",
       "geometry": {
         "coordinates": [
-          -103.6779,
-          30.384
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "site_name": "Alpine",
-        "site_id": "ALPIN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "coordinates": [
           -95.1748,
           29.6002
         ],
@@ -13355,6 +13341,20 @@
       "properties": {
         "site_name": "McAlester",
         "site_id": "MCALS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -103.6758,
+          30.3878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Alpine",
+        "site_id": "ALPIN"
       }
     }
   ]
