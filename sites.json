@@ -2414,20 +2414,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -89.252,
-          31.2718
-        ]
-      },
-      "properties": {
-        "site_name": "Hattiesburg",
-        "site_id": "HTSBG"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -85.7192,
           31.2783
         ]
@@ -13355,6 +13341,174 @@
       "properties": {
         "site_name": "Alpine",
         "site_id": "ALPIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -89.3321,
+          31.4699
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Hattiesburg",
+        "site_id": "HTSBG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -93.5669,
+          38.726
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Sedalia/Whiteman",
+        "site_id": "SDLWM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          125.6389,
+          7.1289
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Davao City",
+        "site_id": "DVCTY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          122.063,
+          6.9259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Zamboanga",
+        "site_id": "ZMBAG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.6182,
+          16.3735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Baguio",
+        "site_id": "BAGIO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          120.5302,
+          18.1791
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Laoag",
+        "site_id": "LAOAG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          123.9716,
+          10.3152
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Cebu City",
+        "site_id": "CEBUY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          6.0962,
+          46.2329
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Geneva",
+        "site_id": "GNEVA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          8.5269,
+          47.4719
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Zurich",
+        "site_id": "ZRICH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          8.2992,
+          47.0927
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Lucerne",
+        "site_id": "LUCRN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          8.9143,
+          46.0033
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Lugano",
+        "site_id": "LUGNO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          7.5074,
+          46.9077
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Bern",
+        "site_id": "BERNN"
       }
     }
   ]
