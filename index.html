@@ -4,10 +4,11 @@
     <meta charset="utf-8" />
     <title>PRADView_Beta</title>
     <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable-no" />
-    <link rel='stylesheet' href='https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.css' />
-    <script src='https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.js'></script>
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.css" />
+    <script src="https://unpkg.com/maplibre-gl@3.1.0/dist/maplibre-gl.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@watergis/maplibre-gl-terradraw@1.0.1/dist/maplibre-gl-terradraw.umd.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@watergis/maplibre-gl-terradraw@1.0.1/dist/maplibre-gl-terradraw.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@turf/turf@6/turf.min.js"></script>
     <style>
         body { margin: 0; padding: 0; }
         #map { position: absolute; top: 0; bottom: 0; width: 100%; }
@@ -42,15 +43,16 @@
     window.addEventListener('keydown', (e) => keysPressed[e.key.toLowerCase()] = true);
     window.addEventListener('keyup', (e) => keysPressed[e.key.toLowerCase()] = false);
 
-    var map = new maplibregl.Map({
+    const map = new maplibregl.Map({
         container: 'map',
         style: 'https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json',
-        center:[-98.5795, 39.8283],
-        zoom: 3
+        center: [-98.5795, 39.8283],
+        zoom: 3,
+        boxZoom: false
     });
 
     const draw = new MaplibreTerradrawControl.MaplibreTerradrawControl({
-        modes:[
+        modes: [
             'render', 'point', 'linestring', 'polygon', 'rectangle', 'circle', 
             'freehand', 'angled-rectangle', 'sensor', 'sector', 'select', 
             'delete-selection', 'delete'
@@ -60,10 +62,16 @@
     map.addControl(draw, 'top-left');
     map.addControl(new maplibregl.NavigationControl(), 'bottom-left');
 
-    let radarFeatures =[];
+    let radarFeatures = [];
     let currentPopup = null;
     let currentPopupData = null; 
+    let isMultiSelectMode = false;
+    let isUnionEnabled = false;
     const circleStates = new Map();
+
+    let isBoxSelecting = false;
+    let startPoint = null;
+    let boxDiv = null;
 
     function getDestination(lon, lat, distanceMiles, bearingDegrees) {
         const radius = 3958.8; 
@@ -73,57 +81,142 @@
         const lon1 = (lon * Math.PI) / 180;
         const lat2 = Math.asin(Math.sin(lat1) * Math.cos(dist) + Math.cos(lat1) * Math.sin(dist) * Math.cos(brng));
         const lon2 = lon1 + Math.atan2(Math.sin(brng) * Math.sin(dist) * Math.cos(lat1), Math.cos(dist) - Math.sin(lat1) * Math.sin(lat2));
-        return[(lon2 * 180) / Math.PI, (lat2 * 180) / Math.PI];
+        return [ (lon2 * 180) / Math.PI, (lat2 * 180) / Math.PI ];
     }
 
     function createCircle(center, radiusInMiles, points = 64) {
-        const coords =[];
+        const coords = [];
         for (let i = 0; i <= points; i++) {
             coords.push(getDestination(center[0], center[1], radiusInMiles, (i * 360) / points));
         }
         return {
             'type': 'Feature',
-            'geometry': { 'type': 'Polygon', 'coordinates':[coords] },
+            'geometry': { 'type': 'Polygon', 'coordinates': [coords] },
             'properties': {}
         };
     }
 
+    function unionFeatures(features) {
+        if (features.length === 0) return null;
+        const queue = [...features];
+        while (queue.length > 1) {
+            const nextQueue = [];
+            for (let i = 0; i < queue.length; i += 2) {
+                if (i + 1 < queue.length) {
+                    try {
+                        const merged = turf.union(queue[i], queue[i + 1]);
+                        nextQueue.push(merged || queue[i]);
+                    } catch (err) {
+                        nextQueue.push(queue[i]);
+                    }
+                } else {
+                    nextQueue.push(queue[i]);
+                }
+            }
+            queue.length = 0;
+            queue.push(...nextQueue);
+        }
+        return queue[0];
+    }
+
     function updateCircleLayer() {
         const feats = Array.from(circleStates.values()).map(s => createCircle(s.coordinates, s.radius));
-        map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': feats });
+        if (feats.length === 0) {
+            map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': [] });
+            return;
+        }
+
+        if (isUnionEnabled) {
+            const unioned = unionFeatures(feats);
+            if (unioned) {
+                map.getSource('circles-source').setData(unioned);
+            } else {
+                map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': feats });
+            }
+        } else {
+            map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': feats });
+        }
     }
 
     function updateRadarLayer() {
         map.getSource('radars').setData({ 'type': 'FeatureCollection', 'features': radarFeatures });
     }
 
-    let uKeyTimer = null;
+    function toggleRadiusForId(uniqueId, coords) {
+        const cur = circleStates.get(uniqueId);
+        let next;
+        if (!cur) next = 250;
+        else if (cur.radius === 250) next = 160;
+        else if (cur.radius === 160) next = 75;
+        else if (cur.radius === 75) next = 35;
+        else next = 0;
+
+        if (next > 0) {
+            circleStates.set(uniqueId, { radius: next, coordinates: coords });
+        } else {
+            circleStates.delete(uniqueId);
+        }
+    }
+
     const filePicker = document.getElementById('file-picker');
 
     window.addEventListener('keydown', function(e) {
-        if (e.key.toUpperCase() === 'U' && !uKeyTimer) {
-            uKeyTimer = setTimeout(() => { filePicker.click(); }, 1000); 
+        if (e.key.toLowerCase() === 'u' && e.shiftKey) {
+            filePicker.click();
         }
 
-        if (currentPopup && currentPopup.isOpen() && currentPopupData && e.shiftKey) {
-            const key = e.key.toUpperCase();
+        if (e.key.toLowerCase() === 'd' && e.shiftKey) {
+            isUnionEnabled = !isUnionEnabled;
+            updateCircleLayer();
+        }
+
+        if (e.key === 'Escape' && isMultiSelectMode) {
+            isMultiSelectMode = false;
+            radarFeatures.forEach(f => f.properties.isSelected = false);
+            updateRadarLayer();
+            return;
+        }
+
+        if (isMultiSelectMode) {
+            if (e.shiftKey) {
+                const key = e.key.toLowerCase();
+                if (key === 'r') {
+                    radarFeatures.forEach(f => {
+                        if (f.properties.isSelected && f.properties.color !== '#FF0000') {
+                            toggleRadiusForId(f.properties._uniqueId, f.geometry.coordinates);
+                        }
+                    });
+                    updateCircleLayer();
+                } else if (key === 'x') {
+                    radarFeatures.forEach(f => {
+                        if (f.properties.isSelected) {
+                            circleStates.delete(f.properties._uniqueId);
+                            f.properties.color = '#87CEEB';
+                        }
+                    });
+                    updateCircleLayer();
+                    updateRadarLayer();
+                } else if (key === 'o') {
+                    radarFeatures.forEach(f => {
+                        if (f.properties.isSelected) {
+                            f.properties.color = f.properties.color === '#FF0000' ? '#87CEEB' : '#FF0000';
+                        }
+                    });
+                    updateRadarLayer();
+                }
+            }
+        } else if (currentPopup && currentPopup.isOpen() && currentPopupData && e.shiftKey) {
+            const key = e.key.toLowerCase();
             const uniqueId = currentPopupData.properties._uniqueId;
             const coords = currentPopupData.geometry.coordinates;
 
-            if (key === 'R') {
-                const cur = circleStates.get(uniqueId);
-                let next;
-                if (!cur) next = 300;
-                else if (cur.radius === 300) next = 150;
-                else if (cur.radius === 150) next = 75;
-                else if (cur.radius === 75) next = 25;
-                else next = 0;
-
-                if (next > 0) circleStates.set(uniqueId, { radius: next, coordinates: coords });
-                else circleStates.delete(uniqueId);
-                updateCircleLayer();
-            } 
-            else if (key === 'X') {
+            if (key === 'r') {
+                const liveFeature = radarFeatures.find(f => f.properties._uniqueId === uniqueId);
+                if (liveFeature && liveFeature.properties.color !== '#FF0000') {
+                    toggleRadiusForId(uniqueId, coords);
+                    updateCircleLayer();
+                }
+            } else if (key === 'x') {
                 circleStates.delete(uniqueId);
                 radarFeatures.forEach(f => {
                     if (f.properties._uniqueId === uniqueId) {
@@ -132,8 +225,7 @@
                 });
                 updateCircleLayer();
                 updateRadarLayer();
-            }
-            else if (key === 'O') {
+            } else if (key === 'o') {
                 radarFeatures.forEach(f => {
                     if (f.properties._uniqueId === uniqueId) {
                         f.properties.color = f.properties.color === '#FF0000' ? '#87CEEB' : '#FF0000';
@@ -141,13 +233,6 @@
                 });
                 updateRadarLayer();
             }
-        }
-    });
-
-    window.addEventListener('keyup', function(e) {
-        if (e.key.toUpperCase() === 'U') {
-            clearTimeout(uKeyTimer);
-            uKeyTimer = null;
         }
     });
 
@@ -159,41 +244,73 @@
             try {
                 const geojsonData = JSON.parse(event.target.result);
                 geojsonData.features.forEach((f, i) => { 
-                    if(!f.properties.color) f.properties.color = '#87CEEB'; 
+                    if (!f.properties.color) f.properties.color = '#87CEEB'; 
                     f.properties._uniqueId = 'file_' + i;
+                    f.properties.isSelected = false;
                 });
                 radarFeatures = geojsonData.features;
                 updateRadarLayer();
-            } catch (error) { console.error(error); }
+            } catch (error) { 
+                console.error(error); 
+            }
         };
         reader.readAsText(file);
         filePicker.value = '';
     });
 
     map.on('load', function () {
-        map.addSource('radars', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features':[] } });
+        map.addSource('radars', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
         map.addLayer({
-            'id': 'radars-layer', 'type': 'circle', 'source': 'radars',
-            'paint': { 'circle-radius': 4, 'circle-color': ['get', 'color'] }
+            'id': 'radars-layer', 
+            'type': 'circle', 
+            'source': 'radars',
+            'paint': { 
+                'circle-radius': 4, 
+                'circle-color': ['get', 'color'],
+                'circle-stroke-width': ['case', ['boolean', ['get', 'isSelected'], false], 3, 0],
+                'circle-stroke-color': '#FFFFFF'
+            }
         });
 
-        map.addSource('circles-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features':[] } });
+        map.addSource('circles-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
         map.addLayer({
-            'id': 'circles-layer', 'type': 'fill', 'source': 'circles-source',
-            'paint': { 'fill-color': '#87CEEB', 'fill-opacity': 0.3, 'fill-outline-color': '#87CEEB' }
+            'id': 'circles-layer', 
+            'type': 'fill', 
+            'source': 'circles-source',
+            'paint': { 
+                'fill-color': '#87CEEB', 
+                'fill-opacity': 0.3, 
+                'fill-outline-color': '#87CEEB' 
+            }
         });
 
-        map.addSource('temp-circle-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features':[] } });
+        map.addSource('temp-circle-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
         map.addLayer({
-            'id': 'temp-circle-layer', 'type': 'line', 'source': 'temp-circle-source',
-            'paint': { 'line-color': '#FFFFFF', 'line-width': 2 }
+            'id': 'temp-circle-layer', 
+            'type': 'line', 
+            'source': 'temp-circle-source',
+            'paint': { 
+                'line-color': '#FFFFFF', 
+                'line-width': 2 
+            }
         });
 
-        map.addSource('distance-text-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features':[] } });
+        map.addSource('distance-text-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features': [] } });
         map.addLayer({
-            'id': 'distance-text-layer', 'type': 'symbol', 'source': 'distance-text-source',
-            'layout': { 'text-field': ['get', 'distanceText'], 'text-size': 12, 'text-offset': [0, 1.5], 'text-anchor': 'top' },
-            'paint': { 'text-color': '#FFFFFF', 'text-halo-color': '#000000', 'text-halo-width': 1 }
+            'id': 'distance-text-layer', 
+            'type': 'symbol', 
+            'source': 'distance-text-source',
+            'layout': { 
+                'text-field': ['get', 'distanceText'], 
+                'text-size': 12, 
+                'text-offset': [0, 1.5], 
+                'text-anchor': 'top' 
+            },
+            'paint': { 
+                'text-color': '#FFFFFF', 
+                'text-halo-color': '#000000', 
+                'text-halo-width': 1 
+            }
         });
         
         fetch('https://raw.githubusercontent.com/Prism-CSI/pradview/refs/heads/main/sites.json')
@@ -202,6 +319,7 @@
                 data.features.forEach((f, i) => {
                     f.properties.color = '#87CEEB';
                     f.properties._uniqueId = 'fetch_' + i;
+                    f.properties.isSelected = false;
                 });
                 radarFeatures = data.features; 
                 updateRadarLayer();
@@ -222,49 +340,167 @@
 
         const onMouseMoveWhileDown = (e) => {
             const cursorPoint = e.lngLat;
-            let nearest = null; let minD = Infinity;
+            let nearest = null; 
+            let minD = Infinity;
             const availableSites = radarFeatures.filter(f => f.properties.color !== '#FF0000');
             availableSites.forEach(f => {
                 const d = cursorPoint.distanceTo(maplibregl.LngLat.convert(f.geometry.coordinates));
-                if (d < minD) { minD = d; nearest = f; }
+                if (d < minD) { 
+                    minD = d; 
+                    nearest = f; 
+                }
             });
             if (nearest) {
-                const distMi = Math.min(minD / 1609.34, 300);
-                map.getSource('temp-circle-source').setData({ 'type': 'FeatureCollection', 'features': [createCircle(nearest.geometry.coordinates, distMi)] });
-                map.getSource('distance-text-source').setData({ 'type': 'FeatureCollection', 'features':[{
-                    'type': 'Feature', 'geometry': { 'type': 'Point', 'coordinates': e.lngLat.toArray() },
-                    'properties': { 'distanceText': `${distMi.toFixed(2)} mi` }
-                }]});
+                const distMi = Math.min(minD / 1609.34, 250);
+                const lineFeature = {
+                    'type': 'Feature',
+                    'geometry': {
+                        'type': 'LineString',
+                        'coordinates': [nearest.geometry.coordinates, [cursorPoint.lng, cursorPoint.lat]]
+                    },
+                    'properties': {}
+                };
+                map.getSource('temp-circle-source').setData({ 
+                    'type': 'FeatureCollection', 
+                    'features': [
+                        createCircle(nearest.geometry.coordinates, distMi),
+                        lineFeature
+                    ] 
+                });
+                map.getSource('distance-text-source').setData({ 
+                    'type': 'FeatureCollection', 
+                    'features': [{
+                        'type': 'Feature', 
+                        'geometry': { 'type': 'Point', 'coordinates': e.lngLat.toArray() },
+                        'properties': { 'distanceText': `${distMi.toFixed(2)} mi` }
+                    }]
+                });
             }
         };
 
         const onMouseUp = (e) => {
             if (e.originalEvent.button !== 1) return;
-            map.getSource('temp-circle-source').setData({ 'type': 'FeatureCollection', 'features':[] });
-            map.getSource('distance-text-source').setData({ 'type': 'FeatureCollection', 'features':[] });
+            map.getSource('temp-circle-source').setData({ 'type': 'FeatureCollection', 'features': [] });
+            map.getSource('distance-text-source').setData({ 'type': 'FeatureCollection', 'features': [] });
             map.off('mousemove', onMouseMoveWhileDown);
             map.off('mouseup', onMouseUp);
         };
 
         map.on('mousedown', function(e) {
-            if (e.originalEvent.button !== 1 || radarFeatures.length === 0) return;
-            map.on('mousemove', onMouseMoveWhileDown);
-            map.on('mouseup', onMouseUp);
-            onMouseMoveWhileDown(e);
+            if (e.originalEvent.button === 1 && radarFeatures.length > 0) {
+                map.on('mousemove', onMouseMoveWhileDown);
+                map.on('mouseup', onMouseUp);
+                onMouseMoveWhileDown(e);
+                return;
+            }
+
+            if (e.originalEvent.shiftKey && e.originalEvent.button === 0) {
+                const features = map.queryRenderedFeatures(e.point, { layers: ['radars-layer'] });
+                if (features.length === 0) {
+                    isBoxSelecting = true;
+                    startPoint = e.point;
+                    map.dragPan.disable();
+
+                    boxDiv = document.createElement('div');
+                    boxDiv.style.position = 'absolute';
+                    boxDiv.style.border = '2px dashed #FFFFFF';
+                    boxDiv.style.backgroundColor = 'rgba(255, 255, 255, 0.2)';
+                    boxDiv.style.pointerEvents = 'none';
+                    map.getContainer().appendChild(boxDiv);
+                }
+            }
+        });
+
+        map.on('mousemove', function(e) {
+            if (!isBoxSelecting) return;
+            const currentPoint = e.point;
+
+            const minX = Math.min(startPoint.x, currentPoint.x);
+            const maxX = Math.max(startPoint.x, currentPoint.x);
+            const minY = Math.min(startPoint.y, currentPoint.y);
+            const maxY = Math.max(startPoint.y, currentPoint.y);
+
+            boxDiv.style.left = minX + 'px';
+            boxDiv.style.top = minY + 'px';
+            boxDiv.style.width = (maxX - minX) + 'px';
+            boxDiv.style.height = (maxY - minY) + 'px';
+        });
+
+        map.on('mouseup', function(e) {
+            if (!isBoxSelecting) return;
+            isBoxSelecting = false;
+            map.dragPan.enable();
+
+            if (boxDiv) {
+                boxDiv.remove();
+                boxDiv = null;
+            }
+
+            const endPoint = e.point;
+
+            const startLngLat = map.unproject(startPoint);
+            const endLngLat = map.unproject(endPoint);
+
+            const minLng = Math.min(startLngLat.lng, endLngLat.lng);
+            const maxLng = Math.max(startLngLat.lng, endLngLat.lng);
+            const minLat = Math.min(startLngLat.lat, endLngLat.lat);
+            const maxLat = Math.max(startLngLat.lat, endLngLat.lat);
+
+            let anySelected = false;
+            radarFeatures.forEach(f => {
+                const [lng, lat] = f.geometry.coordinates;
+                if (lng >= minLng && lng <= maxLng && lat >= minLat && lat <= maxLat) {
+                    f.properties.isSelected = true;
+                    anySelected = true;
+                }
+            });
+
+            if (anySelected) {
+                isMultiSelectMode = true;
+            }
+
+            updateRadarLayer();
         });
 
         map.on('click', 'radars-layer', (e) => {
-            if (currentPopup) currentPopup.remove();
             const feature = e.features[0];
-            currentPopupData = feature;
             const props = feature.properties;
+            const uniqueId = props._uniqueId;
+
+            if (e.originalEvent.shiftKey || isMultiSelectMode) {
+                isMultiSelectMode = true;
+                if (currentPopup) {
+                    currentPopup.remove();
+                    currentPopup = null;
+                    currentPopupData = null;
+                }
+                radarFeatures.forEach(f => {
+                    if (f.properties._uniqueId === uniqueId) {
+                        f.properties.isSelected = !f.properties.isSelected;
+                    }
+                });
+                updateRadarLayer();
+                return;
+            }
+
             const siteId = props['site_id'] || 'N/A';
             const siteName = props['site_name'] || 'Unknown Site';
+            const targetId = props._uniqueId;
+
+            if (currentPopup) currentPopup.remove();
+
+            currentPopupData = feature;
+
             currentPopup = new maplibregl.Popup()
                 .setLngLat(feature.geometry.coordinates)
                 .setHTML(`${siteId}: ${siteName}`)
-                .on('close', () => { currentPopupData = null; })
                 .addTo(map);
+
+            currentPopup.on('close', () => {
+                if (currentPopupData && currentPopupData.properties._uniqueId === targetId) {
+                    currentPopupData = null;
+                }
+            });
         });
 
         map.on('mouseenter', 'radars-layer', () => map.getCanvas().style.cursor = 'pointer');
