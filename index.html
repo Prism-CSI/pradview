@@ -62,14 +62,8 @@
 
     let radarFeatures =[];
     let currentPopup = null;
+    let currentPopupData = null; 
     const circleStates = new Map();
-    const refreshStates = new Map();
-
-    const REFRESH_MODES = {
-        long: { dist: 300, rot: 50000, pause: 180000 },
-        med: { dist: 150, rot: 25000, pause: 120000 },
-        short: { dist: 75, rot: 10000, pause: 60000 }
-    };
 
     function getDestination(lon, lat, distanceMiles, bearingDegrees) {
         const radius = 3958.8; 
@@ -94,12 +88,59 @@
         };
     }
 
+    function updateCircleLayer() {
+        const feats = Array.from(circleStates.values()).map(s => createCircle(s.coordinates, s.radius));
+        map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': feats });
+    }
+
+    function updateRadarLayer() {
+        map.getSource('radars').setData({ 'type': 'FeatureCollection', 'features': radarFeatures });
+    }
+
     let uKeyTimer = null;
     const filePicker = document.getElementById('file-picker');
 
     window.addEventListener('keydown', function(e) {
         if (e.key.toUpperCase() === 'U' && !uKeyTimer) {
             uKeyTimer = setTimeout(() => { filePicker.click(); }, 1000); 
+        }
+
+        if (currentPopup && currentPopup.isOpen() && currentPopupData && e.shiftKey) {
+            const key = e.key.toUpperCase();
+            const uniqueId = currentPopupData.properties._uniqueId;
+            const coords = currentPopupData.geometry.coordinates;
+
+            if (key === 'R') {
+                const cur = circleStates.get(uniqueId);
+                let next;
+                if (!cur) next = 300;
+                else if (cur.radius === 300) next = 150;
+                else if (cur.radius === 150) next = 75;
+                else if (cur.radius === 75) next = 25;
+                else next = 0;
+
+                if (next > 0) circleStates.set(uniqueId, { radius: next, coordinates: coords });
+                else circleStates.delete(uniqueId);
+                updateCircleLayer();
+            } 
+            else if (key === 'X') {
+                circleStates.delete(uniqueId);
+                radarFeatures.forEach(f => {
+                    if (f.properties._uniqueId === uniqueId) {
+                        f.properties.color = '#87CEEB';
+                    }
+                });
+                updateCircleLayer();
+                updateRadarLayer();
+            }
+            else if (key === 'O') {
+                radarFeatures.forEach(f => {
+                    if (f.properties._uniqueId === uniqueId) {
+                        f.properties.color = f.properties.color === '#FF0000' ? '#87CEEB' : '#FF0000';
+                    }
+                });
+                updateRadarLayer();
+            }
         }
     });
 
@@ -121,8 +162,8 @@
                     if(!f.properties.color) f.properties.color = '#87CEEB'; 
                     f.properties._uniqueId = 'file_' + i;
                 });
-                map.getSource('radars').setData(geojsonData);
                 radarFeatures = geojsonData.features;
+                updateRadarLayer();
             } catch (error) { console.error(error); }
         };
         reader.readAsText(file);
@@ -140,12 +181,6 @@
         map.addLayer({
             'id': 'circles-layer', 'type': 'fill', 'source': 'circles-source',
             'paint': { 'fill-color': '#87CEEB', 'fill-opacity': 0.3, 'fill-outline-color': '#87CEEB' }
-        });
-        
-        map.addSource('refresh-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features':[] } });
-        map.addLayer({
-            'id': 'refresh-layer', 'type': 'line', 'source': 'refresh-source',
-            'paint': { 'line-color': '#FFFFFF', 'line-width': 2 }
         });
 
         map.addSource('temp-circle-source', { 'type': 'geojson', 'data': { 'type': 'FeatureCollection', 'features':[] } });
@@ -169,78 +204,27 @@
                     f.properties._uniqueId = 'fetch_' + i;
                 });
                 radarFeatures = data.features; 
-                map.getSource('radars').setData(data);
+                updateRadarLayer();
             });
-
-        function animateRefresh() {
-            const now = Date.now();
-            const features =[];
-            refreshStates.forEach((state) => {
-                const config = REFRESH_MODES[state.mode];
-                const cycleTotal = config.rot + config.pause;
-                const elapsed = (now - state.startTime) % cycleTotal;
-                if (elapsed < config.rot) {
-                    const bearing = (elapsed / config.rot) * 360;
-                    const end = getDestination(state.coords[0], state.coords[1], config.dist, bearing);
-                    features.push({
-                        'type': 'Feature',
-                        'geometry': { 'type': 'LineString', 'coordinates':[state.coords, end] }
-                    });
-                }
-            });
-            map.getSource('refresh-source').setData({ 'type': 'FeatureCollection', 'features': features });
-            requestAnimationFrame(animateRefresh);
-        }
-        animateRefresh();
 
         map.on('contextmenu', 'radars-layer', function (e) {
             e.preventDefault();
-            const coords = e.features[0].geometry.coordinates.slice();
-            const uniqueId = e.features[0].properties._uniqueId || coords.join(',');
-
-            if (keysPressed['r']) {
-                const cur = circleStates.get(uniqueId);
-                let next = cur ? (cur.radius === 300 ? 150 : (cur.radius === 150 ? 75 : 0)) : 300;
-                if (next > 0) circleStates.set(uniqueId, { radius: next, coordinates: coords });
-                else circleStates.delete(uniqueId);
-                const feats = Array.from(circleStates.values()).map(s => createCircle(s.coordinates, s.radius));
-                map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': feats });
-            } 
-            else if (keysPressed['o']) {
-                radarFeatures.forEach(f => {
-                    const id = f.properties._uniqueId || f.geometry.coordinates.join(',');
-                    if (id === uniqueId) {
-                        f.properties.color = f.properties.color === '#FF0000' ? '#87CEEB' : '#FF0000';
-                    }
-                });
-                map.getSource('radars').setData({ 'type': 'FeatureCollection', 'features': radarFeatures });
-            }
-            else if (keysPressed['l']) {
-                const cur = refreshStates.get(uniqueId);
-                let nextMode = null;
-                if (!cur) nextMode = 'long';
-                else if (cur.mode === 'long') nextMode = 'med';
-                else if (cur.mode === 'med') nextMode = 'short';
-                if (nextMode) refreshStates.set(uniqueId, { mode: nextMode, startTime: Date.now(), coords: coords });
-                else refreshStates.delete(uniqueId);
-            }
-            else {
+            const uniqueId = e.features[0].properties._uniqueId;
+            if (!keysPressed['r'] && !keysPressed['o']) {
                 circleStates.delete(uniqueId);
-                refreshStates.delete(uniqueId);
                 radarFeatures.forEach(f => {
-                    const id = f.properties._uniqueId || f.geometry.coordinates.join(',');
-                    if (id === uniqueId) f.properties.color = '#87CEEB';
+                    if (f.properties._uniqueId === uniqueId) f.properties.color = '#87CEEB';
                 });
-                map.getSource('radars').setData({ 'type': 'FeatureCollection', 'features': radarFeatures });
-                const feats = Array.from(circleStates.values()).map(s => createCircle(s.coordinates, s.radius));
-                map.getSource('circles-source').setData({ 'type': 'FeatureCollection', 'features': feats });
+                updateRadarLayer();
+                updateCircleLayer();
             }
         });
 
         const onMouseMoveWhileDown = (e) => {
             const cursorPoint = e.lngLat;
             let nearest = null; let minD = Infinity;
-            radarFeatures.forEach(f => {
+            const availableSites = radarFeatures.filter(f => f.properties.color !== '#FF0000');
+            availableSites.forEach(f => {
                 const d = cursorPoint.distanceTo(maplibregl.LngLat.convert(f.geometry.coordinates));
                 if (d < minD) { minD = d; nearest = f; }
             });
@@ -271,16 +255,18 @@
 
         map.on('click', 'radars-layer', (e) => {
             if (currentPopup) currentPopup.remove();
-            const props = e.features[0].properties;
-            const coords = e.features[0].geometry.coordinates.slice();
+            const feature = e.features[0];
+            currentPopupData = feature;
+            const props = feature.properties;
             const siteId = props['site_id'] || 'N/A';
             const siteName = props['site_name'] || 'Unknown Site';
-            const popupContent = `${siteId}: ${siteName}`;
             currentPopup = new maplibregl.Popup()
-                .setLngLat(coords)
-                .setHTML(popupContent)
+                .setLngLat(feature.geometry.coordinates)
+                .setHTML(`${siteId}: ${siteName}`)
+                .on('close', () => { currentPopupData = null; })
                 .addTo(map);
         });
+
         map.on('mouseenter', 'radars-layer', () => map.getCanvas().style.cursor = 'pointer');
         map.on('mouseleave', 'radars-layer', () => map.getCanvas().style.cursor = '');
     });
