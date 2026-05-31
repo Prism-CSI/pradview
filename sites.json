@@ -4920,20 +4920,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -70.3994,
-          45.8107
-        ]
-      },
-      "properties": {
-        "site_name": "Saint-Georges/Northwestern Maine",
-        "site_id": "SGNWM"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -65.8945,
           45.314
         ]
@@ -9279,7 +9265,7 @@
         ]
       },
       "properties": {
-        "site_name": "N. Auckland",
+        "site_name": "Auckland (North)",
         "site_id": "NACKL"
       }
     },
@@ -11897,7 +11883,7 @@
         ]
       },
       "properties": {
-        "site_name": "South Melbourne",
+        "site_name": "Melbourne (South)",
         "site_id": "SMLBR"
       }
     },
@@ -13509,6 +13495,34 @@
       "properties": {
         "site_name": "Bern",
         "site_id": "BERNN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -70.7035,
+          46.1007
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Saint-Georges",
+        "site_id": "SGRGS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "coordinates": [
+          -69.555,
+          45.4667
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "site_name": "Greenville",
+        "site_id": "GNVLE"
       }
     }
   ]
