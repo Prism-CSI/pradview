@@ -1350,8 +1350,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -91.9846,
-          30.2123
+          -91.9856,
+          30.2128
         ]
       },
       "properties": {
@@ -13551,6 +13551,118 @@
       "properties": {
         "site_name": "Prescott",
         "site_id": "PRSCT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -94.1532,
+          46.3981
+        ]
+      },
+      "properties": {
+        "site_name": "Brainerd",
+        "site_id": "BRNRD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4984,
+          10.8289
+        ]
+      },
+      "properties": {
+        "site_name": "Iloilo",
+        "site_id": "ILOLO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.6861,
+          13.1139
+        ]
+      },
+      "properties": {
+        "site_name": "Legazpi",
+        "site_id": "LGZPI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.6088,
+          8.414
+        ]
+      },
+      "properties": {
+        "site_name": "Cagayan de Oro",
+        "site_id": "CGYDO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.4832,
+          9.7575
+        ]
+      },
+      "properties": {
+        "site_name": "Surigao",
+        "site_id": "SRIGO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.5481,
+          12.0714
+        ]
+      },
+      "properties": {
+        "site_name": "Calbayog",
+        "site_id": "CALBG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4643,
+          7.8297
+        ]
+      },
+      "properties": {
+        "site_name": "Pagadian",
+        "site_id": "PGDAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.6542,
+          29.5682
+        ]
+      },
+      "properties": {
+        "site_name": "Houma",
+        "site_id": "HOUMA"
       }
     }
   ]
