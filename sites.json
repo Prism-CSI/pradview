@@ -7398,20 +7398,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -76.9669,
-          18.4025
-        ]
-      },
-      "properties": {
-        "site_name": "Ocho Rios/Port Maria",
-        "site_id": "ORPMR"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -77.4763,
           25.0246
         ]
@@ -7545,20 +7531,6 @@
       "properties": {
         "site_name": "Antigua",
         "site_id": "ANTIG"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -61.8107,
-          17.6297
-        ]
-      },
-      "properties": {
-        "site_name": "Barbuda",
-        "site_id": "BRBDA"
       }
     },
     {
@@ -9470,48 +9442,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -61.3882,
-          15.3339
-        ]
-      },
-      "properties": {
-        "site_name": "Dominica",
-        "site_id": "DMNCA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -63.0552,
-          18.2075
-        ]
-      },
-      "properties": {
-        "site_name": "Anguilla",
-        "site_id": "ANGUL"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -60.9475,
-          13.7381
-        ]
-      },
-      "properties": {
-        "site_name": "Saint Lucia",
-        "site_id": "STLCA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -46.4915,
           -23.4449
         ]
@@ -9680,20 +9610,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          166.475,
-          -22.2585
-        ]
-      },
-      "properties": {
-        "site_name": "Noumea",
-        "site_id": "NOUMA"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           166.2259,
           -22.0157
         ]
@@ -9708,20 +9624,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          164.2588,
-          -20.5418
-        ]
-      },
-      "properties": {
-        "site_name": "Koumac",
-        "site_id": "KUMAC"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           164.8369,
           -21.0553
         ]
@@ -9729,20 +9631,6 @@
       "properties": {
         "site_name": "Kone",
         "site_id": "KONEE"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          165.9684,
-          -21.5207
-        ]
-      },
-      "properties": {
-        "site_name": "Canala",
-        "site_id": "CANLA"
       }
     },
     {
@@ -10569,20 +10457,6 @@
       "properties": {
         "site_name": "Luxembourg",
         "site_id": "LXMBG"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -62.7103,
-          17.3121
-        ]
-      },
-      "properties": {
-        "site_name": "Saint Kitts",
-        "site_id": "STKTS"
       }
     },
     {
@@ -13663,6 +13537,804 @@
       "properties": {
         "site_name": "Houma",
         "site_id": "HOUMA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.3598,
+          27.4463
+        ]
+      },
+      "properties": {
+        "site_name": "Sebring",
+        "site_id": "SBRNG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.0765,
+          29.1654
+        ]
+      },
+      "properties": {
+        "site_name": "Daytona Beach",
+        "site_id": "DAYBH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.6612,
+          35.901
+        ]
+      },
+      "properties": {
+        "site_name": "Marshall",
+        "site_id": "MSHLL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.1432,
+          38.7783
+        ]
+      },
+      "properties": {
+        "site_name": "Lisbon",
+        "site_id": "LISBN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.6829,
+          41.234
+        ]
+      },
+      "properties": {
+        "site_name": "Porto",
+        "site_id": "PORTO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -25.6893,
+          37.7418
+        ]
+      },
+      "properties": {
+        "site_name": "Ponta Delgada",
+        "site_id": "PTDLG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.1711,
+          38.6657
+        ]
+      },
+      "properties": {
+        "site_name": "Sao Jorge",
+        "site_id": "SOJRG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.7777,
+          32.6976
+        ]
+      },
+      "properties": {
+        "site_id": "FNCHL",
+        "site_name": "Funchal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -6.7045,
+          41.8575
+        ]
+      },
+      "properties": {
+        "site_name": "Braganca",
+        "site_id": "BRGCA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.9628,
+          37.0216
+        ]
+      },
+      "properties": {
+        "site_name": "Faro",
+        "site_id": "FAROO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.4393,
+          39.8479
+        ]
+      },
+      "properties": {
+        "site_name": "Castelo Branco",
+        "site_id": "CSTBR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -9.3274,
+          38.8354
+        ]
+      },
+      "properties": {
+        "site_name": "Lisbon/Sintra",
+        "site_id": "LSBST"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.7772,
+          63.8963
+        ]
+      },
+      "properties": {
+        "site_name": "Unalakleet",
+        "site_id": "UNALK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.2422,
+          66.57
+        ]
+      },
+      "properties": {
+        "site_name": "Fort Yukon",
+        "site_id": "FTYKN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.2237,
+          -9.4399
+        ]
+      },
+      "properties": {
+        "site_name": "Port Moresby",
+        "site_id": "PTMSB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          146.7225,
+          -6.5647
+        ]
+      },
+      "properties": {
+        "site_name": "Lae",
+        "site_id": "LAAEE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.2109,
+          -9.0852
+        ]
+      },
+      "properties": {
+        "site_name": "Daru",
+        "site_id": "DARUU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.3,
+          -5.8241
+        ]
+      },
+      "properties": {
+        "site_name": "Mount Hagen",
+        "site_id": "MTHGN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.6652,
+          -3.5848
+        ]
+      },
+      "properties": {
+        "site_name": "Wewak",
+        "site_id": "WEWAK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          147.4272,
+          -2.0653
+        ]
+      },
+      "properties": {
+        "site_name": "Lorengau",
+        "site_id": "LRNGU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          154.6722,
+          -5.4197
+        ]
+      },
+      "properties": {
+        "site_name": "Buka",
+        "site_id": "BUKAA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.4039,
+          -5.4565
+        ]
+      },
+      "properties": {
+        "site_name": "Kimbe/Hoskins",
+        "site_id": "KMBHS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -82.2124,
+          34.8943
+        ]
+      },
+      "properties": {
+        "site_name": "Greenville/Spartanburg (Greer)",
+        "site_id": "GVSPG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.808,
+          -2.5817
+        ]
+      },
+      "properties": {
+        "site_name": "Kavieng",
+        "site_id": "KVING"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.3411,
+          -10.3087
+        ]
+      },
+      "properties": {
+        "site_name": "Alotau",
+        "site_id": "ALTAU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          148.3106,
+          -8.8085
+        ]
+      },
+      "properties": {
+        "site_name": "Popondetta",
+        "site_id": "PPNDT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          145.7882,
+          -5.2117
+        ]
+      },
+      "properties": {
+        "site_name": "Madang",
+        "site_id": "MADNG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          152.4016,
+          -4.3384
+        ]
+      },
+      "properties": {
+        "site_name": "Kokopo",
+        "site_id": "KOKPO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.296,
+          -2.6884
+        ]
+      },
+      "properties": {
+        "site_name": "Vanimo",
+        "site_id": "VANMO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.2852,
+          -6.1222
+        ]
+      },
+      "properties": {
+        "site_name": "Kiunga",
+        "site_id": "KIUGA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.7834,
+          -33.3773
+        ]
+      },
+      "properties": {
+        "site_name": "Santiago",
+        "site_id": "SNTGO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.4842,
+          -32.9439
+        ]
+      },
+      "properties": {
+        "site_name": "Valparaiso",
+        "site_id": "VLPRS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.0563,
+          -36.7752
+        ]
+      },
+      "properties": {
+        "site_name": "Concepcion",
+        "site_id": "CNCPN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.6016,
+          -35.3758
+        ]
+      },
+      "properties": {
+        "site_name": "Talca",
+        "site_id": "TALCA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.6312,
+          -38.7689
+        ]
+      },
+      "properties": {
+        "site_name": "Temuco",
+        "site_id": "TMUCO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1023,
+          -41.4311
+        ]
+      },
+      "properties": {
+        "site_name": "Puerto Montt",
+        "site_id": "PRTMT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.8282,
+          -53.0123
+        ]
+      },
+      "properties": {
+        "site_name": "Punta Arenas",
+        "site_id": "PTARS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.1042,
+          -45.5914
+        ]
+      },
+      "properties": {
+        "site_name": "Coyhaique",
+        "site_id": "CYHQE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.5261,
+          -51.6675
+        ]
+      },
+      "properties": {
+        "site_name": "Puerto Natalies",
+        "site_id": "PUONT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.2061,
+          -29.9164
+        ]
+      },
+      "properties": {
+        "site_name": "La Serena",
+        "site_id": "LASNA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4167,
+          -27.2983
+        ]
+      },
+      "properties": {
+        "site_name": "Copiapo",
+        "site_id": "CPIAO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.4393,
+          -23.4502
+        ]
+      },
+      "properties": {
+        "site_name": "Antofagasta",
+        "site_id": "AFSTA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.9031,
+          -22.4949
+        ]
+      },
+      "properties": {
+        "site_name": "Calama",
+        "site_id": "CLAMA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.176,
+          -20.5384
+        ]
+      },
+      "properties": {
+        "site_name": "Iquique",
+        "site_id": "IQQUE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.336,
+          -18.362
+        ]
+      },
+      "properties": {
+        "site_name": "Arica",
+        "site_id": "ARICA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.1163,
+          18.0492
+        ]
+      },
+      "properties": {
+        "site_name": "Sint Maarten",
+        "site_id": "STMAA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9569,
+          52.1635
+        ]
+      },
+      "properties": {
+        "site_name": "Warsaw",
+        "site_id": "WRSAW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.7995,
+          50.0686
+        ]
+      },
+      "properties": {
+        "site_name": "Krakow",
+        "site_id": "KRKOW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.397,
+          51.7275
+        ]
+      },
+      "properties": {
+        "site_name": "Lodz",
+        "site_id": "LODZZ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8771,
+          51.1119
+        ]
+      },
+      "properties": {
+        "site_name": "Wroclaw",
+        "site_id": "WROCW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8204,
+          52.414
+        ]
+      },
+      "properties": {
+        "site_name": "Poznan",
+        "site_id": "POZNN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3407,
+          57.6644
+        ]
+      },
+      "properties": {
+        "site_name": "Visby",
+        "site_id": "VISBY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4779,
+          54.3885
+        ]
+      },
+      "properties": {
+        "site_name": "Gdansk",
+        "site_id": "GDNSK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9323,
+          53.4846
+        ]
+      },
+      "properties": {
+        "site_name": "Olsztyn",
+        "site_id": "OLSTY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1648,
+          53.1057
+        ]
+      },
+      "properties": {
+        "site_name": "Białystok",
+        "site_id": "BLSTK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.7189,
+          51.2356
+        ]
+      },
+      "properties": {
+        "site_name": "Lublin",
+        "site_id": "LBLIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8925,
+          53.596
+        ]
+      },
+      "properties": {
+        "site_name": "Szczecin",
+        "site_id": "SZCIN"
       }
     }
   ]
