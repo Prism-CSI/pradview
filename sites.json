@@ -14336,6 +14336,230 @@
         "site_name": "Szczecin",
         "site_id": "SZCIN"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.9322,
+          60.3382
+        ]
+      },
+      "properties": {
+        "site_name": "Helsinki",
+        "site_id": "HLSIK"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.6094,
+          61.4221
+        ]
+      },
+      "properties": {
+        "site_name": "Tampere",
+        "site_id": "TMPRE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.2781,
+          60.5085
+        ]
+      },
+      "properties": {
+        "site_name": "Turku",
+        "site_id": "TURKU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.3622,
+          64.9249
+        ]
+      },
+      "properties": {
+        "site_name": "Oulu",
+        "site_id": "OULUU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.6948,
+          62.4076
+        ]
+      },
+      "properties": {
+        "site_name": "Jyvaskyla",
+        "site_id": "JYVKY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.7781,
+          62.9986
+        ]
+      },
+      "properties": {
+        "site_name": "Kuopio",
+        "site_id": "KUPIO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.8123,
+          61.4549
+        ]
+      },
+      "properties": {
+        "site_name": "Pori",
+        "site_id": "PORII"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.756,
+          63.0453
+        ]
+      },
+      "properties": {
+        "site_name": "Vaasa",
+        "site_id": "VAASA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.6177,
+          62.6557
+        ]
+      },
+      "properties": {
+        "site_name": "Joensuu",
+        "site_id": "JENSU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.8071,
+          66.5655
+        ]
+      },
+      "properties": {
+        "site_name": "Rovaniemi",
+        "site_id": "RVIMI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.2231,
+          65.9981
+        ]
+      },
+      "properties": {
+        "site_name": "Kuusamo",
+        "site_id": "KUSAM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.6712,
+          64.2816
+        ]
+      },
+      "properties": {
+        "site_name": "Kajaani",
+        "site_id": "KAJAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.1291,
+          63.7186
+        ]
+      },
+      "properties": {
+        "site_name": "Kokkola",
+        "site_id": "KKOLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.1541,
+          61.0426
+        ]
+      },
+      "properties": {
+        "site_name": "Lappeenranta",
+        "site_id": "LPNRT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          27.4334,
+          68.6105
+        ]
+      },
+      "properties": {
+        "site_name": "Ivalo",
+        "site_id": "IVALO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.8358,
+          67.7049
+        ]
+      },
+      "properties": {
+        "site_name": "Kittila",
+        "site_id": "KITLA"
+      }
     }
   ]
 }
