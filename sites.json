@@ -90,20 +90,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0326,
-          38.8489
-        ]
-      },
-      "properties": {
-        "site_name": "Washington/Arlington",
-        "site_id": "WSHAR"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -77.4493,
           38.9286
         ]
@@ -1035,20 +1021,6 @@
       "properties": {
         "site_name": "New Orleans",
         "site_id": "NWRLN"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -157.9484,
-          21.326
-        ]
-      },
-      "properties": {
-        "site_name": "Honolulu",
-        "site_id": "HNLUL"
       }
     },
     {
@@ -6257,20 +6229,6 @@
       "properties": {
         "site_name": "Nhulunbuy",
         "site_id": "NHLNB"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          134.1886,
-          -19.6408
-        ]
-      },
-      "properties": {
-        "site_name": "Tennant Creek",
-        "site_id": "TNTCR"
       }
     },
     {
@@ -14559,6 +14517,76 @@
       "properties": {
         "site_name": "Kittila",
         "site_id": "KITLA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.0855,
+          -26.6063
+        ]
+      },
+      "properties": {
+        "site_name": "Sunshine Coast",
+        "site_id": "SUNSH"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.4962,
+          -28.1603
+        ]
+      },
+      "properties": {
+        "site_name": "Gold Coast",
+        "site_id": "GOLDC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          134.1835,
+          -19.6436
+        ]
+      },
+      "properties": {
+        "site_name": "Tennant Creek",
+        "site_id": "TNTCR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -157.9369,
+          21.3423
+        ]
+      },
+      "properties": {
+        "site_name": "Honolulu",
+        "site_id": "HNLUL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0337,
+          38.8473
+        ]
+      },
+      "properties": {
+        "site_name": "Washington/Arlington",
+        "site_id": "WSHAR"
       }
     }
   ]
