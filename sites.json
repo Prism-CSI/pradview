@@ -6,20 +6,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -74.1729,
-          40.708
-        ]
-      },
-      "properties": {
-        "site_name": "Newark/New York",
-        "site_id": "NWKNY"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -112.3534,
           33.534
         ]
@@ -152,7 +138,7 @@
       },
       "properties": {
         "site_name": "Kansas City",
-        "site_id": "KNSCY"
+        "site_id": "KSCTY"
       }
     },
     {
@@ -4351,8 +4337,8 @@
         ]
       },
       "properties": {
-        "site_name": "Meadow Lake",
-        "site_id": "MDWLK"
+        "site_name": "Meadow Lake (Green Lake)",
+        "site_id": "MDWGL"
       }
     },
     {
@@ -7489,20 +7475,6 @@
       "properties": {
         "site_name": "Antigua",
         "site_id": "ANTIG"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -81.7031,
-          12.5851
-        ]
-      },
-      "properties": {
-        "site_name": "San Andres",
-        "site_id": "SNDRS"
       }
     },
     {
@@ -14580,13 +14552,853 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -77.0337,
-          38.8473
+          -58.5378,
+          -34.8009
+        ]
+      },
+      "properties": {
+        "site_name": "Buenos Aires",
+        "site_id": "BNARS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.1893,
+          -31.3252
+        ]
+      },
+      "properties": {
+        "site_name": "Cordoba",
+        "site_id": "CRDBA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.8,
+          -32.8257
+        ]
+      },
+      "properties": {
+        "site_name": "Mendoza",
+        "site_id": "MNDZA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.111,
+          -26.8407
+        ]
+      },
+      "properties": {
+        "site_name": "Tucuman",
+        "site_id": "TUCMN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.777,
+          -32.9127
+        ]
+      },
+      "properties": {
+        "site_name": "Rosario",
+        "site_id": "RSRIO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.4987,
+          -24.868
+        ]
+      },
+      "properties": {
+        "site_name": "Salta",
+        "site_id": "SALTA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.5846,
+          -37.9329
+        ]
+      },
+      "properties": {
+        "site_name": "Mar del Plata",
+        "site_id": "MRDPL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4241,
+          -31.5729
+        ]
+      },
+      "properties": {
+        "site_name": "San Juan",
+        "site_id": "SJUAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.8073,
+          -31.7129
+        ]
+      },
+      "properties": {
+        "site_name": "Santa Fe",
+        "site_id": "SANTF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.162,
+          -38.9539
+        ]
+      },
+      "properties": {
+        "site_name": "Neuquen",
+        "site_id": "NUQUN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2991,
+          -27.7549
+        ]
+      },
+      "properties": {
+        "site_name": "Santiago del Estero",
+        "site_id": "SNTDE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -59.0475,
+          -27.4409
+        ]
+      },
+      "properties": {
+        "site_name": "Corrientes / Resistencia",
+        "site_id": "CRTRS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.9629,
+          -27.3903
+        ]
+      },
+      "properties": {
+        "site_name": "Posadas",
+        "site_id": "POSDS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -62.1675,
+          -38.7452
+        ]
+      },
+      "properties": {
+        "site_name": "Bahia Blanca",
+        "site_id": "BHBLN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.7544,
+          -28.589
+        ]
+      },
+      "properties": {
+        "site_name": "Catamarca",
+        "site_id": "CTMRC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.3469,
+          -33.2748
+        ]
+      },
+      "properties": {
+        "site_name": "San Luis",
+        "site_id": "SNLUI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -66.7933,
+          -29.3903
+        ]
+      },
+      "properties": {
+        "site_name": "La Rioja",
+        "site_id": "LRIOJ"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.4712,
+          -45.7942
+        ]
+      },
+      "properties": {
+        "site_name": "Comodoro Rivadavia",
+        "site_id": "CMDRI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2791,
+          -33.0909
+        ]
+      },
+      "properties": {
+        "site_name": "Rio Cuarto",
+        "site_id": "RCUAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.0018,
+          -31.3
+        ]
+      },
+      "properties": {
+        "site_name": "Concordia",
+        "site_id": "CNCDA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.4062,
+          -34.5896
+        ]
+      },
+      "properties": {
+        "site_name": "San Rafael",
+        "site_id": "SNRAE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.2254,
+          -36.8906
+        ]
+      },
+      "properties": {
+        "site_name": "Olavarria",
+        "site_id": "OLVRI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1593,
+          -41.1442
+        ]
+      },
+      "properties": {
+        "site_name": "Bariloche",
+        "site_id": "BRLOE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -64.2798,
+          -36.5882
+        ]
+      },
+      "properties": {
+        "site_name": "Santa Rosa",
+        "site_id": "STRSA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -69.2929,
+          -51.6135
+        ]
+      },
+      "properties": {
+        "site_name": "Rio Gallegos",
+        "site_id": "GLLGS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -65.2765,
+          -43.2277
+        ]
+      },
+      "properties": {
+        "site_name": "Trelew",
+        "site_id": "TRLEW"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7611,
+          -53.7836
+        ]
+      },
+      "properties": {
+        "site_name": "Rio Grande",
+        "site_id": "RGRAN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.7989,
+          -22.6161
+        ]
+      },
+      "properties": {
+        "site_name": "Tartagal",
+        "site_id": "TRTGL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.4814,
+          -26.7444
+        ]
+      },
+      "properties": {
+        "site_name": "Presidencia Roque Saenz Pena",
+        "site_id": "PRRSP"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.759,
+          -35.6853
+        ]
+      },
+      "properties": {
+        "site_name": "General Pico",
+        "site_id": "GNRPC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -61.0178,
+          -34.6557
+        ]
+      },
+      "properties": {
+        "site_name": "Junin",
+        "site_id": "JUNIN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.0068,
+          -40.8595
+        ]
+      },
+      "properties": {
+        "site_name": "Viedma",
+        "site_id": "VIEDM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.1484,
+          -42.905
+        ]
+      },
+      "properties": {
+        "site_name": "Esquel",
+        "site_id": "ESQEL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.0671,
+          -50.2869
+        ]
+      },
+      "properties": {
+        "site_name": "El Calafate",
+        "site_id": "ELCFT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -67.7812,
+          -49.3115
+        ]
+      },
+      "properties": {
+        "site_name": "Puerto San Julian",
+        "site_id": "PUSJU"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -68.3086,
+          -54.8372
+        ]
+      },
+      "properties": {
+        "site_name": "Ushuaia",
+        "site_id": "USHAI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.5107,
+          -25.2377
+        ]
+      },
+      "properties": {
+        "site_name": "Asuncion",
+        "site_id": "ASUNC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.8434,
+          -25.4637
+        ]
+      },
+      "properties": {
+        "site_name": "Ciudad del Este",
+        "site_id": "CDDES"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.4309,
+          -23.4406
+        ]
+      },
+      "properties": {
+        "site_name": "Concepcion",
+        "site_id": "CCPTN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -55.8343,
+          -22.6408
+        ]
+      },
+      "properties": {
+        "site_name": "Pedro Juan Caballero",
+        "site_id": "PDJCB"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.0513,
+          -22.3553
+        ]
+      },
+      "properties": {
+        "site_name": "Filadelfia",
+        "site_id": "FLDLF"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.8782,
+          -21.7064
+        ]
+      },
+      "properties": {
+        "site_name": "Porto Murtinho",
+        "site_id": "PRMUR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.8814,
+          -2.165
+        ]
+      },
+      "properties": {
+        "site_name": "Guayaquil",
+        "site_id": "GYAQL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.364,
+          -0.1227
+        ]
+      },
+      "properties": {
+        "site_name": "Quito",
+        "site_id": "QUITO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.98,
+          -2.8848
+        ]
+      },
+      "properties": {
+        "site_name": "Cuenca",
+        "site_id": "CENCA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.2057,
+          -0.2477
+        ]
+      },
+      "properties": {
+        "site_name": "Santo Domingo",
+        "site_id": "STDMG"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.9864,
+          -3.4517
+        ]
+      },
+      "properties": {
+        "site_name": "Machala / Santa Rosa",
+        "site_id": "MCHSR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.6769,
+          -0.9525
+        ]
+      },
+      "properties": {
+        "site_name": "Manta",
+        "site_id": "MANTA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3724,
+          -3.9974
+        ]
+      },
+      "properties": {
+        "site_name": "Loja / Catamayo",
+        "site_id": "LOJCM"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.5765,
+          -1.2147
+        ]
+      },
+      "properties": {
+        "site_name": "Ambato",
+        "site_id": "AMBTO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.12,
+          -2.3006
+        ]
+      },
+      "properties": {
+        "site_name": "Macas",
+        "site_id": "MACAS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.9949,
+          -0.4501
+        ]
+      },
+      "properties": {
+        "site_name": "Puerto Francisco de Orellana",
+        "site_id": "PFDOR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.6235,
+          0.9774
+        ]
+      },
+      "properties": {
+        "site_name": "Esmeraldas",
+        "site_id": "ESMRD"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.1981,
+          40.6772
+        ]
+      },
+      "properties": {
+        "site_name": "Newark/New York",
+        "site_id": "NWKNY"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0811,
+          38.855
         ]
       },
       "properties": {
         "site_name": "Washington/Arlington",
         "site_id": "WSHAR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.2743,
+          -0.4746
+        ]
+      },
+      "properties": {
+        "site_name": "Galapagos Islands",
+        "site_id": "GLPGI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3675,
+          4.8239
+        ]
+      },
+      "properties": {
+        "site_name": "Cayenne",
+        "site_id": "CYNNE"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.0325,
+          5.4827
+        ]
+      },
+      "properties": {
+        "site_name": "Saint-Laurent-du-Maroni",
+        "site_id": "SLDMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -54.0367,
+          3.6546
+        ]
+      },
+      "properties": {
+        "site_name": "Maripasoula",
+        "site_id": "MRPSA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3341,
+          3.1712
+        ]
+      },
+      "properties": {
+        "site_name": "Camopi",
+        "site_id": "CMOPI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.851,
+          43.761
+        ]
+      },
+      "properties": {
+        "site_name": "Sheboygan",
+        "site_id": "SHBGN"
       }
     }
   ]
