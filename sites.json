@@ -1350,20 +1350,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -93.6725,
-          41.5412
-        ]
-      },
-      "properties": {
-        "site_name": "Des Moines",
-        "site_id": "DSMNS"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -78.8822,
           34.9857
         ]
@@ -15399,6 +15385,19 @@
       "properties": {
         "site_name": "Sheboygan",
         "site_id": "SHBGN"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.6728,
+          41.5377
+        ]
+      },
+      "properties": {
+        "site_id": "DSMNS"
       }
     }
   ]
