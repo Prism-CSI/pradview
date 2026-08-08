@@ -5597,7 +5597,7 @@
         ]
       },
       "properties": {
-        "site_name": "Cairns\t",
+        "site_name": "Cairns",
         "site_id": "CAIRN"
       }
     },
@@ -5681,7 +5681,7 @@
         ]
       },
       "properties": {
-        "site_name": "Bunbury\t",
+        "site_name": "Bunbury",
         "site_id": "BNBRY"
       }
     },
@@ -6143,7 +6143,7 @@
         ]
       },
       "properties": {
-        "site_name": "Kununurra\t",
+        "site_name": "Kununurra",
         "site_id": "KNNRA"
       }
     },
@@ -6591,7 +6591,7 @@
         ]
       },
       "properties": {
-        "site_name": "Young\t",
+        "site_name": "Young",
         "site_id": "YOUNG"
       }
     },
