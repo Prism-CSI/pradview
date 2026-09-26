@@ -13544,34 +13544,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -28.1711,
-          38.6657
-        ]
-      },
-      "properties": {
-        "site_name": "Sao Jorge",
-        "site_id": "SOJRG"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -16.7777,
-          32.6976
-        ]
-      },
-      "properties": {
-        "site_id": "FNCHL",
-        "site_name": "Funchal"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -6.7045,
           41.8575
         ]
@@ -15399,6 +15371,90 @@
       "properties": {
         "site_name": "Des Moines",
         "site_id": "DSMNS"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.8249,
+          -12.1839
+        ]
+      },
+      "properties": {
+        "site_name": "Cocos (Keeling) Islands",
+        "site_id": "CSKLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2303,
+          42.3132
+        ]
+      },
+      "properties": {
+        "site_name": "Kalamazoo/Battle Creek",
+        "site_id": "KMZBC"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -28.7133,
+          38.5282
+        ]
+      },
+      "properties": {
+        "site_name": "Horta",
+        "site_id": "HORTA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -27.0843,
+          38.7481
+        ]
+      },
+      "properties": {
+        "site_name": "Praia da Vitoria",
+        "site_id": "PADVT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.8918,
+          32.7123
+        ]
+      },
+      "properties": {
+        "site_name": "Funchal",
+        "site_id": "FNCHL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -16.3238,
+          33.0841
+        ]
+      },
+      "properties": {
+        "site_name": "Porto Santo",
+        "site_id": "PRSTO"
       }
     }
   ]
