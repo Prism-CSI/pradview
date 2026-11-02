@@ -748,20 +748,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -83.3438,
-          42.2306
-        ]
-      },
-      "properties": {
-        "site_name": "Detroit",
-        "site_id": "DTRIT"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -85.7507,
           38.1803
         ]
@@ -818,8 +804,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -106.5626,
-          35.0445
+          -106.59,
+          35.0523
         ]
       },
       "properties": {
@@ -2321,7 +2307,7 @@
         ]
       },
       "properties": {
-        "site_name": "Durant",
+        "site_name": "Durant (SEOK OLD)",
         "site_id": "DRNTT"
       }
     },
@@ -2615,7 +2601,7 @@
         ]
       },
       "properties": {
-        "site_name": "Dodge City",
+        "site_name": "Dodge City (SWKS OLD)",
         "site_id": "DDGCT"
       }
     },
@@ -15455,6 +15441,104 @@
       "properties": {
         "site_name": "Porto Santo",
         "site_id": "PRSTO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -170.2582,
+          57.1474
+        ]
+      },
+      "properties": {
+        "site_name": "Saint Paul Island",
+        "site_id": "STPLI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.1656,
+          58.616
+        ]
+      },
+      "properties": {
+        "site_name": "High Level",
+        "site_id": "HGLVL"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.7167,
+          37.9368
+        ]
+      },
+      "properties": {
+        "site_name": "Garden City",
+        "site_id": "GDNCT"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.0302,
+          34.2899
+        ]
+      },
+      "properties": {
+        "site_name": "Ardmore",
+        "site_id": "ARDMR"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.4616,
+          33.6362
+        ]
+      },
+      "properties": {
+        "site_name": "Paris",
+        "site_id": "PRSTX"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.7155,
+          31.2325
+        ]
+      },
+      "properties": {
+        "site_name": "San Saba",
+        "site_id": "SNSBA"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.3638,
+          42.1906
+        ]
+      },
+      "properties": {
+        "site_name": "Detroit",
+        "site_id": "DTRIT"
       }
     }
   ]
